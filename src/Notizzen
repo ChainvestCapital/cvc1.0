@@ -1,0 +1,266 @@
+Ferdinand Happ HTML
+
+
+{" "}
+      <div id="Desktop_Wrapper">
+        <div id="Desktop_BG_Grey">
+          <div id="Desktop_BG_White">
+            <TOP_NAV_BAR />
+            <Top_Header_IMMO
+              kategorieImg={Immobilien}
+              logo={Logo}
+              Titel={FirmenName}
+              Beschreibung={Kurzbeschreibung}
+              extLink="https://finexity.com/marketplace/DE-HH-08"
+              Kategorie={Kategorie}
+              Rendite={Rendite}
+              Finanzierungsvolumen={Finanzierungsvolumen}
+              Mindestinvestition={Mindestinvestition}
+              Typ={Typ}
+              weiterebg={VogemannImg}
+              weitereLogo={VogemannLogo}
+              weiterebg2={BitbondImg}
+              weitereLogo2={BitbondLogo}
+              weitereLink="../Digitale-Wertpapiere/Bitbond"
+              weitereLink2="../Digitale-Wertpapiere/Vogemann"
+            />
+
+            <div id="Projekt_Content_Wrapperx">
+              <div id="Projekt_Content_Menü_Wrapper">
+                <div
+                  id={Menue_Row1_Zustand}
+                  onClick={() => showÜerblickFrame()}
+                >
+                  <img
+                    src={ÜberblickImg}
+                    id="Projekt_Left_Menue_Row_img"
+                    alt=""
+                  />
+                  <h3 id="Projekt_Left_Menue_Row_h3">Überblick</h3>
+                </div>{" "}
+                <div id={Menue_Row2_Zustand} onClick={() => showDetailsFrame()}>
+                  <img
+                    src={DetailsImg}
+                    id="Projekt_Left_Menue_Row_img"
+                    alt=""
+                  />
+                  <h3 id="Projekt_Left_Menue_Row_h3">Details</h3>
+                </div>
+                <div
+                  id={Menue_Row3_Zustand}
+                  onClick={() => showFinancialsFrame()}
+                >
+                  <img
+                    src={FinancialsImg}
+                    id="Projekt_Left_Menue_Row_img"
+                    alt=""
+                  />
+                  <h3 id="Projekt_Left_Menue_Row_h3">Financials</h3>
+                </div>
+                <div
+                  id={Menue_Row4_Zustand}
+                  onClick={() => showDokumenteFrame()}
+                >
+                  <img
+                    src={DokumenteImg}
+                    id="Projekt_Left_Menue_Row_img"
+                    alt=""
+                  />
+                  <h3 id="Projekt_Left_Menue_Row_h3">Dokumente</h3>
+                </div>
+                <div id={Menue_Row5_Zustand} onClick={() => showLageFrame()}>
+                  <img src={LageImg} id="Projekt_Left_Menue_Row_img" alt="" />
+                  <h3 id="Projekt_Left_Menue_Row_h3">Lage</h3>
+                </div>
+                <div id={Menue_Row6_Zustand} onClick={() => showGalerieFrame()}>
+                  <img
+                    src={GalerieImg}
+                    id="Projekt_Left_Menue_Row_img"
+                    alt=""
+                  />
+                  <h3 id="Projekt_Left_Menue_Row_h3">Galerie</h3>
+                </div>
+              </div>
+              <div id="Projekt_Content_Frame_Wrapper">
+                <Überblick
+                  trigger={Überblickshown}
+                  setTrigger={setÜberblickshown}
+                />
+
+                <Details trigger={Detailsshown} setTrigger={setDetailsshown} />
+                <Financials
+                  trigger={Financialsshown}
+                  setTrigger={setFinancialsshown}
+                />
+                <Dokumente
+                  trigger={Dokumenteshown}
+                  setTrigger={setDokumenteshown}
+                />
+                <Lage trigger={Lageshown} setTrigger={setLageshown} />
+                <Galerie trigger={Galerieshown} setTrigger={setGalerieshown} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <Footer />
+      </div>
+      <div id="Mobile_Wrapper">
+        <div id="Mobile_Projekt_Wrapper_BG">
+          {" "}
+          <MOBILE_MENUE /> <div id="Mobile_Projekt_Layer"></div>
+          <div id="Mobile_Projekt_Content">
+            {" "}
+            <MOBILE_FIX_HEADER
+              kategorieImg={Immobilien}
+              logo={Logo}
+              Titel={FirmenName}
+              Beschreibung={Kurzbeschreibung}
+              extLink="https://finexity.com/marketplace/DE-HH-08"
+              Kategorie={Kategorie}
+              Rendite={Rendite}
+              Finanzierungsvolumen={Finanzierungsvolumen}
+              Mindestinvestition={Mindestinvestition}
+              Typ={Typ}
+            />{" "}
+            <div id="Mobile_Immo_Projekt_Section">
+              <div id="Mobile_Projekt_Menue_Unten">
+                <div
+                  id={MMenue_Row1_Zustand}
+                  onClick={() => showMÜerblickFrame()}
+                >
+                  <img
+                    src={ÜberblickImg}
+                    id="Mobile_Projekt_Menue_Unten_Column_Img"
+                    alt=""
+                  />
+                </div>
+                <div
+                  id={MMenue_Row2_Zustand}
+                  onClick={() => showMDetailsFrame()}
+                >
+                  <img
+                    src={DetailsImg}
+                    id="Mobile_Projekt_Menue_Unten_Column_Img"
+                    alt=""
+                  />
+                </div>
+                <div
+                  id={MMenue_Row3_Zustand}
+                  onClick={() => showMFinancialsFrame()}
+                >
+                  <img
+                    src={FinancialsImg}
+                    id="Mobile_Projekt_Menue_Unten_Column_Img"
+                    alt=""
+                  />
+                </div>
+                <div
+                  id={MMenue_Row4_Zustand}
+                  onClick={() => showMDokumenteFrame()}
+                >
+                  <img
+                    src={DokumenteImg}
+                    id="Mobile_Projekt_Menue_Unten_Column_Img"
+                    alt=""
+                  />
+                </div>
+                <div id={MMenue_Row5_Zustand} onClick={() => showMLageFrame()}>
+                  <img
+                    src={LageImg}
+                    id="Mobile_Projekt_Menue_Unten_Column_Img"
+                    alt=""
+                  />
+                </div>
+                <div
+                  id={MMenue_Row6_Zustand}
+                  onClick={() => showMGalerieFrame()}
+                >
+                  <img
+                    src={GalerieImg}
+                    id="Mobile_Projekt_Menue_Unten_Column_Img"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div id="Mobile_Current_Aktiv">
+                <h3 id="Mobile_Current_Aktiv_H3">{CurrentFrame}</h3>
+              </div>
+              <div id="Mobile_Immo_Projekt_Section_Frames">
+                <MÜberblick
+                  trigger={mÜberblickshown}
+                  setTrigger={setmÜberblickshown}
+                />
+
+                <MDetails
+                  trigger={mDetailsshown}
+                  setTrigger={setmDetailsshown}
+                />
+                <MFinancials
+                  trigger={mFinancialsshown}
+                  setTrigger={setmFinancialsshown}
+                />
+                <MDokumente
+                  trigger={mDokumenteshown}
+                  setTrigger={setmDokumenteshown}
+                />
+                <MLage trigger={mLageshown} setTrigger={setmLageshown} />
+                <MGalerie
+                  trigger={mGalerieshown}
+                  setTrigger={setmGalerieshown}
+                />
+              </div>
+            </div>
+          </div>
+        </div>{" "}
+        <MOBILE_FOOTER />
+      </div>
+
+
+
+
+      ////////////////////////
+      ////////////////////////
+      ////////////////////////
+
+
+      Texteditor weiterleitungen
+
+
+      [
+    {
+        "source": "https://chainvestcapital.de",
+        "target": "https://www.chainvestcapital.de",
+        "status": "302",
+        "condition": null
+    },
+    {
+        "source": "https://chainvestcapital.de",
+        "target": "https://www.chainvestcapital.de",
+        "status": "302",
+        "condition": null
+    },
+    {
+        "source": "https://chainvestcapital.de",
+        "target": "https://www.chainvestcapital.de",
+        "status": "302",
+        "condition": null
+    },
+    {
+        "source": "https://chainvestcapital.com",
+        "target": "https://www.chainvestcapital.com",
+        "status": "302",
+        "condition": null
+    },
+    {
+        "source": "https://chainvestcapital.de",
+        "target": "https://www.chainvestcapital.de",
+        "status": "302",
+        "condition": null
+    },
+    {
+        "source": "</^((?!\\.(css|gif|ico|jpg|js|xml|png|txt|svg|html|woff|ttf)$).)*$/>",
+        "target": "/index.html",
+        "status": "200",
+        "condition": null
+    }
+]

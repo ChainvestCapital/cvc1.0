@@ -1,0 +1,467 @@
+#VT_Wrapper_BG {
+  background: #e0e0e0;
+  width: 100vw;
+  height: auto;
+  z-index: 1;
+  position: relative;
+}
+#Vergleichstool_top {
+  display: flex;
+  flex-direction: row;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 15vh;
+  height: 75vh;
+  justify-content: space-between;
+}
+#VT_BG_Wrapper_White {
+  width: 100vw;
+  height: 400vh;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.65);
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+#VT_BG_Wrapper_Content {
+  display: flex;
+  position: relative;
+  z-index: 20;
+  flex-direction: column;
+  width: 100vw;
+}
+
+#Vergleichstool_Choice_Wrapper {
+  display: flex;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+#Vergleichstool_Choice_White {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  align-items: center;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  width: 78vw;
+}
+#Vergleichstool_Choice_Top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#Vergleichstool_Choice_Top_h5 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  font-size: 0.9vw;
+  font-weight: 600;
+  margin: 0;
+}
+#Vergleichstool_Choice__Bottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+#Vergleichstool_Choice_Left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 38vw;
+}
+#Vergleichstool_Choice_PickedProjekt1 {
+}
+
+#Vergleichstool_Choice_Right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 38vw;
+}
+
+#Vergleichstool_Ergebnisse_Wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15vh;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+#Vergleichstool_Ergebnis_Box_Wrapper {
+  padding-left: 0vw;
+  padding-right: 0vw;
+  padding-bottom: 3vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  width: 38vw;
+}
+#Vergleichstool_Ergebnis_Box_Top {
+  position: relative;
+  height: 6vh;
+}
+#Vergleichstool_Ergebnis_Box_Top_Blue {
+  padding-left: 2vw;
+  border-radius: 12px;
+  background-color: #cdf0ea;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 1);
+  font-family: Montserrat;
+  font-size: 1.3vw;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+  height: 100%;
+  width: 10vw;
+}
+#Vergleichstool_Ergebnis_Box_Content_Wrapper {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-top: 3vh;
+}
+#Vergleichstool_Ergebnis_Box_Content_Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.4vh;
+}
+#Content_Box_Projekt_Names {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+#Vergleichstool_Ergebnis_Box_h3_small {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Montserrat;
+  font-size: 0.6vw;
+  font-weight: 600;
+  margin: 0;
+}
+
+#Third_Left {
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+}
+#Third_Mid {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+#Third_Right {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+}
+#Vergleichstool_Ergebnis_Box_H5 {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Montserrat;
+  font-size: 0.7vw;
+  font-weight: 400;
+  margin: 0;
+  white-space: nowrap;
+}
+#Vergleichstool_Ergebnis_Box_h3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 600;
+  margin: 0;
+}
+#Vergleichstool_Ergebnisse_Box_Row_Wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 6vh;
+}
+#Vergleichstool_Choice_ProjektChoicer_ul {
+  list-style: none;
+  padding-left: 0;
+}
+#Vergleichstool_Choice_ProjektChoicer_li {
+  list-style: none;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+#Vergleichstool_Choice_ProjektChoicer1 {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 44vh;
+  overflow-x: hidden;
+  background: rgba(205, 240, 234, 0.7);
+  width: 16vw;
+  border-radius: 12px;
+  padding-left: 1vw;
+}
+#Vergleichstool_Choice_ProjektChoicer1::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+}
+
+#Vergleichstool_Choice_ProjektChoicer1::-webkit-scrollbar-track {
+  /* color of the tracking area */
+}
+
+#Vergleichstool_Choice_ProjektChoicer1::-webkit-scrollbar-thumb {
+  background-color: #ffb000;
+
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 4px solid rgba(164, 99, 99, 0); /* creates padding around scroll thumb */
+}
+#Vergleichstool_Choice_ProjektChoicer2 {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 44vh;
+  overflow-x: hidden;
+  background: rgba(205, 240, 234, 0.7);
+  width: 16vw;
+  border-radius: 12px;
+  padding-left: 1vw;
+}
+#Vergleichstool_Choice_ProjektChoicer2::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+}
+
+#Vergleichstool_Choice_ProjektChoicer2::-webkit-scrollbar-track {
+  /* color of the tracking area */
+}
+
+#Vergleichstool_Choice_ProjektChoicer2::-webkit-scrollbar-thumb {
+  background-color: #ffb000;
+
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 4px solid rgba(164, 99, 99, 0); /* creates padding around scroll thumb */
+}
+
+#Mobile_Vergleichstool_Projekt_Choice {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  margin-top: 10vh;
+}
+#Mobile_Vergleichstool_Wrapper {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  align-items: center;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  width: 82vw;
+}
+#Mobile_Vergleichstool_Projekt1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#Mobile_Vergleichstool_Projekt1_Projekt {
+  margin-top: 2vh;
+}
+#Mobile_Vergleichstool_Projekt1_Slider {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  height: 14vh;
+  overflow-y: hidden;
+  background: rgba(205, 240, 234, 0.7);
+  width: 100%;
+  border-radius: 12px;
+  padding-left: 1vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Mobile_Vergleichstool_Projekt2 {
+  margin-top: 2vh;
+}
+#Mobile_Vergleichstool_Projekt2_Projekt {
+}
+#Mobile_Vergleichstool_Projekt2_Slider {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  height: 14vh;
+  overflow-y: hidden;
+  background: rgba(205, 240, 234, 0.7);
+  width: 100%;
+  border-radius: 12px;
+  padding-left: 1vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#Mobile_Vergleich_MidHeading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;
+  margin: 0;
+  text-align: center;
+
+  margin-bottom: 2vh;
+  color: #434343;
+}
+
+#Mobile_Vergleich_MidHeading2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;
+  margin: 0;
+  text-align: center;
+
+  margin-bottom: 2vh;
+  color: #434343;
+  margin-top: 6vh;
+}
+#Vergleichstool_Choice_ProjektChoicer_ul_mobile {
+  list-style: none;
+  padding-left: 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+#Vergleichstool_Choice_ProjektChoicer_li_mobile {
+  list-style: none;
+  padding-left: 0;
+  cursor: pointer;
+  margin-right: 3vw;
+}
+#Mobile_Vergleichstool_Projekt1_Slider::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+#Mobile_Vergleichstool_Projekt1_Slider::-webkit-scrollbar-track {
+  /* color of the tracking area */
+}
+
+#Mobile_Vergleichstool_Projekt1_Slider::-webkit-scrollbar-thumb {
+  background-color: #ffb000;
+
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 4px solid rgba(164, 99, 99, 0); /* creates padding around scroll thumb */
+}
+#Mobile_Vergleichstool_Vergleich_Ergebnis {
+  margin-top: 5vh;
+  padding-left: 6vw;
+  display: flex;
+  flex-direction: column;
+}
+#Mobile_Vergleichstool_Vergleich_White_Box {
+  padding-bottom: 2vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  align-items: center;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  width: 88vw;
+  margin-bottom: 4vh;
+}
+#Mobile_Vergleichstool_Vergleich_White_Box_Top {
+  width: 100%;
+  height: 5vh;
+  margin-bottom: 3vh;
+}
+#Mobile_Vergleichstool_Vergleich_White_Box_Top_Blue {
+  padding-left: 4vw;
+  border-radius: 12px;
+  background-color: #cdf0ea;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 1);
+  font-family: Montserrat;
+  font-size: 3vw;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+  height: 100%;
+  width: 25vw;
+}
+#Mobile_Vergleichstool_Vergleich_White_Box_Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  width: 80vw;
+  align-items: center;
+  margin-top: 2vh;
+}
+#Mobile_Vergleichstool_Vergleich_White_Box_Row_Left {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 33%;
+}
+#Mobile_Vergleichstool_Vergleich_White_Box_Row_Mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 33%;
+}
+#Mobile_Vergleichstool_Vergleich_White_Box_Row_h5 {
+  color: rgba(0, 0, 0, 1);
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 500;
+  position: relative;
+  margin: 0;
+  text-align: center;
+}
+#Mobile_Vergleichstool_Vergleich_White_Box_Row_Right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 33%;
+  width: 33%;
+}
+#Mobile_Vergleichstool_Vergleich_White_Box_Row_h4 {
+  color: rgba(0, 0, 0, 1);
+  font-family: Montserrat;
+  font-size: 3vw;
+  font-weight: 400;
+  position: relative;
+  margin: 0;
+}
+
+#Mobile_Vergleichstool_Vergleich_White_Box_Row_h5_name {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 500;
+  position: relative;
+  margin: 0;
+  text-align: start;
+}
+#Mobile_Vergleich_Name_Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  margin-bottom: 1vh;
+  width: 80vw;
+}

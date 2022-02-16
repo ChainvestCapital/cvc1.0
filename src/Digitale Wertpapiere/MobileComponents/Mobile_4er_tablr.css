@@ -1,0 +1,45 @@
+#Mobile_4er_tablr {
+  width: 82vw;
+  padding-left: 3vw;
+  padding-right: 2vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  margin-bottom: 2vh;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  row-gap: 2vh;
+  column-gap: 2vw;
+  justify-content: space-between;
+}
+#Mobile_4er_tablr_Kachel {
+  display: flex;
+  flex-direction: column;
+}
+#Mobile_4er_tablr_Kachel_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  text-align: start;
+
+  font-size: 4vw;
+
+  margin: 0;
+  margin-bottom: 1vh;
+  color: #434343;
+}
+#Mobile_4er_tablr_Kachel_h5_h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  text-align: start;
+
+  font-size: 3.5vw;
+
+  margin: 0;
+  color: #434343;
+}

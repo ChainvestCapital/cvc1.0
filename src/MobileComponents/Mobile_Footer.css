@@ -1,0 +1,125 @@
+#Mobile_Footer_Wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10000;
+}
+#Mobile_Footer_Top {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  background: rgba(205, 240, 234, 0.44);
+  width: 88vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+#Mobile_Footer_h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 6vw;
+  text-align: start;
+
+  margin: 0;
+  margin-top: 2vh;
+  color: #434343;
+}
+#Mobile_Footer_H5 {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+
+  font-weight: 400;
+  font-size: 4vw;
+
+  margin: 0;
+  margin-top: 2vh;
+  color: #434343;
+}
+#Mobile_Footer_Top_Spalten {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#Mobile_Footer_Top_Spalte {
+  display: flex;
+  flex-direction: column;
+}
+#Mobile_Footer_Spalte_h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+
+  font-weight: 600;
+  font-size: 5vw;
+
+  margin: 0;
+  margin-top: 2vh;
+  color: #434343;
+  margin-bottom: 1vh;
+}
+#Mobile_Footer_Spalte_Eintrag {
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  margin-top: 1vh;
+}
+#Mobile_Footer_Spalte_Eintrag_h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.5vw;
+
+  margin: 0;
+  text-align: start;
+
+  color: #434343;
+}
+
+#Mobile_Footer_Bottom {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  width: 88vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  align-items: center;
+  background: #cdf0ea;
+}
+#Mobile_Footer_Bottom_Left {
+  width: 35vw;
+}
+#Mobile_Footer_Bottom_Right {
+  display: flex;
+  flex-direction: column;
+}
+#Mobile_Footer_Bottom_RightEintrag {
+  padding-bottom: 0.5vh;
+  margin-bottom: 1vh;
+}
+
+#Mobile_Footer_Bottom_Right_Eintrag_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  text-align: start;
+
+  font-size: 3vw;
+
+  margin: 0;
+  color: #434343;
+}
+#Mobile_Footer_Bottom_Left_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  text-align: start;
+
+  font-size: 3vw;
+
+  margin: 0;
+  color: #434343;
+}

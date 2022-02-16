@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "cvc10",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2021-12-30T20:28:45.412Z"
+}

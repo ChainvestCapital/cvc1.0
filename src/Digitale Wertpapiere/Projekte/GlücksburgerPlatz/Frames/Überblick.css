@@ -1,0 +1,21 @@
+#GP_Überblick_UntereRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+
+#GP_Überblick_FirstRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#Überblick_Wrapper_GP {
+  display: flex;
+  flex-direction: column;
+  width: 72vw;
+}
+
+#margin_top_2vh {
+  margin-top: 2vh;
+}

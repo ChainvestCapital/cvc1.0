@@ -1,0 +1,97 @@
+#CSA_Wrapper_BG {
+  background: #e0e0e0;
+  width: 100vw;
+  height: auto;
+  z-index: 1;
+  position: relative;
+  height: 110vh;
+}
+#CSA_BG_Wrapper_White {
+  width: 100vw;
+  height: 110vh;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.65);
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+#CSA_BG_Wrapper_Content {
+  display: flex;
+  position: relative;
+  z-index: 20;
+  flex-direction: column;
+  width: 100vw;
+}
+#Coming_Soon_App_Top {
+  display: flex;
+  flex-direction: row;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  width: 88vw;
+  padding-top: 20vh;
+}
+#Coming_Soon_App_Top_Left {
+}
+#Coming_Soon_App_Top_Right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 10vw;
+  align-items: flex-start;
+}
+#Coming_Soon_App_Top_Right_Img {
+  width: 60vw;
+}
+#AppStoreIconsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 24vw;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-left: 2vw;
+  padding-right: 2vw;
+  align-items: center;
+  position: relative;
+  height: 10vh;
+  margin-top: 5vh;
+}
+#GooStoreWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 12vw;
+}
+#GooStoreWrapperIMG {
+  width: 3vw;
+  margin-right: 0vw;
+}
+#FU_Top_left_h4 {
+  font-family: Montserrat;
+  font-size: 0.8vw;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  text-align: start;
+  margin: 0;
+}
+
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+
+#Mobile_VG_Content {
+  position: relative;
+  z-index: 5;
+  padding-top: 0vh;
+  padding-bottom: 6vh;
+}
+#Mobile_Vergleichstool_Top {
+  padding-left: 6vw;
+  padding-right: 6vw;
+}

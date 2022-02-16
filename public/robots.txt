@@ -1,0 +1,4 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+google-site-verification=2iEcdP4uuAK6xVQCA-mYuV1mVNVTpev2xsdM3wWXrZY

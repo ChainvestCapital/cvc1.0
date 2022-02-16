@@ -1,0 +1,45 @@
+#Vergleichs_Small_Teaser {
+  width: 20vw;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: white;
+  margin-bottom: 2vh;
+}
+#Vergleichs_Small_Teaser_Left {
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  text-align: start;
+  font-size: 1vw;
+  margin: 0;
+  color: #434343;
+}
+#Vergleichs_Small_Teaser_Small_h3 {
+  margin-top: 0.5vh;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  text-align: start;
+
+  font-size: 1vw;
+  margin: 0;
+  color: #434343;
+}
+#Vergleichs_Small_Teaser_Kategorie {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  text-align: start;
+
+  font-size: 1vw;
+  margin: 0;
+  color: #434343;
+  margin-bottom: 0.5vh;
+}
+#Vergleichs_Small_Teaser_Kategorie_Img {
+  width: 2vw;
+}

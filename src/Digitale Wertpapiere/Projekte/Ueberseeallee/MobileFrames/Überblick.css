@@ -1,0 +1,4 @@
+#Mobile_Überblick_Wrapper {
+  display: flex;
+  flex-direction: column;
+}

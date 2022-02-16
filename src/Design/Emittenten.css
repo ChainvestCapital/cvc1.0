@@ -1,0 +1,133 @@
+#WSDW_Emii_Wrapper {
+  background: #e0e0e0;
+  width: 100vw;
+  height: 295vh;
+  z-index: 1;
+  position: relative;
+}
+
+#White_Wrapper {
+  padding-left: 4vw;
+  padding-right: 4vw;
+  border-radius: 12px;
+  width: 80vw;
+  padding-bottom: 4vh;
+  padding-top: 4vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4vh;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+  margin-left: 6vw;
+}
+#Finexity_Wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+#Finexity_Wrapper_Left {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+#Finexity_Wrapper_h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+  width: 30vw;
+  font-weight: 600;
+  font-size: 1.6vw;
+  margin: 0;
+
+  color: #434343;
+}
+#Finexity_Wrapper_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  margin: 0;
+  margin-top: 2vh;
+  text-align: start;
+
+  color: #434343;
+}
+#Finexity_Wrapper_Right {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+#Finexity_Wrapper_Logo {
+  width: 15vw;
+  position: relative;
+  margin-bottom: 2vh;
+}
+#Finexity_Fragen_Wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 6vw;
+  width: 88vw;
+  margin-bottom: 4vh;
+}
+#Finexity_Fragen_Wrapper_Inner {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 12px;
+  width: 38vw;
+  padding-bottom: 4vh;
+  padding-top: 4vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vh;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+#Finexity_Fragen_Wrapper_Inner_h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6vw;
+  margin: 0;
+  margin-top: 2vh;
+  text-align: start;
+
+  color: #434343;
+}
+#Finexity_Fragen_Wrapper_Inner_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  margin: 0;
+  margin-top: 2vh;
+  text-align: start;
+
+  color: #434343;
+}
+#Teaser_Wrapper {
+  display: flex;
+  padding-left: 6vw;
+  margin-top: 2vh;
+}
+#Emittenten_Mobile_Wrapper {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  margin-bottom: 5vh;
+}
+#Mobile_Emittenten_Top_Sec {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4vh;
+}
+#Mobile_Emittenten_Fragen {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+}

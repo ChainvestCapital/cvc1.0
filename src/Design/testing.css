@@ -1,0 +1,126 @@
+#testting_wrapper {
+  width: 88vw;
+  background-color: black;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-bottom: 5vh;
+  padding-top: 15vh;
+}
+#testing_choose_box {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+  height: 50vh;
+  align-items: center;
+  justify-content: space-between;
+}
+#testing_content_box {
+  margin-top: 10vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+}
+
+#Choose_P_1 {
+  background-color: darkseagreen;
+  border-radius: 12px;
+  height: 20vh;
+  width: 15vw;
+}
+#Choose_P_2 {
+  background-color: darkseagreen;
+  border-radius: 12px;
+  margin-right: 5vw;
+  height: 20vh;
+  width: 15vw;
+}
+#testing_choose_box_ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#testing_content_box {
+  background-color: darkseagreen;
+  border-radius: 12px;
+  height: 30vh;
+  width: 45vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+#testing_content_box_c1 {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#testing_content_box_c2 {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#testing_content_box_c3 {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#testing_content_box_c3_img {
+  width: 3vw;
+}
+
+#FiltertEEEST {
+  width: 88vw;
+  padding-right: 6vw;
+  padding-left: 6vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#FiltertEEEST_left {
+  display: flex;
+  flex-direction: column;
+  background-color: darkseagreen;
+  border-radius: 12px;
+  height: 100vh;
+  width: 30vw;
+}
+#FiltertEEES_Right {
+  display: flex;
+  flex-direction: column;
+  background-color: yellowgreen;
+
+  background-color: darkseagreen;
+  border-radius: 12px;
+  height: 100vh;
+  width: 55vw;
+}
+#true {
+  background-color: yellowgreen;
+}
+
+#false {
+  background-color: blue;
+}
+#TT_k_inaktiv {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: aqua;
+  margin-bottom: 0.5vh;
+}
+
+#TT_k_aktiv {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: yellow;
+}

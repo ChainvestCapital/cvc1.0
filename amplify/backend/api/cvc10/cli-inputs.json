@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "cvc10",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\Admin\\Desktop\\cvc1.0\\amplify\\backend\\api\\cvc10\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2022-12-30T20:28:40.655Z",
+      "keyDescription": "30.12."
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}

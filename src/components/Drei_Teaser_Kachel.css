@@ -1,0 +1,85 @@
+#Drei_Teaser_Kachel {
+  width: 80vw;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 4vh;
+  padding-top: 4vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+#Drei_Teaser_Kachel_Left {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  position: relative;
+}
+#Drei_Teaser_Kachel_Right {
+  display: flex;
+  flex-direction: row;
+}
+#Drei_Teaser_Kachel_Left_h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5vw;
+  text-align: start;
+
+  text-align: start;
+
+  margin: 0;
+  margin-bottom: 2vh;
+  color: #434343;
+}
+#Top_Menue_Bar_Button_yellow_teaser {
+  border-radius: 12px;
+  background-color: rgba(255, 176, 0, 1);
+  display: flex;
+  align-items: center;
+  padding-left: 0.7vw;
+  height: 3vh;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 0.7vw;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  width: 10vw;
+  position: relative;
+}
+#Top_Menue_Bar_Button_yellow_teaser:hover {
+  background-color: rgba(186, 232, 232, 1);
+  color: black;
+}
+#teaser_projekte_li_11 {
+  list-style: none;
+  padding: 0;
+  width: 20vw;
+  margin: 0;
+}
+#teaser_projekte_ul_id {
+  display: grid;
+  padding: 0;
+
+  grid-template-columns: repeat(3, auto);
+
+  justify-content: space-between;
+  justify-items: stretch;
+
+  width: 65vw;
+  padding-left: 0vw;
+  padding-right: 0vw;
+  height: 66vh;
+  row-gap: 2vh;
+  --columns: 1;
+}

@@ -1,0 +1,55 @@
+input AMPLIFY {
+  globalAuthRule: AuthRule = { allow: public }
+}
+type Projekt @model {
+  id: ID!
+  name: String!
+  Kategorie: String
+  Finanzierungsvolumen: String
+  ErwRendite: String
+  Mindestinvestition: String
+  Typ: String
+  TitleLink: String
+  LogoLink: String
+  KurzBeschreibung: String
+  KategorieBildLink: String
+  InternerLink: String
+  ExternerLink: String
+  Help: String
+  Blockchain: String
+  Anbieter: String
+  Behoerde: String
+  Gruendung: String
+  Emissionszeitraum: String
+  WpPG: String
+  Rechtsform: String
+  Geschaeftstaetigkeit: String
+  Ort: String
+  Firmenname: String
+  Emittent: String
+  Rechtliche_Bezeichnung: String
+  Zahlungsmoeglichkeiten: String
+  Token_Ticker: String
+  Max_Token_Anzahl: String
+  ISIN: String
+  ITIN: String
+  description: String
+  Update: String
+  FilterTyp: String
+  FilterRendite: String
+  FilterFinanzierungsvolumen: String
+  ProgWertentwicklung: String
+
+  ProgDurchschnittsrendite: String
+  checkBasisinformationsblatt: String
+  checkWertpapierprospekt: String
+
+  checkRisiken: String
+  checkSchuldverschreibungsbedingungen: String
+
+  check: String
+  Laufzeitbeginn: String
+
+  NaechsteAusschuettung: String
+  Laufzeitende: String
+}

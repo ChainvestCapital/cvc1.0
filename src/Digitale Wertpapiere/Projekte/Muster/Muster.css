@@ -1,0 +1,122 @@
+#Projekt_Top_Fix_Section_Content_Layer {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.65);
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+#Projekt_Projekt_Section_Wrapper {
+  position: relative;
+  background: #e0e0e0;
+  height: 120vh;
+}
+#Projekt_Starting_Frame {
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+  z-index: 25;
+  display: flex;
+  justify-content: center;
+}
+#Projekt_Starting_Frame_Inner {
+  position: relative;
+  background: #e0e0e0;
+  width: 100%;
+
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+#Projekt_Starting_Frame_Layer {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.65);
+  left: 0;
+  top: 0;
+  z-index: 26;
+}
+
+#Projekt_Starting_Frame_Content {
+  padding-top: 3vh;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  row-gap: 2vh;
+  width: 65vw;
+  height: 50vh;
+  z-index: 30;
+}
+#Projekt_Starting_Frame_inaktiv {
+  display: none;
+}
+
+#Projekt_After_Start_Ansicht {
+  display: flex;
+  flex-direction: row;
+  padding-top: 6vh;
+  position: relative;
+
+  z-index: 20;
+}
+
+#Projekt_Left_Menue {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6vw;
+  width: 15vw;
+}
+
+#aktivMenüRow {
+  display: flex;
+  flex-direction: row;
+  width: 10vw;
+  height: 6vh;
+  align-items: center;
+  cursor: pointer;
+  background-color: #cdf0ea;
+  width: 11vw;
+  border-radius: 12px;
+  padding-left: 1vw;
+
+  margin-bottom: 1vh;
+}
+
+#inaktivMenüRow {
+  margin-bottom: 1vh;
+  padding-left: 1vw;
+  display: flex;
+  flex-direction: row;
+  width: 11vw;
+  height: 6vh;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+}
+
+#Projekt_Left_Menue_Row_img {
+  width: 1.4vw;
+  margin-right: 2vw;
+}
+
+#Projekt_Left_Menue_Row_h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+
+  margin: 0;
+  color: #434343;
+}
+
+#Projekt_Right_Content {
+  position: relative;
+  width: 72vw;
+  padding-right: 6vw;
+  padding-left: 3vw;
+  padding-bottom: 2vh;
+}

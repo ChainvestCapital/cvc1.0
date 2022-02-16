@@ -1,0 +1,92 @@
+#Lage_Wrapper_GP {
+  width: 70vw;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-bottom: 2vh;
+  padding-top: 4vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#Lage_Wrapper_GP_left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+#Lage_Wrapper_GP_right {
+  display: flex;
+  flex-direction: column;
+  width: 43%;
+}
+#margin2 {
+  margin-bottom: 2vh;
+}
+#Lage_Wrapper_GP_h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4vw;
+  text-align: start;
+
+  text-align: start;
+
+  margin: 0;
+  color: #434343;
+}
+#Lage_Wrapper_GP_h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2vw;
+  text-align: start;
+
+  text-align: start;
+
+  margin: 0;
+  color: #434343;
+  margin-top: 1vh;
+}
+#Lage_Wrapper_GP_left_img {
+  width: 100%;
+  border-radius: 12px;
+
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+#Lage_Wrapper_GP_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+  text-align: start;
+
+  text-align: start;
+
+  margin: 0;
+  margin-bottom: 2vh;
+
+  color: #434343;
+}
+#Lage_Wrapper_GP_h6 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  text-align: start;
+
+  text-align: start;
+
+  margin: 0;
+  color: #434343;
+}
+#Lage_Wrapper_GP_RIGHT_img {
+  border-radius: 12px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+#Margin_LageComp {
+  margin-top: 2vh;
+}
