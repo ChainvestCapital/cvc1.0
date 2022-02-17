@@ -32,12 +32,12 @@ import Boernerstrasse_zwei from "./Digitale Wertpapiere/Projekte/Börerstrasse2_
 import Colone_One from "./Digitale Wertpapiere/Projekte/ColoneOne/ColoneOne";
 import FourTrees from "./Digitale Wertpapiere/Projekte/FourTrees/FourTrees";
 import LakeSide from "./Digitale Wertpapiere/Projekte/Lakeside/Lakeside";
-import Academy from "./Content/Landing";
 import TestFilter from "./FilterTest";
 import Prenzlauer_Promande from "./Digitale Wertpapiere/Projekte/Prenzlauer_Promenade/Prenzlauser_Promenade";
 import Rndm from "./RndmTestSeite";
 import Vergleichstool from "./Vergleichstool";
 import Coming_Soon_App from "./Coming_Sonn_App";
+import Academy from "./Academy";
 
 import Testing from "./testing";
 
@@ -82,6 +82,7 @@ function App() {
           path="xx/privateTestting/Coming_Soon_App"
           element={<Coming_Soon_App />}
         />
+        <Route path="xx/privateTestting/Academy" element={<Academy />} />
         <Route
           path="/Digitale-Wertpapiere/Colone-One"
           element={<Colone_One />}

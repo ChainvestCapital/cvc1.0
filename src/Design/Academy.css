@@ -1,0 +1,164 @@
+#Academy_BG_Wrapper_diese {
+  background: #e0e0e0;
+  width: 100vw;
+  height: auto;
+  z-index: 1;
+  position: relative;
+}
+#Academy_BG_Wrapper_White_diese {
+  width: 100vw;
+  height: 200vh;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.65);
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+#Academy_BG_Wrapper_Content {
+  display: flex;
+  position: relative;
+  z-index: 20;
+  flex-direction: column;
+  width: 100vw;
+}
+
+#Academy_Top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 20vh;
+  height: 60vh;
+}
+#Academy_Top_LeFT {
+}
+#Academy_Top_Right {
+}
+#Academy_Top_Boxes_Wrapper {
+  padding-top: 5vh;
+  margin-bottom: 5vh;
+}
+#Academy_Heading_Bar {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  width: 84vw;
+  margin-left: 6vw;
+}
+#Academy_Current_Aktive {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  font-size: 0.9vw;
+  font-weight: 600;
+  margin: 0;
+}
+#Academy_Mini_Menue {
+  display: flex;
+  flex-direction: row;
+}
+
+#Academy_Mini_Menue_h5 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  font-size: 0.9vw;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 4vw;
+}
+
+#Academy_Mini_Menue_h5:hover {
+  cursor: pointer;
+  color: #ffb000;
+}
+
+#ChoiceWrapper {
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: row;
+}
+#innerMenue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#DigitaleAssets_Wrapper {
+  padding-left: 6vw;
+}
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+
+#Mobile_Academy_Content {
+}
+
+#mAcademy_Current_Aktive {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 600;
+  margin: 0;
+  color: #ffb000;
+}
+#mAcademy_Mini_Menue {
+  display: flex;
+  flex-direction: row;
+}
+
+#mAcademy_Mini_Menue_h5 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 4vw;
+}
+
+#mAcademy_Mini_Menue_h5:hover {
+  cursor: pointer;
+}
+
+#mChoiceWrapper {
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: row;
+}
+#minnerMenue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#Mobile_Academy_Menue_White {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  width: 84vw;
+  margin-left: 6vw;
+}
