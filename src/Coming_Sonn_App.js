@@ -2,6 +2,7 @@ import "./Design/Coming_Sonn_App.css";
 import Coming_Soon_App_Img from "./assets/images/Coming_Soon_App_Logo.png";
 import PlayStoreIcon from "./assets/images/PlayStoreIcon.png";
 import AppStoreIcon from "./assets/images/AppStoreIcon.png";
+import React, { useEffect } from "react";
 
 import { Link } from "react-router-dom";
 
@@ -12,6 +13,9 @@ import TOP_NAV_BAR from "./components/navigation/Top_Nav_Bar";
 import CookieConsent from "react-cookie-consent";
 
 function Coming_Soon_App(props) {
+  useEffect(() => {
+    document.title = "App";
+  }, []);
   return (
     <div>
       <div id="Coming_Soon_App">

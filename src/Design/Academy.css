@@ -96,6 +96,21 @@
 #DigitaleAssets_Wrapper {
   padding-left: 6vw;
 }
+
+#Mobile_Academy_Top_Left {
+  display: flex;
+  flex-direction: column;
+}
+#Academy_Top_Right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+#Mobile_Academy_Top_Img {
+  width: 40vw;
+}
+
 /*****************************/
 /*****************************/
 /*****************************/

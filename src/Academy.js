@@ -18,7 +18,7 @@ import DigitaleAssets from "./components/Academy/DigitaleAssets";
 import MBlockchain from "./components/Academy/mBlockchain";
 import MDeFi from "./components/Academy/mDeFi";
 import MDigitaleAssets from "./components/Academy/mDigitaleAssets";
-
+import Mobile_Academy_Top_Img from "./assets/images/Academy_Img.png";
 import "./Design/Academy.css";
 function FoFUnternehmen(props) {
   useEffect(() => {
@@ -284,7 +284,9 @@ function FoFUnternehmen(props) {
                   informieren wollen.
                 </h5>
               </div>
-              <div id="Academy_Top_Right"></div>
+              <div id="Academy_Top_Right">
+                <img src={Mobile_Academy_Top_Img} id="Mobile_Academy_Top_Img" />
+              </div>
             </div>
             <div id="Academy_Heading_Bar">{buildMenue()}</div>
             <div id="Academy_Top_Boxes_Wrapper">
