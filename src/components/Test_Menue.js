@@ -2,6 +2,7 @@ import "./Test_Menue.css";
 import { useState } from "react";
 import logo from "../assets/images/Logo_Trans.png";
 import arrow from "../assets/images/Arrow_white.png";
+import { HashLink } from "react-router-hash-link";
 
 function Menue_Bar(props) {
   const [MenueItems2, setMenueItems2] = useState("MenueItemsListe2notSHOW");
@@ -11,22 +12,22 @@ function Menue_Bar(props) {
     <div>
       <div id="Menue_Bar_Wrapper">
         <div id="Menue_Bar_Content_Wrapper">
-          <div id="Menue_Bar_Logo_Wrapper">
-            <img src={logo} id="Menue_Bar_Logo" />
-          </div>
-
+          <HashLink to="../#">
+            <div id="Menue_Bar_Logo_Wrapper">
+              <img src={logo} id="Menue_Bar_Logo" />
+            </div>
+          </HashLink>
           <div id="Menue_Bar_Menue_Wrapper">
             <div
               id="Menue_Bar_Menue_Item_1"
               onMouseEnter={() => setMenueItems1("MenueItemsListe1SHOW")}
               onMouseLeave={() => setMenueItems1("MenueItemsListe1notSHOW")}
             >
-              <h3 id="Menue_Bar_Menue__h3">Academy</h3>
-              <div id={MenueItems1}>
-                <div id="ItemListeItem">Digitale Wertpapiere</div>
+              <HashLink to="../Academy">
+                <h3 id="Menue_Bar_Menue__h3">Academy</h3>{" "}
+              </HashLink>
 
-                <div id="ItemListeItem">Alle</div>
-              </div>
+              <div id={MenueItems1}></div>
             </div>
             <div
               id="Menue_Bar_Menue_Item_2"
@@ -36,17 +37,46 @@ function Menue_Bar(props) {
               <h3 id="Menue_Bar_Menue__h3">Chainvest Capital</h3>
 
               <div id={MenueItems2}>
-                <div id="ItemListeItem">Über uns</div>
+                <HashLink to="../Ueber-uns">
+                  {" "}
+                  <div id="ItemListeItem">Über uns</div>
+                </HashLink>
 
-                <div id="ItemListeItem">FAQ</div>
-                <div id="ItemListeItem">Für Unternehmen</div>
-                <div id="ItemListeItem">Emittenten</div>
+                <HashLink to="../FAQ">
+                  {" "}
+                  <div id="ItemListeItem">FAQ</div>
+                </HashLink>
+                <HashLink to="../Unternehmen">
+                  {" "}
+                  <div id="ItemListeItem">Für Unternehmen</div>
+                </HashLink>
+                <HashLink to="../Emittenten">
+                  <div id="ItemListeItem">Emittenten</div>
+                </HashLink>
+                <HashLink to="../App">
+                  {" "}
+                  <div id="ItemListeItem">App</div>
+                </HashLink>
               </div>
             </div>{" "}
-            <div id="Top_Menue_Bar_Button_yellow">
-              <h3 id="Top_Menue_Bar_h3_white">Alle Projekte</h3>
-              <img src={arrow} id="Top_Menue_Bar_Button_yellow_IMG" alt="" />
+            <div
+              id="Menue_Bar_Menue_Item_1"
+              onMouseEnter={() => setMenueItems1("MenueItemsListe1SHOW")}
+              onMouseLeave={() => setMenueItems1("MenueItemsListe1notSHOW")}
+            >
+              <HashLink to="../Vergleichstool">
+                {" "}
+                <h3 id="Menue_Bar_Menue__h3">Vergleichen</h3>
+              </HashLink>
+              <div id={MenueItems1}></div>
             </div>
+            <HashLink to="../Digitale-Wertpapiere">
+              {" "}
+              <div id="Top_Menue_Bar_Button_yellow">
+                <h3 id="Top_Menue_Bar_h3_white">Alle Projekte</h3>
+                <img src={arrow} id="Top_Menue_Bar_Button_yellow_IMG" alt="" />
+              </div>
+            </HashLink>
           </div>
         </div>
       </div>

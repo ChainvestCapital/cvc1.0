@@ -103,11 +103,10 @@ function FAQ() {
                 <h1 id="CV_h1_dark">Projekte</h1>
                 <h1 id="CV_h1_yellow">vergleichen</h1>
                 <h5 id="FU_Top_left_h5">
-                  Chainvest Capital stellt Ihnen auf dieser Webseite digitale
-                  Wertpapiere von Partner Unternehmen vor. In unserer
-                  Zusammenarbeit spielen die Transparenz und Erfüllung
-                  regulatorischer Standards eine zentrale Rolle. Hier erfahren
-                  Sie mehr über diese Unternehmen.
+                  Nutzen Sie unser Vergleichstool, um verschiedene digitale
+                  Wertpapiere miteinander zu vergleichen. Für möglichst
+                  aussagekräftige Ergebisse empfehlen wir die sachliche
+                  Entsprechung der Projekte zu beachten.
                 </h5>
               </div>
 
@@ -657,11 +656,10 @@ function FAQ() {
               <h2 id="Mobile_Home_Top_Sec_H2">Projekte</h2>
               <h2 id="Mobile_Home_Top_Sec_H2_yellow">vergleichen</h2>
               <h5 id="Mobile_Home_Top_Sec_H5">
-                Chianvest Capital stellt die Schnittstelle zwischen spannenden
-                Investitionsprojekten und einer breiten Investorencommunity dar.
-                Über diese Plattform erhalten AnlegerInnen Zugang zu
-                vielfältigen Security Token Offerings aus unterschiedlichen
-                Branchen.
+                Nutzen Sie unser Vergleichstool, um verschiedene digitale
+                Wertpapiere miteinander zu vergleichen. Für möglichst
+                aussagekräftige Ergebisse empfehlen wir die sachliche
+                Entsprechung der Projekte zu beachten.
               </h5>{" "}
             </div>
             <div id="Mobile_Vergleichstool_Projekt_Choice">

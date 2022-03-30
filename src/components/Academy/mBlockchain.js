@@ -3,22 +3,23 @@ import AcademyContent from "./AcademyContent";
 import ContentImg2 from "../../assets/images/ContentImg2.png";
 import MAcademyContent from "./MAcademyContent";
 import ContentImg1 from "../../assets/images/ContentImg1.png";
+import { HashLink } from "react-router-hash-link";
+
 function DigitaleAssets(props) {
   return props.trigger ? (
     <div>
       <div id="DigitaleAssets_Wrapper">
-        <MAcademyContent
-          Heading="Blockchain Artikel 1"
-          Länge="604"
-          Tag1="Digitale Wertpapiere"
-          Tag2="Security Token"
-          bgimg={ContentImg2}
-          Tag3="Tokenisierung"
-          Beschreibung="In den letzten Jahren hat die Anwendung der Blockchain-Technologie in unterschiedlichen Bereichen zugenommen und dabei unter Beweis gestellt, dass diese geeignet ist, um effizient und transparent Daten zu transferieren. Neben vielen Anwendungsmöglichkeiten hat sich insbesondere die Tokenisierung von Vermögenswerten als einer der Anwendungsfälle mit dem höchsten Disruptionspotential herausgestellt. 
-
-Durch die Tokenisierung entstehen sog. digitale Wertpapiere, die sowohl Vermögenswerte als auch klassische Wertpapiere in die digitale Welt bringen. Dabei entstehen durch das Verwenden der Blockchain-Technologie Vorteile für InvestorInnen und EmittentInnen.
-"
-        />
+        <HashLink to="../Academy/DEX">
+          <MAcademyContent
+            Heading="Decentralised Exchanges"
+            Länge="553 Wörter"
+            Tag1="DeFi"
+            Tag2="Finance"
+            bgimg={ContentImg2}
+            Tag3="Tokenisierung"
+            Beschreibung="Das Konzept der Dezentralsierung macht auch vor Börsenplätzen (eng. Exchanges) nicht Halt. Durch das große Wachstum des DeFi Bereich konnten dezentrale Börsen schnell wachsen und wickeln mittlerweile Transaktionsvolumen in ähnlichen Größenordnungen wie zentrale Börsenplätze im Krypto-Ökosystem ab."
+          />
+        </HashLink>
       </div>{" "}
     </div>
   ) : (

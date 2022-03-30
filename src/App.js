@@ -38,7 +38,9 @@ import Rndm from "./RndmTestSeite";
 import Vergleichstool from "./Vergleichstool";
 import Coming_Soon_App from "./Coming_Sonn_App";
 import Academy from "./Academy";
+import DEX from "./Academy/Content/DEX";
 
+import NonFinancialRisksinDeFi from "./Academy/Content/Non-Financial-Risks-in-DeFi";
 import Testing from "./testing";
 
 Amplify.configure(awsExports);
@@ -74,15 +76,9 @@ function App() {
           path="/Digitale-Wertpapiere/Boernerstrasse-2"
           element={<Boernerstrasse_zwei />}
         />
-        <Route
-          path="xx/privateTestting/Vergleichstool"
-          element={<Vergleichstool />}
-        />
-        <Route
-          path="xx/privateTestting/Coming_Soon_App"
-          element={<Coming_Soon_App />}
-        />
-        <Route path="xx/privateTestting/Academy" element={<Academy />} />
+        <Route path="Vergleichstool" element={<Vergleichstool />} />
+        <Route path="App" element={<Coming_Soon_App />} />
+        <Route path="Academy" element={<Academy />} />
         <Route
           path="/Digitale-Wertpapiere/Colone-One"
           element={<Colone_One />}
@@ -122,9 +118,14 @@ function App() {
           element={<Datenschutzerklärung />}
         />
         <Route
-          path="/Was-sind-digitale-Wertpapiere"
+          path="Academy/Was-sind-digitale-Wertpapiere"
           element={<WasSindDigitaleWertpapiere />}
         />
+        <Route
+          path="Academy/Non-Financial-Risks-in-DeFi"
+          element={<NonFinancialRisksinDeFi />}
+        />
+        <Route path="Academy/DEX" element={<DEX />} />
       </Routes>
     </div>
   );

@@ -23,8 +23,8 @@
 #mAcademyContent_TOP_h2 {
   color: rgba(0, 0, 0, 1);
   font-family: Montserrat;
-  font-size: 3vw;
-  font-weight: 600;
+  font-size: 4.5vw;
+  font-weight: 700;
   margin: 0;
   text-align: start;
   margin-bottom: 2vh;
@@ -32,10 +32,13 @@
 #mAcademyContent_TOP_h5 {
   color: rgba(0, 0, 0, 0.8);
   font-family: Montserrat;
-  font-size: 2.5vw;
+  font-size: 2.75vw;
   font-weight: 300;
   margin: 0;
   text-align: start;
+  white-space: pre-line;
+  hyphens: auto;
+  text-align: justify;
 }
 #mAcademyContent_BOTTOM {
   display: flex;

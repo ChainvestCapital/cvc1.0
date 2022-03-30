@@ -1,0 +1,37 @@
+#mobile_menue_Wrapper_popUP {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+  z-index: 500;
+  width: 100vw;
+  width: 100vh;
+  position: fixed;
+}
+#mobile_menue_TOP_Content {
+  display: flex;
+  padding-top: 15vh;
+  background-color: black;
+}
+#mobile_menue_TOP_Content_Top {
+  background-color: antiquewhite;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+#mobile_menue_TOP_Content_Frames {
+}
+#mobile_menue_Button_Menue {
+  background-color: aqua;
+  display: flex;
+  width: 98vw;
+  border-radius: 12px;
+}
+#mobile_menue_Button_Menue_Left {
+}
+#mobile_menue_Button_Menue_Mid {
+}
+#mobile_menue_Button_Menue_Right {
+}

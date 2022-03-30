@@ -322,7 +322,7 @@ function App() {
               </HashLink>
             </div>
             <div id="Mobile_Home_CV_Sec">
-              <h2 id="Mobile_Home_CV_Sec_h2">Was ist Chainvest ?</h2>
+              <h2 id="Mobile_Home_CV_Sec_h2">Was ist Chainvest Capital ?</h2>
               <h5 id="Mobile_Home_CV_Sec_H5">
                 Das disruptive Potenzial der Blockchain-Technologie verändert
                 die bestehende Infrastruktur der Kapitalmärkte. GründerInnen und

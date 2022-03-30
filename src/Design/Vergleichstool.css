@@ -207,13 +207,13 @@
   overflow-y: scroll;
   height: 44vh;
   overflow-x: hidden;
-  background: rgba(205, 240, 234, 0.7);
+  background: rgba(205, 240, 234, 0.45);
   width: 16vw;
   border-radius: 12px;
   padding-left: 1vw;
 }
 #Vergleichstool_Choice_ProjektChoicer1::-webkit-scrollbar {
-  width: 6px; /* width of the entire scrollbar */
+  width: 4px; /* width of the entire scrollbar */
 }
 
 #Vergleichstool_Choice_ProjektChoicer1::-webkit-scrollbar-track {
@@ -221,7 +221,7 @@
 }
 
 #Vergleichstool_Choice_ProjektChoicer1::-webkit-scrollbar-thumb {
-  background-color: #ffb000;
+  background-color: rgba(0, 0, 0, 0.5);
 
   border-radius: 20px; /* roundness of the scroll thumb */
   border: 4px solid rgba(164, 99, 99, 0); /* creates padding around scroll thumb */
@@ -232,13 +232,13 @@
   overflow-y: scroll;
   height: 44vh;
   overflow-x: hidden;
-  background: rgba(205, 240, 234, 0.7);
+  background: rgba(205, 240, 234, 0.45);
   width: 16vw;
   border-radius: 12px;
   padding-left: 1vw;
 }
 #Vergleichstool_Choice_ProjektChoicer2::-webkit-scrollbar {
-  width: 6px; /* width of the entire scrollbar */
+  width: 4px; /* width of the entire scrollbar */
 }
 
 #Vergleichstool_Choice_ProjektChoicer2::-webkit-scrollbar-track {
@@ -246,7 +246,7 @@
 }
 
 #Vergleichstool_Choice_ProjektChoicer2::-webkit-scrollbar-thumb {
-  background-color: #ffb000;
+  background-color: rgba(0, 0, 0, 0.5);
 
   border-radius: 20px; /* roundness of the scroll thumb */
   border: 4px solid rgba(164, 99, 99, 0); /* creates padding around scroll thumb */

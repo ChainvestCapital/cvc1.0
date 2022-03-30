@@ -5,6 +5,7 @@ import arrow from "./assets/images/arrow.png";
 import Token_Klassen_Img from "./assets/images/Token_Klassen_Img.png";
 import MOBILE_FOOTER from "./MobileComponents/Mobile_Footer";
 import { useState, useEffect } from "react";
+import { HashLink } from "react-router-hash-link";
 
 import MOBILE_MENUE from "./MobileComponents/Mobile_menue";
 import { Link } from "react-router-dom";
@@ -68,8 +69,6 @@ function WasSindDigitaleWertpapiere(props) {
                   der Anwendungsfälle mit dem höchsten Disruptionspotential
                   herausgestellt.
                   <br />
-                  <br />
-                  <br />
                   Durch die Tokenisierung entstehen sog. digitale Wertpapiere,
                   die sowohl Vermögenswerte als auch klassische Wertpapiere in
                   die digitale Welt bringen. Dabei entstehen durch das Verwenden
@@ -78,41 +77,55 @@ function WasSindDigitaleWertpapiere(props) {
                 </h4>
               </div>
               <div id="WSDW_Top_Wrapper_Right">
-                <div id="WSDW_Top_Row_Button">
-                  <h3 id="WSDW_Top_Row_Button_h3">
-                    Was bedeutet Tokenisierung?
-                  </h3>
+                <div id="Div_Home_Top_Section_Layer_Form"></div>
+                <HashLink to="#WasbedeutetTokenisierung">
+                  <div id="WSDW_Top_Row_Button">
+                    <h3 id="WSDW_Top_Row_Button_h3">
+                      Was bedeutet Tokenisierung
+                    </h3>
 
-                  <div id="WSDW_Top_Row_Button_Arrow_Wrapper">
-                    <img src={arrow} id="WSDW_Top_Row_Button_img" alt="" />
+                    <div id="WSDW_Top_Row_Button_Arrow_Wrapper">
+                      <img src={arrow} id="WSDW_Top_Row_Button_img" alt="" />
+                    </div>
                   </div>
-                </div>
-                <div id="WSDW_Top_Row_Button">
-                  <h3 id="WSDW_Top_Row_Button_h3">
-                    Was sind digitale Wertpapiere?
-                  </h3>
-                  <div id="WSDW_Top_Row_Button_Arrow_Wrapper">
-                    <img src={arrow} id="WSDW_Top_Row_Button_img" alt="" />
+                </HashLink>
+                <HashLink to="#Was_Sind">
+                  <div id="WSDW_Top_Row_Button">
+                    <h3 id="WSDW_Top_Row_Button_h3">
+                      Was sind digitale Wertpapiere ?
+                    </h3>
+
+                    <div id="WSDW_Top_Row_Button_Arrow_Wrapper">
+                      <img src={arrow} id="WSDW_Top_Row_Button_img" alt="" />
+                    </div>
                   </div>
-                </div>
-                <div id="WSDW_Top_Row_Button">
-                  <h3 id="WSDW_Top_Row_Button_h3">
-                    Welche Vorteile bietet die Tokenisierung?
-                  </h3>
-                  <div id="WSDW_Top_Row_Button_Arrow_Wrapper">
-                    <img src={arrow} id="WSDW_Top_Row_Button_img" alt="" />
+                </HashLink>
+                <HashLink to="#WasVorteilebietetdieTokenisierung">
+                  <div id="WSDW_Top_Row_Button">
+                    <h3 id="WSDW_Top_Row_Button_h3">
+                      Was Vorteile bietet die <br />
+                      Tokenisierung ?
+                    </h3>
+
+                    <div id="WSDW_Top_Row_Button_Arrow_Wrapper">
+                      <img src={arrow} id="WSDW_Top_Row_Button_img" alt="" />
+                    </div>
                   </div>
-                </div>
-                <div id="WSDW_Top_Row_Button">
-                  <h3 id="WSDW_Top_Row_Button_h3">
-                    Wie können digitale Wertpapiere ausgestaltet sein?
-                  </h3>
-                  <div id="WSDW_Top_Row_Button_Arrow_Wrapper">
-                    <img src={arrow} id="WSDW_Top_Row_Button_img" alt="" />
+                </HashLink>
+                <HashLink to="#WiekönnendigitaleWertpapiereausgestaltetsein">
+                  <div id="WSDW_Top_Row_Button">
+                    <h3 id="WSDW_Top_Row_Button_h3">
+                      Wie können digitale Wertpapiere ausgestaltet sein ?
+                    </h3>
+
+                    <div id="WSDW_Top_Row_Button_Arrow_Wrapper">
+                      <img src={arrow} id="WSDW_Top_Row_Button_img" alt="" />
+                    </div>
                   </div>
-                </div>
+                </HashLink>
               </div>
             </div>
+            <div id="WasbedeutetTokenisierung"></div>
             <div id="WSDW_WAS_Sind_Wrapper">
               <div id="WSDW_WAS_Sind_Inner">
                 <div id="WSDW_WAS_Sind_Inner_Left">
@@ -201,6 +214,7 @@ function WasSindDigitaleWertpapiere(props) {
                 </div>{" "}
               </div>
             </div>
+            <div id="WasVorteilebietetdieTokenisierung"></div>
             <div id="WSDW_White_Wrapper">
               <div id="Tokenisierung_Vorteile_Inner">
                 <h3 id="WSDW_WAS_Sind_Inner_h3">
@@ -317,6 +331,7 @@ function WasSindDigitaleWertpapiere(props) {
                 </div>
               </div>
             </div>
+            <div id="WiekönnendigitaleWertpapiereausgestaltetsein"></div>
             <div id="WSDW_WAS_Sind_Wrapper">
               <div id="WSDW_WAS_Sind_Inner">
                 <div id="WSDW_WAS_Sind_Inner_Left">

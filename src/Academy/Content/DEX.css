@@ -1,0 +1,234 @@
+#DEX_BG_Wrapper {
+  background: #e0e0e0;
+  width: 100vw;
+  height: 275vh;
+  z-index: 1;
+  position: relative;
+}
+#DEX_BG_Wrapper_White {
+  width: 100vw;
+  height: 275vh;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.65);
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+#DEX_BG_Wrapper_Content {
+  display: flex;
+  position: relative;
+  z-index: 20;
+  flex-direction: column;
+  width: 100vw;
+}
+#WSDW_Top_Wrapper_h2_Yellow {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+
+  font-weight: bold;
+  font-size: 4vw;
+  margin: 0;
+  color: #ffb000;
+  margin-bottom: 2vh;
+}
+#DEX_Was_sind_wrapper {
+  width: 80vw;
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 10px;
+
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+  margin-left: 6vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  position: relative;
+  z-index: 3;
+}
+#DEX_Was_sind_Left {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+#DEX_Was_sind_Right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+#DEX_Was_sind_Right_Top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3vh;
+}
+#DEX_Was_sind_Right_ITEM {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#DEX_Was_sind_Right_Buttom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#DEX_Was_sind_Left_h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+  font-weight: 600;
+  font-size: 2.2vw;
+  margin: 0;
+
+  color: rgba(0, 0, 0, 1);
+}
+#DEX_Was_sind_Left_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+  font-weight: 400;
+  font-size: 1vw;
+  margin: 0;
+
+  color: rgba(0, 0, 0, 0.85);
+  margin-top: 2vh;
+  white-space: pre-line;
+  hyphens: auto;
+  text-align: justify;
+}
+#DEX_Was_sind_Right_ITEM_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+  font-weight: 400;
+  font-size: 0.75vw;
+  margin: 0;
+
+  color: rgba(0, 0, 0, 0.65);
+  margin-top: 2vh;
+  white-space: pre-line;
+}
+
+#Margin-Bottom-2vh {
+  margin-bottom: 2vh;
+}
+
+/*////////////////*/
+
+#Mobile_DEX_Content {
+  position: relative;
+  z-index: 500;
+}
+#DEX_Was_sind_Items_Wrapper {
+  display: flex;
+  margin-top: 5vh;
+  flex-direction: column;
+}
+
+#DEX_Was_sind_Items_Wrapper {
+  display: flex;
+  flex-direction: column;
+}
+#DEX_Was_sind_Items_Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3vh;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+#DEX_Was_sind_Item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15vw;
+  justify-content: center;
+}
+#DEX_Was_sind_Item_IMG {
+  width: 10vw;
+}
+#DEX_Was_sind_Item_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+  font-weight: 400;
+  font-size: 3vw;
+  margin: 0;
+
+  color: rgba(0, 0, 0, 0.65);
+  margin-top: 2vh;
+}
+#DEX_Was_sind_Wrapper {
+  width: 80vw;
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 10px;
+
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+  margin-left: 6vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+#Mobile_Content_Top_Section {
+  width: 80vw;
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 10px;
+
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+  margin-left: 6vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+#Mobile_Content_Top_Section_h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+  font-weight: 700;
+  font-size: 8vw;
+  margin: 0;
+
+  color: rgba(0, 0, 0, 0.65);
+  margin-top: 2vh;
+}
+#Mobile_Content_Top_Section_h2_yellow {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+  font-weight: 700;
+  font-size: 8vw;
+  margin: 0;
+
+  color: #ffb000;
+  margin-top: 2vh;
+}
+#Mobile_Content_Top_Section_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+  font-weight: 400;
+  font-size: 3vw;
+  margin: 0;
+
+  color: rgba(0, 0, 0, 0.85);
+  margin-top: 2vh;
+  hyphens: auto;
+  text-align: justify;
+}
+
+#Mobile_Content_Top_Section_yellow_lane {
+  width: 100%;
+  height: 1vh;
+  background-color: #ffb000;
+}

@@ -74,7 +74,7 @@ function Coming_Soon_App(props) {
           <FOOTER />
         </div>
 
-        <div id="Mobile_Wrapper"></div>
+        <div id="Mobile_Wrapper">coMING soo appv</div>
       </div>
     </div>
   );

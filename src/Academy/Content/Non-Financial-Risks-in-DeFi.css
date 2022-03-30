@@ -1,0 +1,96 @@
+#NFRID_BG_Wrapper {
+  background: #e0e0e0;
+  width: 100vw;
+  height: 450vh;
+  z-index: 1;
+  position: relative;
+}
+#NFRID_BG_Wrapper_White {
+  width: 100vw;
+  height: 450vh;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.65);
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+#NFRID_BG_Wrapper_Content {
+  display: flex;
+  position: relative;
+  z-index: 20;
+  flex-direction: column;
+  width: 100vw;
+}
+
+#NFRID_Was_sind_wrapper {
+  width: 80vw;
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 10px;
+
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+  margin-left: 6vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  position: relative;
+  z-index: 3;
+}
+#NFRID_Was_sind_wrapper_Inner_Img {
+  width: 20vw;
+  margin-left: 3vw;
+}
+#NFRID_Was_sind_wrapper_Inner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+#Orakelabhängigkeit_IMG {
+  width: 20vw;
+}
+#NFRID_SM_IMG {
+  width: 80%;
+}
+#NFRID_SM_Wrapper {
+  width: 80vw;
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 10px;
+
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+  margin-left: 6vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  position: relative;
+  z-index: 3;
+}
+#NFRID_SM_h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+  font-weight: 600;
+  font-size: 6vw;
+  margin: 0;
+
+  color: rgba(0, 0, 0, 1);
+}
+#NFRID_SM_h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+  font-weight: 400;
+  font-size: 3vw;
+  margin: 0;
+
+  color: rgba(0, 0, 0, 0.85);
+  margin-top: 2vh;
+  white-space: pre-line;
+  hyphens: auto;
+  text-align: justify;
+}

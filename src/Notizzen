@@ -264,3 +264,75 @@ ss
         "condition": null
     }
 ]
+
+
+
+
+
+
+
+
+MOBILE MENUE
+
+ {/* COMMENT */}
+        <div id="mobile_menue_pop_up_Content">
+          <h2 id="mobile_menue_pop_up_Content_h2">Menü</h2>
+          <div id="mobile_menue_pop_up_Content_Full_Wrapper">
+            <div id="mobile_menue_pop_up_Content_Blue"></div>
+            <div id="mobile_menue_pop_up_Content_Wrapper">
+              <HashLink to="../Was-sind-digitale-Wertpapiere#">
+                <div id="mobile_menue_pop_up_Content_Menue_Box">
+                  <img
+                    src={Wertpapier}
+                    id="mobile_menue_pop_up_Content_Box_img"
+                    alt=""
+                  />
+                  <h3 id="mobile_menue_pop_up_Content_h3">Über digitale</h3>
+                  <h3 id="mobile_menue_pop_up_Content_h3_yellow">
+                    Wertpapiere
+                  </h3>
+                </div>
+              </HashLink>{" "}
+              <HashLink to="../Sekundaermaerkte#">
+                <div id="mobile_menue_pop_up_Content_Menue_Box">
+                  <img
+                    src={Menü_Sek}
+                    id="mobile_menue_pop_up_Content_Box_img"
+                    alt=""
+                  />
+                  <h3 id="mobile_menue_pop_up_Content_h3">Sekundär-</h3>
+                  <h3 id="mobile_menue_pop_up_Content_h3_yellow">märkte</h3>
+                </div>{" "}
+              </HashLink>{" "}
+              <HashLink to="../Unternehmen#">
+                <div id="mobile_menue_pop_up_Content_Menue_Box">
+                  <img
+                    src={Menü_Unt}
+                    alt=""
+                    id="mobile_menue_pop_up_Content_Box_img"
+                  />
+                  <h3 id="mobile_menue_pop_up_Content_h3">Für</h3>
+                  <h3 id="mobile_menue_pop_up_Content_h3_yellow">
+                    Unternehmen
+                  </h3>
+                </div>
+              </HashLink>
+              <HashLink to="../Ueber-uns#">
+                <div id="mobile_menue_pop_up_Content_Menue_Box">
+                  <img
+                    src={logo}
+                    id="mobile_menue_pop_up_Content_Box_imgx"
+                    alt=""
+                  />
+                  <h3 id="mobile_menue_pop_up_Content_h3">Über </h3>
+                  <h3 id="mobile_menue_pop_up_Content_h3_yellow">Chainvest</h3>
+                </div>
+              </HashLink>
+            </div>
+          </div>{" "}
+          {props.children}{" "}
+          <HashLink to="../Digitale-Wertpapiere#">
+            <div id="mobile_menue_pop_up_Content_Alle">
+              <h3 id="mobile_menue_pop_up_Content_Aööe_h3">Alle Projekte</h3>
+            </div>
+          </HashLink>

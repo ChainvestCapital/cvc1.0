@@ -310,8 +310,8 @@
 
 #Div_Home_Projekte_Section_Layer_Form {
   position: absolute;
-  width: 976px;
-  height: 757px;
+  width: 920px;
+  height: 700px;
   left: -500px;
   top: 45vh;
   z-index: 15;
@@ -329,7 +329,7 @@
   flex-direction: row;
   overflow-y: hidden;
   padding-top: 18vh;
-  z-index: 20;
+  z-index: 14;
 }
 #Div_Home_CV_Section_LEFT {
   display: flex;
@@ -416,6 +416,7 @@
   position: relative;
   z-index: 50;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1vh;
 }
 #Hoem_What_is_CV_Wrapper_Left {
   display: flex;

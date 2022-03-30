@@ -27,7 +27,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  width: 30vw;
+  width: 38vw;
 }
 #Menue_Bar_Menue_Item_1 {
   width: 8vw;
@@ -100,4 +100,28 @@
 }
 #MenueItemsListe1notSHOW {
   display: none;
+}
+#Top_Menue_Bar_Button_yellow {
+  border-radius: 12px;
+  background-color: rgba(255, 176, 0, 1);
+  display: flex;
+  align-items: center;
+  padding-left: 0.7vw;
+  height: 3vh;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 0.7vw;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  margin-left: 0.5vw;
+  position: relative;
+}
+#Top_Menue_Bar_Button_yellow:hover {
+  background-color: rgba(186, 232, 232, 1);
+  color: black;
 }

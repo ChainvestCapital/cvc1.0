@@ -1,12 +1,12 @@
 #mobile_menue_pop_up_wrapper {
-  background: #e0e0e0;
   width: 100vw;
   position: fixed;
   width: 100vw;
   height: 96vh;
   display: flex;
   z-index: 100;
-  padding-top: 4vh;
+  padding-top: 0vh;
+  background: #e0e0e0;
 }
 #mobile_menue_pop_up_White {
   width: 100vw;
@@ -20,8 +20,7 @@
 #mobile_menue_pop_up_Content {
   position: relative;
   z-index: 3;
-  padding-left: 6vw;
-  padding-right: 6vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -129,25 +128,19 @@
   margin: 0;
 }
 
-#Closing_Wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 88vw;
-  height: 20vh;
-}
 #Closing_Wrapper_Circel {
   background: #bae8e8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 100%;
-  width: 18vw;
-  height: 18vw;
+  width: 12vw;
+  height: 12vw;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-width: 0;
 }
 #Closing_Wrapper_Circle_Img {
-  width: 8vw;
+  width: 6vw;
 }
 
 #close-btn {
@@ -156,4 +149,134 @@
 }
 #Closing_Wrapper_Wrapper {
   width: 25vw;
+}
+#mobile_menue_pop_up_Content_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#mobile_menue_pop_up_Content_Top {
+  display: flex;
+  width: 96vw;
+  height: 10vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+#mobile_menue_pop_up_Content_Frame_wRAPPER {
+  width: 100vw;
+  height: 58vh;
+  overflow: scroll;
+  position: relative;
+}
+#mobile_menue_pop_up_Content_Frame_wRAPPER::-webkit-scrollbar {
+  width: 5px;
+}
+#mobile_menue_pop_up_Content_Frame_wRAPPER::-webkit-scrollbar::-webkit-scrollbar-track {
+  background: rgba(205, 240, 234, 1); /* color of the tracking area */
+}
+#mobile_menue_pop_up_Content_Frame_wRAPPER::-webkit-scrollbar-thumb {
+  background-color: white; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 1px solid rgba(164, 99, 99, 0); /* creates padding around scroll thumb */
+}
+#mobile_menue_pop_up_Content_Buttom {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 20vh;
+  background: #cdf0ea;
+  border-radius: 12px;
+  justify-content: space-between;
+  padding-bottom: 2vh;
+}
+
+#mobile_menue_pop_up_Content_Buttom_LEFT {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  padding-left: 4vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  justify-content: space-between;
+}
+#mobile_menue_pop_up_Content_Buttom_MID {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 22vw;
+  height: 100%;
+  align-items: center;
+}
+#mobile_menue_pop_up_Content_Buttom_MID_Home {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+  width: 18vw;
+  height: 18vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 0;
+}
+#mobile_menue_pop_up_Content_Buttom_Right {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  padding-left: 4vw;
+  padding-left: 4vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  justify-content: space-between;
+}
+#mobile_menue_pop_up_Content_Buttom_Bottom {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 32vw;
+  align-items: center;
+  height: 5vh;
+  padding-left: 2vw;
+}
+#MenueButton_INaktiv {
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 32vw;
+  align-items: center;
+  height: 5vh;
+  padding-left: 2vw;
+}
+#MenueButton_aktiv {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 32vw;
+  align-items: center;
+  height: 5vh;
+  padding-left: 2vw;
+}
+#mobile_menue_pop_up_Content_Buttom_Bottom_h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.5vw;
+  color: black;
+  margin: 0;
+  margin-left: 2vw;
+}
+#mobile_menue_pop_up_Content_Buttom_Bottom_img {
+  width: 4vw;
+}
+#mobile_menue_pop_up_Content_Buttom_Bottom_img_Home {
+  width: 8vw;
 }
