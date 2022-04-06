@@ -5,6 +5,7 @@
   flex-direction: row;
   height: 100vh;
   justify-content: space-between;
+  align-items: center ;
 }
 #FAQ_TOP_left {
   display: flex;
@@ -13,11 +14,23 @@
   display: flex;
   flex-direction: column;
 }
+#FAQ_BG_Wrapper_White{ width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.65);
+  left: 0;
+  top: 0;
+  z-index: 3;}
+#FAQ_BG_Wrapper_Content { 
+  display: flex;
+  position: relative;
+  z-index: 20;
+  flex-direction: column;
+  width: 100vw;}
 #FAQ_BG {
   background: #e0e0e0;
   width: 100vw;
-  padding-bottom: 15vh;
-  height: auto;
+  height: 100vh;
   z-index: 1;
   position: relative;
 }
@@ -178,4 +191,83 @@
   display: flex;
   flex-direction: column;
   padding-left: 6vw;
+}
+#CV_h5_dark {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+
+  font-weight: 500;
+  font-size: 1.2vw;
+  margin: 0;
+  color: black;
+}
+
+#CV_h1_dark_faq {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+
+  font-weight: 700;
+  font-size: 6.5vw;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#FAQ_Content_Wrapper {
+
+}
+
+#FAQ_innerMenue{display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;}
+
+
+#FAQ_Mini_Menue{  display: flex;
+  flex-direction: row;}
+
+#FAQ_Current_Aktive{ font-family: Montserrat;
+  font-size: 0.9vw;
+  font-weight: 600;
+  margin: 0;
+  ;
+
+}
+
+#FAQ_ChoiceWrapper{ margin-left: 2vw;
+  display: flex;
+  flex-direction: row;}
+
+#FAQ_Mini_Menue_h5{color: rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  font-size: 0.9vw;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 4vw;}
+
+  #FAQ_Menue {
+  width: 54vw;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-bottom: 4vh;
+}
+#FAQ_Mini_Menue_h5:hover {
+  cursor: pointer;
+  color: #ffb000
+}
+#FAQ_Mini_Menue_h5_black {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  font-size: 0.9vw;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 4vw;
 }

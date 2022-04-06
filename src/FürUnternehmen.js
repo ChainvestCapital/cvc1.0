@@ -158,8 +158,8 @@ function FoFUnternehmen(props) {
                       </h3>
                       <h5 id="FU_Vorteile_Innner_Right_Wrapper_h5">
                         Bei Chainvest Capital unterstützten wir Sie bei der
-                        Vermarktung Ihres Digitalen Wertpapaiers und finden
-                        individuellen Marketinglösungen für Ihr
+                        Vermarktung Ihres digitalen Wertpapiers und finden
+                        individuelle Marketinglösungen für Ihr
                         Investitionsprojekt für eine effiziente Kapitalaufnahme.
                         Gewinnen Sie mit einer Platzierung das
                         Investoreninteresse und schaffen Sie Vertrauen.
@@ -177,7 +177,7 @@ function FoFUnternehmen(props) {
                     <div id="FU_Vorteile_Innner_Right_Wrapper_Right">
                       <h3 id="FU_Vorteile_Innner_Right_Wrapper_h3">Wachstum</h3>
                       <h5 id="FU_Vorteile_Innner_Right_Wrapper_h5">
-                        Erreichen Sie mit einer Platzierung Ihres digitlaen
+                        Erreichen Sie mit einer Platzierung Ihres digitalen
                         Wertpapaiers bei Chainvest Capital mehr Sichtbarkeit und
                         setzen Sie ein Zeichen für Transparenz. Nutzen Sie unser
                         Netzwerk für eine erfolgreiche Unternehmensfinanzierung
@@ -231,7 +231,7 @@ function FoFUnternehmen(props) {
                           Informationsaustausch
                         </h4>
                         <h5 id="FU_Kontakt_Inner_Left_Box_h5">
-                          Wir tauschen die relevanten Informationen
+                          Wir tauschen die relevanten Informationen aus
                         </h5>
                       </div>
                     </div>
@@ -246,7 +246,7 @@ function FoFUnternehmen(props) {
                       <div id="FU_Kontakt_Inner_Left_Box_Left_Right">
                         <h4 id="FU_Kontakt_Inner_Left_Box_h4">Listing</h4>
                         <h5 id="FU_Kontakt_Inner_Left_Box_h5">
-                          Wir nehmen das Projekt auf unser Plattform auf
+                          Wir nehmen das Projekt auf unserer Plattform auf
                         </h5>
                       </div>
                     </div>
@@ -363,11 +363,9 @@ function FoFUnternehmen(props) {
               <h2 id="Mobile_Home_Top_Sec_H2">Ihr Projekt auf</h2>
               <h2 id="Mobile_Home_Top_Sec_H2_yellow">Chainvest Capital</h2>
               <h5 id="Mobile_Home_Top_Sec_H5">
-                Chianvest Capital stellt die Schnittstelle zwischen spannenden
-                Investitionsprojekten und einer breiten Investorencommunity dar.
-                Über diese Plattform erhalten AnlegerInnen Zugang zu
-                vielfältigen Security Token Offerings aus unterschiedlichen
-                Branchen.
+                Gewinnen Sie mit einer Platzierung auf Chainvest Capital
+                frühzeitig das Interesse potenzieller Investoren und profitieren
+                Sie von unserem starken Netzwerk.
               </h5>{" "}
             </div>
             <div id="Mobile_FU_IMG_Wrapper">
@@ -383,10 +381,7 @@ function FoFUnternehmen(props) {
                 <h3 id="Mobile_FU_Vorteile_Inner_h3">
                   Ihr Vorteile auf Chainvest Capital
                 </h3>
-                <h5 id="Mobile_FU_Vorteile_Inner_h5">
-                  Chainvest Capital stellt die Schnittstelle zwischen spannenden
-                  Investitionsprojekten und einer breiten{" "}
-                </h5>
+
                 <div id="Mobile_FU_Vorteile_Inner_Box_Wrapper">
                   <div id="Mobile_FU_Vorteile_Inner_Box_Top">
                     {" "}
@@ -419,8 +414,8 @@ function FoFUnternehmen(props) {
                   </div>
                   <h5 id="Mobile_FU_Vorteile_Inner_Box_Bottom_h5">
                     Bei Chainvest Capital unterstützten wir Sie bei der
-                    Vermarktung Ihres Digitalen Wertpapaiers und finden
-                    individuellen Marketinglösungen für Ihr Investitionsprojekt
+                    Vermarktung Ihres digitalen Wertpapiers und finden
+                    individuelle Marketinglösungen für Ihr Investitionsprojekt
                     für eine effiziente Kapitalaufnahme. Gewinnen Sie mit einer
                     Platzierung das Investoreninteresse und schaffen Sie
                     Vertrauen.
@@ -437,8 +432,8 @@ function FoFUnternehmen(props) {
                     <h4 id="Mobile_FU_Vorteile_Inner_Box_Top_h4">Wachstum</h4>
                   </div>
                   <h5 id="Mobile_FU_Vorteile_Inner_Box_Bottom_h5">
-                    Erreichen Sie mit einer Platzierung Ihres digitlaen
-                    Wertpapaiers bei Chainvest Capital mehr Sichtbarkeit und
+                    Erreichen Sie mit einer Platzierung Ihres digitalen
+                    Wertpapiers bei Chainvest Capital mehr Sichtbarkeit und
                     setzen Sie ein Zeichen für Transparenz. Nutzen Sie unser
                     Netzwerk für eine erfolgreiche Unternehmensfinanzierung und
                     steigern Sie das Wachstumspotenzial Ihres
@@ -482,7 +477,7 @@ function FoFUnternehmen(props) {
                       Informationsaustausch
                     </h4>
                     <h5 id="Mobile_FU_Ablauf_Inner_Box_Right_h5">
-                      Wir tauschen die relevanten Informationen
+                      Wir tauschen die relevanten Informationen aus
                     </h5>
                   </div>
                 </div>
@@ -497,7 +492,7 @@ function FoFUnternehmen(props) {
                   <div id="Mobile_FU_Ablauf_Inner_Box_Right">
                     <h4 id="Mobile_FU_Ablauf_Inner_Box_Right_h4">Listing</h4>
                     <h5 id="Mobile_FU_Ablauf_Inner_Box_Right_h5">
-                      Wir nehmen das Projekt auf unser Plattform auf
+                      Wir nehmen das Projekt auf unserer Plattform auf
                     </h5>
                   </div>
                 </div>

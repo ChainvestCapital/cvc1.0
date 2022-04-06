@@ -342,15 +342,15 @@ function FoFUnternehmen(props) {
           <div id="Mobile_Academy_Content">
             {" "}
             <div id="Mobile_Academy_Top">
-              <h2 id="Mobile_Home_Top_Sec_H2">Projekte</h2>
-              <h2 id="Mobile_Home_Top_Sec_H2_yellow">vergleichen</h2>
+              <h2 id="Mobile_Home_Top_Sec_H2"></h2>
+              <h2 id="Mobile_Home_Top_Sec_H2_yellow">Academy</h2>
               <h5 id="Mobile_Home_Top_Sec_H5">
                 Chainvest Capital möchte über die transparente Darstellung von
                 unseren Projekten zu besseren Investitionsentscheidung
                 beitragen. Dafür stellen wir Ihnen hilfreiche Informtionen zu
                 diversen Themenbereichen zur Verfügung. Wählen Sie zwischen den
                 drei Kategorien aus, über welches Thema Sie sich informieren
-                wollen.
+                wollen. wollen.
               </h5>{" "}
             </div>
             <div id="Mobile_Academy_Menue">

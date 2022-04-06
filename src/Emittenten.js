@@ -1,6 +1,6 @@
 import "./Design/Emittenten.css";
 import TOP_NAV_BAR from "./components/navigation/Top_Nav_Bar";
-import arrow from "./assets/images/arrow.png";
+import arrow from "./assets/images/Arrow_white.png";
 import Token_Klassen_Img from "./assets/images/Token_Klassen_Img.png";
 import MOBILE_FOOTER from "./MobileComponents/Mobile_Footer";
 import { useState, useEffect } from "react";

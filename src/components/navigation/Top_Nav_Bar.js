@@ -22,6 +22,7 @@ function Menue_Bar(props) {
     ) {
       setMenueOpacityOverlay("menueOpacityS");
     } else {
+      setMenueOpacityOverlay("menueOpacityNS");
     }
   }
 

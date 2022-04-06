@@ -1,15 +1,15 @@
 #Fragen_Box_Wrapper {
-  width: 80vw;
+  width: 54vw;
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   display: flex;
   flex-direction: column;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
-  padding-left: 4vw;
-  padding-right: 4vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
   margin-bottom: 4vh;
 }
 #Fragen_Box_Wrapper_h3 {
@@ -18,9 +18,10 @@
   text-align: start;
 
   font-weight: 600;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   margin: 0;
   color: black;
+  margin-left: 2vw;
 }
 #Fragen_Box_Wrapper_h5 {
   font-family: Montserrat;
@@ -28,12 +29,59 @@
   text-align: start;
 
   font-weight: 400;
-  font-size: 1vw;
+  font-size: 0.8vw;
   margin: 0;
   color: black;
-  margin-top: 2vh;
+  margin-left: 1.5vw;
 }
 #Fragen_Wrapper {
   display: flex;
   flex-direction: column;
+}
+#Fragen_Box_Wrapper_Top{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+#Fragen_Box_Wrapper_IMG_Wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3vw;
+  height: 3vw;
+  position: relative;
+}
+#FAQ_Line_Wrapper {
+  display: flex;align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+#FAQ_Line_Wrapper_none{
+  display: none;
+}
+#Fragen_Box_Wrapper_Bottom_shown{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding-left: 4vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+#Fragen_Box_Wrapper_Bottom_not_shown{
+  display: none;
+}
+#Fragen_Box_Wrapper_Line{
+  width: 1px;
+  height: 70%;
+  background-color: rgba(255, 176, 0, 1);
+  margin-right: 1.5vw;
+  position: absolute;
+
 }

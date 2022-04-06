@@ -31,23 +31,9 @@ function FAQ() {
     document.title = "FAQ";
   }, []);
 
-  const [ChainvestCapitalshown, ChainvestCapitalsetshown] = useState(true);
-  const [DigitalwWPshown, setDigitalwWPshown] = useState(false);
-  const [InvestitionShown, setInvestitionShown] = useState(false);
   const [mChainvestCapitalshown, mChainvestCapitalsetshown] = useState(true);
   const [mDigitalwWPshown, msetDigitalwWPshown] = useState(false);
   const [mInvestitionShown, msetInvestitionShown] = useState(false);
-
-  const [FAQ_Menue_Row_Button1, setFAQ_Menue_Row_Button1] = useState(
-    "FAQ_Menue_Row_Button_Aktiv"
-  );
-  const [FAQ_Menue_Row_Button2, setFAQ_Menue_Row_Button2] = useState(
-    "FAQ_Menue_Row_Button_Inaktiv"
-  );
-
-  const [FAQ_Menue_Row_Button3, setFAQ_Menue_Row_Button3] = useState(
-    "FAQ_Menue_Row_Button_Inaktiv"
-  );
 
   //////
   /////Mobil
@@ -62,32 +48,7 @@ function FAQ() {
   const [mFAQ_Menue_Row_Button3, msetFAQ_Menue_Row_Button3] = useState(
     "mFAQ_Menue_Row_Button_Inaktiv"
   );
-  function CVOpen() {
-    ChainvestCapitalsetshown(true);
-    setDigitalwWPshown(false);
-    setInvestitionShown(false);
-    setFAQ_Menue_Row_Button1("FAQ_Menue_Row_Button_Aktiv");
-    setFAQ_Menue_Row_Button2("FAQ_Menue_Row_Button_Inaktiv");
-    setFAQ_Menue_Row_Button3("FAQ_Menue_Row_Button_Inaktiv");
-  }
 
-  function DWOpen() {
-    ChainvestCapitalsetshown(false);
-    setDigitalwWPshown(true);
-    setInvestitionShown(false);
-    setFAQ_Menue_Row_Button1("FAQ_Menue_Row_Button_Inaktiv");
-    setFAQ_Menue_Row_Button2("FAQ_Menue_Row_Button_Aktiv");
-    setFAQ_Menue_Row_Button3("FAQ_Menue_Row_Button_Inaktiv");
-  }
-
-  function INVOpen() {
-    ChainvestCapitalsetshown(false);
-    setDigitalwWPshown(false);
-    setInvestitionShown(true);
-    setFAQ_Menue_Row_Button1("FAQ_Menue_Row_Button_Inaktiv");
-    setFAQ_Menue_Row_Button2("FAQ_Menue_Row_Button_Inaktiv");
-    setFAQ_Menue_Row_Button3("FAQ_Menue_Row_Button_Aktiv");
-  }
   //////
   /////Mobil
   /////
@@ -117,6 +78,99 @@ function FAQ() {
     msetFAQ_Menue_Row_Button2("mFAQ_Menue_Row_Button_Inaktiv");
     msetFAQ_Menue_Row_Button3("mFAQ_Menue_Row_Button_Aktiv");
   }
+
+  const [ChainvestCapitalshown, ChainvestCapitalsetshown] = useState(true);
+  const [DigitalwWPshown, setDigitalwWPshown] = useState(false);
+  const [InvestitionShown, setInvestitionShown] = useState(false);
+  const [current_FAQ_Topic, setcurrent_FAQ_Topic] =
+    useState("ChainvestCapital");
+
+  function showCVC() {
+    ChainvestCapitalsetshown(true);
+    setDigitalwWPshown(false);
+    setInvestitionShown(false);
+
+    setcurrent_FAQ_Topic("ChainvestCapital");
+  }
+  function showDW() {
+    ChainvestCapitalsetshown(false);
+    setDigitalwWPshown(true);
+    setInvestitionShown(false);
+    setcurrent_FAQ_Topic("Digitale Wertpapiere");
+  }
+  function showInv() {
+    ChainvestCapitalsetshown(false);
+    setDigitalwWPshown(false);
+    setInvestitionShown(true);
+    setcurrent_FAQ_Topic("Investition");
+  }
+
+  function build_FAQ_menue() {
+    if (current_FAQ_Topic === "ChainvestCapital") {
+      return (
+        <div id="FAQ_innerMenue">
+          <h3 id="FAQ_Current_Aktive">Chainvest Capital</h3>
+
+          <div id="FAQ_Mini_Menue">
+            <h3 id="FAQ_Mini_Menue_h5_black">Wechseln zu:</h3>
+
+            <div id="FAQ_ChoiceWrapper">
+              <h5 id="FAQ_Mini_Menue_h5" onClick={() => showDW()}>
+                Digitale Wertpapiere
+              </h5>
+
+              <h5 id="FAQ_Mini_Menue_h5" onClick={() => showInv()}>
+                Investition
+              </h5>
+            </div>
+          </div>
+        </div>
+      );
+    }
+    if (current_FAQ_Topic === "Digitale Wertpapiere") {
+      return (
+        <div id="FAQ_innerMenue">
+          <h3 id="FAQ_Current_Aktive">Digitale Wertpapiere</h3>
+
+          <div id="FAQ_Mini_Menue">
+            <h3 id="FAQ_Mini_Menue_h5_black">Wechseln zu:</h3>
+
+            <div id="FAQ_ChoiceWrapper">
+              <h5 id="FAQ_Mini_Menue_h5" onClick={() => showCVC()}>
+                Chainvest Capital
+              </h5>
+
+              <h5 id="FAQ_Mini_Menue_h5" onClick={() => showInv()}>
+                Investition
+              </h5>
+            </div>
+          </div>
+        </div>
+      );
+    }
+    if (current_FAQ_Topic === "Investition") {
+      return (
+        <div id="FAQ_innerMenue">
+          <h3 id="FAQ_Current_Aktive">Investition</h3>
+
+          <div id="FAQ_Mini_Menue">
+            <h3 id="FAQ_Mini_Menue_h5_black">Wechseln zu:</h3>
+
+            <div id="FAQ_ChoiceWrapper">
+              <h5 id="FAQ_Mini_Menue_h5" onClick={() => showCVC()}>
+                Chainvest Capital
+              </h5>
+
+              <h5 id="FAQ_Mini_Menue_h5" onClick={() => showDW()}>
+                Digitale Wertpapiere
+              </h5>
+            </div>
+          </div>
+        </div>
+      );
+    }
+  }
+
   return (
     <div>
       <div id="Desktop_Wrapper">
@@ -140,21 +194,39 @@ function FAQ() {
           <span style={{ fontSize: "10px" }}></span>
         </CookieConsent>{" "}
         <TOP_NAV_BAR />
-        <div id="FAQ_BG">
+        <div
+          id="FAQ_BG
+        "
+        >
           {" "}
-          <div id="WSDW_BG_Wrapper_White"></div>
-          <div id="WSDW_BG_Wrapper_Content">
+          <div id="FAQ_BG_Wrapper_White"></div>
+          <div id="FAQ_BG_Wrapper_Content">
             <div id="Blue_Absolute"></div>
             <div id="FAQ_TOP">
               <div id="FAQ_TOP_left">
-                <h2 id="WSDW_Top_Wrapper_h2">
-                  Häufig gestellte <br></br>Fragen{" "}
-                </h2>{" "}
-                <div id="Anker_Wrapper">
-                  <img src={FAQArr} alt="" id="Anker_Arrow_Img" />
-                </div>
+                {" "}
+                <h5 id="CV_h5_dark">Häufig gestellte Fragen</h5>
+                <h1 id="CV_h1_dark_faq">FAQ</h1>
               </div>
               <div id="Div_Home_Top_Section_Right">
+                <div id="FAQ_Content_Wrapper">
+                  <div id="FAQ_Menue">{build_FAQ_menue()}</div>
+                  <div id="FAQ_Fragen">
+                    <ChainvestCapital
+                      trigger={ChainvestCapitalshown}
+                      setTrigger={ChainvestCapitalsetshown}
+                    />
+                    <DigitaleWP
+                      trigger={DigitalwWPshown}
+                      setTrigger={setDigitalwWPshown}
+                    />
+                    <Investtition
+                      trigger={InvestitionShown}
+                      setTrigger={setInvestitionShown}
+                    />
+                  </div>
+                </div>
+                {/*
                 <div id="Div_Home_Top_Section_Right_Spalte_left">
                   <div id="Div_Home_Top_Section_Right_TL_Wrapper">
                     <img
@@ -191,34 +263,8 @@ function FAQ() {
                       alt=""
                     />
                   </div>
-                </div>
+                </div>*/}
               </div>{" "}
-            </div>
-
-            <div id="FAQ_Menue">
-              <div onClick={() => CVOpen()} id={FAQ_Menue_Row_Button1}>
-                Chainvest Capital
-              </div>
-              <div onClick={() => DWOpen()} id={FAQ_Menue_Row_Button2}>
-                Digitale Wertpapiere
-              </div>
-              <div onClick={() => INVOpen()} id={FAQ_Menue_Row_Button3}>
-                Investition
-              </div>
-            </div>
-            <div id="FAQ_Fragen">
-              <ChainvestCapital
-                trigger={ChainvestCapitalshown}
-                setTrigger={ChainvestCapitalsetshown}
-              />
-              <DigitaleWP
-                trigger={DigitalwWPshown}
-                setTrigger={setDigitalwWPshown}
-              />
-              <Investtition
-                trigger={InvestitionShown}
-                setTrigger={setInvestitionShown}
-              />
             </div>
           </div>{" "}
         </div>{" "}

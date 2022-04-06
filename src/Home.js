@@ -24,6 +24,11 @@ import { HashLink } from "react-router-hash-link";
 import CookieConsent from "react-cookie-consent";
 import { Link } from "react-router-dom";
 
+import Home_Top_Right_Img from "./assets/images/Home_Top_Right_Img.png";
+import Home_Mid_Right_Img from "./assets/images/Home_Mid_Right_Img.png";
+import Home_Mid_Left_Img from "./assets/images/Home_Mid_Left_Img.png";
+import Home_Bottom_Img from "./assets/images/Home_Bottom_Img.png";
+
 Amplify.configure(awsExports);
 function App() {
   useEffect(() => {
@@ -111,6 +116,41 @@ function App() {
             </h3>
           </div>
           <div id="Div_Home_Top_Section_Right">
+            <div id="Home_Top_Right_Top">
+              <div id="Home_Top_Right_Top_Text_Wrapper">
+                <h3 id="Home_Top_Right_Top_Text_Wrapper_h3">
+                  Was sind digitale Wertpapiere ?
+                </h3>
+                <h5 id="Home_Top_Right_Top_Text_Wrapper_h5">
+                  Digitale Wertpapiere bringen klassische Finanzprodukte in die
+                  digitale Welt. Dabei entstehen durch das Verwenden der
+                  Blockchain-Technologie Vorteile für InvestorInnen und
+                  EmittentInnen bspw. im Hinblick auf Transaktionskosten.
+                </h5>
+              </div>
+              <div id="Home_Top_Right_Top_Right_Box">
+                <img
+                  src={Home_Top_Right_Img}
+                  id="Home_Top_Right_Top_Right_Box_img"
+                />
+              </div>
+            </div>
+            <div id="Home_Top_Right_Mid">
+              <div id="Home_Top_Right_Mid_Left">
+                <img src={Home_Mid_Left_Img} id="Home_Top_Right_Mid_Left_img" />
+              </div>
+              <div id="Home_Top_Right_Mid_Right">
+                <img
+                  src={Home_Mid_Right_Img}
+                  id="Home_Top_Right_Mid_Right_img"
+                />
+              </div>
+            </div>
+            <div id="Home_Top_Right_Bottom">
+              <img src={Home_Bottom_Img} id="Home_Top_Right_Bottom_img" />
+            </div>
+
+            {/*
             <div id="Div_Home_Top_Section_Right_Spalte_left">
               <div id="Div_Home_Top_Section_Right_TL_Wrapper">
                 <img
@@ -130,9 +170,7 @@ function App() {
                   EmittentInnen bspw. im Hinblick auf Transaktionskosten.
                 </h5>
               </div>
-            </div>
-
-            <div id="Div_Home_Top_Section_Right_Spalte_right">
+            </div> <div id="Div_Home_Top_Section_Right_Spalte_right">
               <div id="Div_Home_Top_Section_Right_TR_Wrapper">
                 <img
                   src={OR_Img}
@@ -148,6 +186,7 @@ function App() {
                 />
               </div>
             </div>
+*/}
           </div>{" "}
           <div id="Div_Home_Top_Section_Layer"></div>
           <div id="Div_Home_Top_Section_Layer_Form"></div>

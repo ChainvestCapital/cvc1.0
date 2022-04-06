@@ -136,7 +136,7 @@ function WasSindDigitaleWertpapiere(props) {
                 <div id="WSDW_WAS_Sind_Inner_Right">
                   <h5 id="WSDW_WAS_Sind_Inner_h5_thic">
                     Unter Tokenisierung versteht man den digitalen
-                    Verbriefungsprozess von materiellen oder immteriellen
+                    Verbriefungsprozess von materiellen oder immateriellen
                     Vermögenswerten auf einem dezentralen Transaktionsregister.
                     <br /> <br />
                   </h5>
@@ -259,7 +259,7 @@ function WasSindDigitaleWertpapiere(props) {
                       <div id="WSDW_Security_Token_Vorteile_Box_BOTTOM">
                         <h5 id="WSDW_WAS_Sind_Inner_h5">
                           Mit Hilfe der Tokenisierung erhöht sich die Anzahl der
-                          Anlagemöglichkeiten - Insbesondere für Vermögenswerte,
+                          Anlagemöglichkeiten - insbesondere für Vermögenswerte,
                           die auf den traditionellen Kapitalmärkten nicht zu
                           finden sind. Dies bedeutet, dass mehr (Klein-)Anleger
                           Zugang zu Anlageklassen erhalten, die sonst außerhalb
@@ -428,7 +428,7 @@ function WasSindDigitaleWertpapiere(props) {
                 </h3>
                 <h4 id="Mobile_White_Wrapper_Column_h4">
                   Unter Tokenisierung versteht man den digitalen
-                  Verbriefungsprozess von materiellen oder immteriellen
+                  Verbriefungsprozess von materiellen oder immateriellen
                   Vermögenswerten auf einem dezentralen Transaktionsregister.
                 </h4>
                 <h5 id="Mobile_White_Wrapper_Column_h5">
@@ -540,7 +540,7 @@ function WasSindDigitaleWertpapiere(props) {
                 <h4 id="Mobile_White_Wrapper_Column_h4">3. Zugänglichkeit </h4>
                 <h5 id="Mobile_White_Wrapper_Column_h5">
                   Mit Hilfe der Tokenisierung erhöht sich die Anzahl der
-                  Anlagemöglichkeiten - Insbesondere für Vermögenswerte, die auf
+                  Anlagemöglichkeiten - insbesondere für Vermögenswerte, die auf
                   den traditionellen Kapitalmärkten nicht zu finden sind. Dies
                   bedeutet, dass mehr (Klein-)Anleger Zugang zu Anlageklassen
                   erhalten, die sonst außerhalb ihrer finanziellen Möglichkeiten

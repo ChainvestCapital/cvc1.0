@@ -23,6 +23,11 @@ import { listProjekts } from "./graphql/queries";
 import MOBILE_FOOTER from "./MobileComponents/Mobile_Footer";
 import MOBILE_MENUE from "./MobileComponents/Mobile_menue";
 import Mobile_Footer from "./MobileComponents/Mobile_Footer";
+
+import VT_LeftBottom from "./assets/images/VT_LeftBottom.png";
+import VT_RightBottom from "./assets/images/VT_RightBottom.png";
+import VT_RightTop from "./assets/images/VT_RightTop.png";
+
 Amplify.configure(awsExports);
 function FAQ() {
   const [ProjekteArray, setProjekteArray] = useState([]);
@@ -71,7 +76,9 @@ function FAQ() {
   function chooseProjekt2(Projekt) {
     setChooseProjekt2(Projekt);
   }
-
+  useEffect(() => {
+    document.title = "Vergleichen";
+  }, []);
   return (
     <div>
       <div id="Desktop_Wrapper">
@@ -111,31 +118,24 @@ function FAQ() {
               </div>
 
               <div id="FU_Top_right">
-                <div id="FU_Top_right_Spalte1">
-                  <div id="Div_Home_Top_Section_Right_TL_Wrapper">
-                    <img
-                      src={TL_Img}
-                      id="Div_Home_Top_Section_Right_TL_Img"
-                      alt=""
-                    />
+                <div id="VT_Box_Wrapper">
+                  <div id="VT_Box_Wrapper_Left">
+                    <div id="VT_Box_White">
+                      <img src={VT_LeftBottom} id="VT_LeftBottom" />
+                    </div>
+                  </div>
+
+                  <div id="VT_Box_Wrapper_Right">
+                    <div id="VT_Box_White">
+                      <img src={VT_RightTop} id="VT_LeftBottom" />
+                    </div>
+                    <div id="VT_Box_White">
+                      <img src={VT_RightBottom} id="VT_RightBottom" />
+                    </div>
                   </div>
                 </div>
-                <div id="FU_Top_right_Spalte 2">
-                  <div id="Div_Home_Top_Section_Right_TR_Wrapper">
-                    <img
-                      src={OR_Img}
-                      id="Div_Home_Top_Section_Right_OR_Img"
-                      alt=""
-                    />
-                  </div>
-                  <div id="Div_Home_Top_Section_Right_BR_Wrapper">
-                    <img
-                      src={UR_Img}
-                      id="Div_Home_Top_Section_Right_UR_Img"
-                      alt=""
-                    />
-                  </div>
-                </div>
+
+                <div id="VT_Ecclipse"></div>
               </div>
             </div>
             <div id="Vergleichstool_Choice_Wrapper">
