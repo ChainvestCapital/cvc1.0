@@ -154,12 +154,12 @@
   flex-direction: row;
   justify-content: space-between;
   padding-right: 0.7vw;
-  width: 8.2vw;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -ms-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  transition: all 0.3s linear;  white-space: nowrap;
+
 }
 
 #Home11_Proj_Comp_Bottom_Buttons:hover {

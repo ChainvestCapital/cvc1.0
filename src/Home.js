@@ -49,6 +49,7 @@ function App() {
       buildViererProjekteArray(ProjekteList);
     } catch (error) {}
   };
+
   const [helping1, sethelping1] = useState([]);
   function builddreierArray(GanzesArray) {
     for (var i = 0; i < 3; i++) {
@@ -56,6 +57,7 @@ function App() {
     }
     setDreierProjekteArray(helping1);
   }
+
   const [helping2, sethelping2] = useState([]);
   function buildViererProjekteArray(GanzesArray) {
     for (var i = 0; i < 4; i++) {
@@ -225,7 +227,6 @@ function App() {
             </div>
           </div>
           <div id="Div_Home_Projekte_Section_Layer"></div>
-          <div id="Div_Home_Projekte_Section_Layer_Form"></div>
           <div id="Div_Home_CV_Section">
             <div id="Hoem_What_is_CV_Wrapper">
               <div id="Hoem_What_is_CV_Wrapper_Left">
@@ -331,6 +332,7 @@ function App() {
                 </div>
               </div>
             </div>
+
             <div id="Mobile_Home_Projekt_Sec">
               <h2 id="Mobile_Home_Projekt_h2">Projekte</h2>
               <ul id="Mobile_Home_Projekt_Sec_Grid">

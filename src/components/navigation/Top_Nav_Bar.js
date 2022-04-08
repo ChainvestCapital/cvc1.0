@@ -10,7 +10,10 @@ function Menue_Bar(props) {
   const [MenueItems1, setMenueItems1] = useState("MenueItemsListe1notSHOW");
   const [MenueOpacityOverlay, setMenueOpacityOverlay] =
     useState("menueOpacityNS");
-  const [menueID, setmenueID] = useState("Menue_Bar_Wrapper");
+ 
+    const [menueID, setmenueID] = useState("Menue_Bar_Wrapper");
+
+    
   window.onscroll = function () {
     menueScroll();
   };
@@ -94,7 +97,7 @@ function Menue_Bar(props) {
             </div>
             <HashLink to="../Digitale-Wertpapiere#">
               {" "}
-              <div id="Top_Menue_Bar_Button_yellow">
+              <div id="Top_Menue_Bar_Button_yellow_neu">
                 <h3 id="Top_Menue_Bar_h3_white">Alle Projekte</h3>
                 <img src={arrow} id="Top_Menue_Bar_Button_yellow_IMG" alt="" />
               </div>

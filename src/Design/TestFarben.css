@@ -1,0 +1,50 @@
+#TestFarben_Top{
+    width: 100vw;
+    height: 100vh;
+    background: #e0e0e0;
+    position: relative;
+
+}
+
+#TestFarben_Top_abs{
+    width: 100vw;
+    height: 100vh;
+    background: #e0e0e0;position: absolute;
+    background: rgba(255, 255, 255, 0.65);
+
+}
+#Line{
+    width: 100vw;
+    background-color: aqua;
+    height: 5vh;
+}
+
+#TestFarben_Bottom{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F4F4F4;
+}
+#reö {
+    position: relative;
+}
+#TTT_Outer{
+    left: 20vw;
+    height: 20vw;
+    width: 30vw;
+    background-color: aqua;
+    position: absolute;
+}
+#TTT_inner{
+    position: relative;
+    width: 90%;
+    height: 90%;
+    background-color: blueviolet;
+}
+#TTT_inner_inner{
+    width: 90%;
+    height: 90%;
+    position: relative;    
+    backdrop-filter: blur(150px);
+    background-color: black;
+
+}

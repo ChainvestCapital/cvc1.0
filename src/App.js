@@ -39,6 +39,7 @@ import Vergleichstool from "./Vergleichstool";
 import Coming_Soon_App from "./Coming_Sonn_App";
 import Academy from "./Academy";
 import DEX from "./Academy/Content/DEX";
+import FarbTesten from "./TestFarben";
 
 import NonFinancialRisksinDeFi from "./Academy/Content/Non-Financial-Risks-in-DeFi";
 import Testing from "./testing";
@@ -71,6 +72,7 @@ function App() {
         <Route path="/Digitale-Wertpapiere/Muster" element={<Muster />} />
         <Route path="/Digitale-Wertpapiere/Bitbond" element={<Bitbond />} />
         <Route path="/Digitale-Wertpapiere/Tomorrow" element={<Tomorrow />} />
+        <Route path="/xxx/TestFarben" element={<FarbTesten />} />
         <Route path="xxx/TestFilter" element={<TestFilter />} />
         <Route
           path="/Digitale-Wertpapiere/Boernerstrasse-2"
