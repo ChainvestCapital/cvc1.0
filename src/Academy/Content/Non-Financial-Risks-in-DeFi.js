@@ -17,7 +17,7 @@ import Mobile_white_einfach from "../Components/Mobile_white_einfach.js";
 
 function DEX(props) {
   const NFRID_Konstruktions = [
-    "Eng verknüpft mit dem vorherigem Punkt ist das generelle Risiko von Konstruktionsfehlern innerhalb dezentraler Anwendungen. Bei der Entwicklung neuer Programme kann es auch ohne oben skizzierte bösartige Attacken zu Problemen kommen. Insbesondere bei zunehmender Komplexität von Anwendungen ist der Ausgang verschiedener Szenarien nicht in jedem Fall genau determinierbar. Dadurch kann eine Anwendung ungewünschte Aktionen durchführen, schlicht weil sie falsch programmiert wurde.",
+    "Eng verknüpft mit dem vorherigen Punkt ist das generelle Risiko von Konstruktionsfehlern innerhalb dezentraler Anwendungen. Bei der Entwicklung neuer Programme kann es auch ohne oben skizzierte bösartige Attacken zu Problemen kommen. Insbesondere bei zunehmender Komplexität von Anwendungen ist der Ausgang verschiedener Szenarien nicht in jedem Fall genau determinierbar. Dadurch kann eine Anwendung ungewünschte Aktionen durchführen, schlicht weil sie falsch programmiert wurde. ",
     "",
 
     "Dieses Risiko entsteht insbesondere dann, wenn innerhalb der Entwicklungsphase technische Expertise im Bereich der Smart-Contract Entwicklung nicht mit Kompetenzen aus der Finanzwelt kombiniert werden.  Des weiteren sind mangelnde Testverfahren und im zu geringen Umfang angeforderte Audits ein Problem im Hinblick auf das Aufspüren von Konstruktionsfehlern.",
@@ -39,9 +39,9 @@ function DEX(props) {
     "https://ethereum.org/en/whitepaper/",
   ];
   const NRID_rEGULATORISCH = [
-    "Der DeFi-Raum ist aktuell in vielen Bereich weitesgehend unreguliert. Dies bietet einerseits die Möglichkeit der Entwicklung von neuartigen Geschäftsmodellen und Partizipationsmöglichkeiten für Investoren und andererseits können zukünftig eintretende regulatorische Vorschriften für Risiken sorgen. ",
+    "Der DeFi-Raum ist aktuell in vielen Bereich weitestgehend unreguliert. Dies bietet einerseits die Möglichkeit der Entwicklung von neuartigen Geschäftsmodellen und Partizipationsmöglichkeiten für Investoren, andererseits können zukünftig eintretende regulatorische Vorschriften für Risiken sorgen. ",
     "",
-    "Zwar ist noch nicht geklärt, wie regulatorische Maßnahmen in Bereichen ohne zentrale Instanzen wirken werden - Investoren sollten aber die Möglichkeit der negativen Auswirkungen von zukünftigen Vorschriften bedenken.   Neben Geschäftsmodell-betreffende Regularien können insbesondere auch steuerliche Regelungen für Anleger relevant werden",
+    "Zwar ist noch nicht geklärt, wie regulatorische Maßnahmen in Bereichen ohne zentrale Instanzen wirken werden - Investoren sollten aber die Möglichkeit der negativen Auswirkungen von zukünftigen Vorschriften bedenken. Neben Geschäftsmodell-betreffenden Regularien können insbesondere auch steuerliche Regelungen für Anleger relevant werden.",
   ];
 
   return (
@@ -89,21 +89,21 @@ function DEX(props) {
               <div id="WSDW_Top_Wrapper_Left">
                 <h2 id="WSDW_Top_Wrapper_h2">Non Financial Risks in DeFi</h2>{" "}
                 <h4 id="WSDW_h470">
-                  Einer der spannendsten Einsatzbereiche der Blockchain
-                  Technologie stellt der Bereich des Decentralised Finance
-                  (DeFi) dar. Die vergleichsweise hohen Renditen haben seit 2017
-                  viele Anleger in diesen Bereich gelockt. Das innerhalb des
-                  DeFi Systems investierte Kapital (Total Value locked) konnte
-                  innerhalb weniger Jahre auf weltweit über 270 Milliarden USD
-                  wachsen.
+                  Einer der spannendsten Einsatzbereiche der
+                  Blockchain-Technologie stellt der Bereich "Decentralised
+                  Finance" (DeFi) dar. Die vergleichsweise hohen Renditen haben
+                  seit 2017 viele Anleger in diesen Bereich gelockt. Das
+                  innerhalb des DeFi Systems investierte Kapital (Total Value
+                  locked) konnte innerhalb weniger Jahre auf weltweit über 270
+                  Milliarden USD wachsen.
                   <br />
                   <br />
-                  Auch wenn die Idee, zentrale Instanzen aus dem klassichen
+                  Auch wenn die Idee, zentrale Instanzen aus dem klassischen
                   Finanzwesen zu entfernen, mit etlichen Chancen einhergeht,
                   stehen diesen auch erhebliche Risiken gegenüber.
                   <br />
                   <br />
-                  Neben klassichen Investitionsrisken soll es im Folgenden
+                  Neben klassischen Investitionsrisiken soll es im Folgenden
                   insbesondere um die Darstellung ausgewählter
                   nicht-finanzieller Risiken gehen.
                 </h4>
@@ -258,9 +258,10 @@ function DEX(props) {
                   <br />
                   <br />
                   Zugeführt werden diese Daten über sogenannte Oracles. Diese
-                  bringen Daten verschiedenen Formates in eine für einen Smart
-                  Contract verwertbare Darstellung und sollen die Kommunikation
-                  mit Schnittstellen außerhalb der Anwendung gewährleisten.
+                  bringen Daten aus verschiedenen Formaten in eine für einen
+                  Smart Contract verwertbare Darstellung und sollen die
+                  Kommunikation mit Schnittstellen außerhalb der Anwendung
+                  gewährleisten.
                   <br />
                   <br />
                   Bei der Nutzung von externen Daten muss sichgestellt werden,
@@ -366,7 +367,7 @@ function DEX(props) {
               <h2 id="Mobile_Content_Top_Section_h2_yellow"></h2>
               <h5 id="Mobile_Content_Top_Section_h5">
                 Einer der spannendsten Einsatzbereiche der Blockchain
-                Technologie stellt der Bereich des Decentralised Finance (DeFi)
+                Technologie stellt der Bereich "Decentralised Finance" (DeFi)
                 dar. Die vergleichsweise hohen Renditen haben seit 2017 viele
                 Anleger in diesen Bereich gelockt. Das innerhalb des DeFi
                 Systems investierte Kapital (Total Value locked) konnte
@@ -374,12 +375,12 @@ function DEX(props) {
                 wachsen.
                 <br />
                 <br />
-                Auch wenn die Idee, zentrale Instanzen aus dem klassichen
+                Auch wenn die Idee, zentrale Instanzen aus dem klassischen
                 Finanzwesen zu entfernen, mit etlichen Chancen einhergeht,
                 stehen diesen auch erhebliche Risiken gegenüber.
                 <br />
                 <br />
-                Neben klassichen Investitionsrisken soll es im Folgenden
+                Neben klassischen Investitionsrisiken soll es im Folgenden
                 insbesondere um die Darstellung ausgewählter nicht-finanzieller
                 Risiken gehen.
               </h5>
@@ -474,7 +475,7 @@ function DEX(props) {
                 <br />
                 <br />
                 Zugeführt werden diese Daten über sogenannte Oracles. Diese
-                bringen Daten verschiedenen Formates in eine für einen Smart
+                bringen Daten aus verschiedenen Formaten in eine für einen Smart
                 Contract verwertbare Darstellung und sollen die Kommunikation
                 mit Schnittstellen außerhalb der Anwendung gewährleisten.
                 <br />

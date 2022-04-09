@@ -81,7 +81,7 @@ function WasSindDigitaleWertpapiere(props) {
                 <HashLink to="#WasbedeutetTokenisierung">
                   <div id="WSDW_Top_Row_Button">
                     <h3 id="WSDW_Top_Row_Button_h3">
-                      Was bedeutet Tokenisierung
+                      Was bedeutet Tokenisierung ?
                     </h3>
 
                     <div id="WSDW_Top_Row_Button_Arrow_Wrapper">
@@ -343,7 +343,7 @@ function WasSindDigitaleWertpapiere(props) {
                   <h5 id="WSDW_WAS_Sind_Inner_h5">
                     Digitale Wertpapiere können unterschiedliche Ausprägungen
                     aufweisen. Sowohl der Vermögenswert, der digital abgebildet
-                    wird, als auch die mit diesem verbundenen Rechten und
+                    wird, als auch die mit diesem verbundenen Rechte und
                     Pflichten variieren stark.
                     <br />
                     <br />
@@ -460,7 +460,7 @@ function WasSindDigitaleWertpapiere(props) {
             <div id="Mobile_Padding_Wrapper">
               <div id="Mobile_White_Wrapper_Column">
                 <h3 id="Mobile_White_Wrapper_Column_h3">
-                  Was sind digitale Wertpapiere?{" "}
+                  Was sind digitale Wertpapiere ?{" "}
                 </h3>
                 <h4 id="Mobile_White_Wrapper_Column_h4">
                   Digitale Wertpapiere – Digitale Abbilder von Vermögenswerten
@@ -503,7 +503,7 @@ function WasSindDigitaleWertpapiere(props) {
             <div id="Mobile_Padding_Wrapper">
               <div id="Mobile_White_Wrapper_Column">
                 <h3 id="Mobile_White_Wrapper_Column_h3">
-                  Welche Vorteile bietet die Tokenisierung?{" "}
+                  Welche Vorteile bietet die Tokenisierung ?{" "}
                 </h3>
                 <h4 id="Mobile_White_Wrapper_Column_h4">
                   1. Kostenreduzierung{" "}
@@ -566,14 +566,14 @@ function WasSindDigitaleWertpapiere(props) {
             <div id="Mobile_Padding_Wrapper">
               <div id="Mobile_White_Wrapper_Column">
                 <h3 id="Mobile_White_Wrapper_Column_h3">
-                  Wie können digitale Wertpapiere ausgestaltet sein?
+                  Wie können digitale Wertpapiere ausgestaltet sein ?
                 </h3>
 
                 <h5 id="Mobile_White_Wrapper_Column_h5">
                   Digitale Wertpapiere können unterschiedliche Ausprägungen
                   aufweisen. Sowohl der Vermögenswert, der digital abgebildet
-                  wird, als auch die mit diesem verbundenen Rechten und
-                  Pflichten variieren stark.
+                  wird, als auch die mit diesem verbundenen Rechte und Pflichten
+                  variieren stark.
                   <br></br>
                   Je nach Ausgestaltung werden digitale Wertpapiere von
                   Aufsichtsbehörden wie traditionelle Wertpapiere behandelt. In

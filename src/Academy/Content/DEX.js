@@ -20,19 +20,19 @@ import Zweier_Spalte_Big from "../Components/Zweier_Spalte_Big";
 import { HashLink } from "react-router-hash-link";
 function DEX(props) {
   const DEX_Risiken = [
-    "Ein Risiko besteht in der sog. Price-Slippage. Damit sind schnelle Preisänderungen der gehandelten Token Paare gemeint. Hierbei geht es allerdings nicht nur um die generelle Volatilität, die beim Handel beim Kryptowährungen auftritt, sondern durch schnelle Preiänderungen in Folge von Liquiditätsschwankungen innerhalb der Pools. Hierbei werden Transaktionen zu anderen Preisen an die Blockchain übertragen, als durch den Nutzer erwünscht. Dies kann insbesondere dann entstehen, wenn die zu Grunde liegenden Liquiditäts Pool kleine Volumen aufweisen. Ebenso kann nicht ausgeschlossen werden, dass bei den teilweise noch sehr jungen Protokollen Fehler im Programm Code vorliegen und diese zum Nachteil der Nutzern ausgenutzt werden könnten. ",
+    "Ein Risiko besteht in der sog. Price-Slippage. Damit sind schnelle Preisänderungen der gehandelten Token Paare gemeint. Hierbei geht es allerdings nicht nur um die generelle Volatilität, die beim Handel beim Kryptowährungen auftritt, sondern durch schnelle Preiänderungen in Folge von Liquiditätsschwankungen innerhalb der Pools. Hierbei werden Transaktionen zu anderen Preisen an die Blockchain übertragen, als durch den Nutzer erwünscht. Dies kann insbesondere dann entstehen, wenn die zu Grunde liegenden Liquiditäts Pool kleine Volumen aufweisen. Ebenso kann nicht ausgeschlossen werden, dass bei den teilweise noch sehr jungen Protokollen Fehler im Programm Code vorliegen und diese zum Nachteil der Nutzer ausgenutzt werden könnten. ",
 
     "Für den DeFi Space allgemein gilt, dass es wenig regulatorische Rahmenbedingungen gibt. Das bietet einerseits die Möglichkeit, bspw. ohne KYC-Prozesse zu handeln, verhindert allerdings auch das Umsetzen von Vebraucherschutzregelungen sowie die Möglichkeit von rechtlichen Schritten gegen die Betreiber der Plattform, da diese im klassischen Rechtssinne nicht existieren. ",
-    "Ebenso besteht das Risiko des sog. impermanent Loss. Sofern der Preis auf einer DEX, welcher vom Verhältnis beider Token im Liquidity Pool abhängig ist, von dem Preis auf anderen Tauschplattformen abweicht, kann der Pool insgesamt an Wert verlieren. Hierbei können Liquiditätsbereitsteller bspw. nicht in voller Höhe von Preisanstiegen eines Tokens profitieren und sind durch das Beteiligen am Liquidity Pool schlechter als  gestellt, als wennd ie Token nicht eingesetzt werden würden.",
+    "Ebenso besteht das Risiko des sog. impermanent Loss. Sofern der Preis auf einer DEX, welcher vom Verhältnis beider Token im Liquidity Pool abhängig ist, von dem Preis auf anderen Tauschplattformen abweicht, kann der Pool insgesamt an Wert verlieren. Hierbei können Liquiditätsbereitsteller bspw. nicht in voller Höhe von Preisanstiegen eines Tokens profitieren und sind durch das Beteiligen am Liquidity Pool schlechter als  gestellt, als wenn die Token nicht eingesetzt werden würden.",
   ];
 
   const DEX_Funktion = [
     "Um den Handel zwischen verschiedenen Assets, bspw. Kryptowährungen, abzuwickeln, nehmen zentrale Börsen die Position eines Market Makers ein und stellen ein Order Buch sowie ausreichend Liquidität zur Verfügung. ",
-    "Dezentrale Börsen ermöglichen einen P2P Handel mit Hilfe von sog. Liquidity Pools. Diese Pools bestehen grundsätzlich aus zwei verschiedenen Token, je nach Trading Paar. Die Token innerhalb der Pools werden von verschiedenen Token Inhabern zur Verfügung gestellt, welche für das temporäre Ausleihen ihrer Token prozentual an den durch die DEX erhobenen Gebühren beteiligt werden. Man nennet diese Token Inhaber auch Liquidity Provider.",
+    "Dezentrale Börsen ermöglichen einen P2P Handel mit Hilfe von sog. Liquidity Pools. Diese Pools bestehen grundsätzlich aus zwei verschiedenen Token, je nach Trading Paar. Die Token innerhalb der Pools werden von verschiedenen Token Inhabern zur Verfügung gestellt, welche für das temporäre Ausleihen ihrer Token prozentual an den durch die DEX erhobenen Gebühren beteiligt werden. Man nennt diese Token Bereitsteller auch Liquidity Provider.",
     " ",
-    "Durch das Hinzufügen und Abziehen von Token aus dem Liquidity Pools können Tauschgeschäfte abgewickelt werden. Dabei verändert sich das initiale Verhältnis der Token innerhalb des Pools. Dieses Verhältnis repräsentiert den relativen Preis beider Token zueinander.",
+    "Durch das Hinzufügen und Abziehen von Token aus den Liquidity Pools können Tauschgeschäfte abgewickelt werden. Dabei verändert sich das initiale Verhältnis der Token innerhalb des Pools. Dieses Verhältnis repräsentiert den relativen Preis beider Token zueinander.",
     "",
-    "Sämtliche Prozesse zum Abwicklen von Transaktionen basieren auf Smart Contarcts und werden vollkommen automatisiert ausgeführt. In diesem Zusammenhang spricht man auch von Automated Market Makers (AMM).",
+    "Sämtliche Prozesse zum Abwicklen von Transaktionen basieren auf Smart Contracts und werden vollkommen automatisiert ausgeführt. In diesem Zusammenhang spricht man auch von Automated Market Makers (AMM).",
   ];
   return (
     <div>
@@ -81,10 +81,11 @@ function DEX(props) {
                 <h1 id="WSDW_Top_Wrapper_h2_Yellow"></h1>
                 <h4 id="WSDW_h470">
                   Das Konzept der Dezentralsierung macht auch vor Börsenplätzen
-                  (eng. Exchanges) nicht Halt. Durch das große Wachstum des DeFi
-                  Bereich konnten dezentrale Börsen schnell wachsen und wickeln
-                  mittlerweile Transaktionsvolumen in ähnlichen Größenordnungen
-                  wie zentrale Börsenplätze im Krypto-Ökosystem ab.
+                  (eng. Exchanges) nicht Halt. Durch das große Wachstum des
+                  DeFi- Bereichs konnten dezentrale Börsen schnell wachsen und
+                  wickeln mittlerweile Transaktionsvolumen in ähnlichen
+                  Größenordnungen wie zentrale Börsenplätze im Krypto-Ökosystem
+                  ab.
                 </h4>
               </div>
               <div id="WSDW_Top_Wrapper_Right">
@@ -150,19 +151,20 @@ function DEX(props) {
             {/* Was sind DEX */}
             <div id="DEX_Was_sind_wrapper">
               <div id="DEX_Was_sind_Left">
-                <h3 id="DEX_Was_sind_Left_h3">Was sind dezentrale Börsen?</h3>
+                <h3 id="DEX_Was_sind_Left_h3">Was sind dezentrale Börsen ?</h3>
                 <h5 id="DEX_Was_sind_Left_h5">
-                  Dezentrale Börsen ermöglichen, klassische Börsengeschäften,
-                  wie den Handel von verschiedenen Assets, ohne Intermediäre und
+                  Dezentrale Börsen ermöglichen, klassische Börsengeschäfte, wie
+                  den Handel von verschiedenen Assets, ohne Intermediäre und
                   durch das Nutzen der Blockchain-Technologie sowie Smart
                   Contracts zu organisieren. Das Konzept, klassische Funktionen
                   des Kapitalmarktes ohne zentrale Instanzen zu organisieren,
-                  ist auch unter dem Namen DeFi (Decentralised Finance) bekannt.{" "}
-                  <br />
+                  ist auch unter dem Begriff DeFi (Decentralised Finance)
+                  bekannt. <br />
                   <br />
                   Aktuell gibt es verschiedene dezentrale Börsenplätze, auf
-                  denen Nutzer Kryptowährungen tausche können. Diese Marktplätze
-                  nutzen mehrheitlich die Infrastruktur der Ethereum Blockchain.
+                  denen Nutzer Kryptowährungen tauschen können. Diese
+                  Marktplätze nutzen mehrheitlich die Infrastruktur der Ethereum
+                  Blockchain.
                 </h5>
               </div>
 
@@ -273,8 +275,8 @@ function DEX(props) {
               <h2 id="Mobile_Content_Top_Section_h2_yellow"></h2>
               <h5 id="Mobile_Content_Top_Section_h5">
                 Das Konzept der Dezentralsierung macht auch vor Börsenplätzen
-                (eng. Exchanges) nicht Halt. Durch das große Wachstum des DeFi
-                Bereich konnten dezentrale Börsen schnell wachsen und wickeln
+                (eng. Exchanges) nicht Halt. Durch das große Wachstum des DeFi-
+                Bereichs konnten dezentrale Börsen schnell wachsen und wickeln
                 mittlerweile Transaktionsvolumen in ähnlichen Größenordnungen
                 wie zentrale Börsenplätze im Krypto-Ökosystem ab.
               </h5>
@@ -286,15 +288,15 @@ function DEX(props) {
             <div id="DEX_Was_sind_Wrapper">
               <h2 id="NFRID_SM_h2">Was sind dezentrale Börsen ?</h2>
               <h5 id="NFRID_SM_h5">
-                Dezentrale Börsen ermöglichen, klassische Börsengeschäften, wie
+                Dezentrale Börsen ermöglichen, klassische Börsengeschäfte, wie
                 den Handel von verschiedenen Assets, ohne Intermediäre und durch
                 das Nutzen der Blockchain-Technologie sowie Smart Contracts zu
                 organisieren. Das Konzept, klassische Funktionen des
                 Kapitalmarktes ohne zentrale Instanzen zu organisieren, ist auch
-                unter dem Namen DeFi (Decentralised Finance) bekannt. <br />
+                unter dem Begriff DeFi (Decentralised Finance) bekannt. <br />
                 <br />
                 Aktuell gibt es verschiedene dezentrale Börsenplätze, auf denen
-                Nutzer Kryptowährungen tausche können. Diese Marktplätze nutzen
+                Nutzer Kryptowährungen tauschen können. Diese Marktplätze nutzen
                 mehrheitlich die Infrastruktur der Ethereum Blockchain.
               </h5>
 
