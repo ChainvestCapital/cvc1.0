@@ -63,17 +63,22 @@ function App() {
   return (
     <div className="App">
       {" "}
+      {/* 
+              <Route path="/testing" element={<Testing />} />{" "}
+  <Route path="/xxx/TestFarben" element={<FarbTesten />} />
+        <Route path="xxx/TestFilter" element={<TestFilter />} />
+        <Route path="/Digitale-Wertpapiere/Rndm" element={<Rndm />} />
+                <Route path="xxx/privateTest/Academy" element={<Academy />} />        <Route path="/Sekundaermaerkte" element={<Sekundärmärkte />} />
+
+      */}
       <Routes>
         <Route path="/" element={<Home />} />{" "}
-        <Route path="/testing" element={<Testing />} />{" "}
         <Route path="/Digitale-Wertpapiere/FourTrees" element={<FourTrees />} />
         <Route path="/Digitale-Wertpapiere/FourTrees" element={<FourTrees />} />
         <Route path="/Digitale-Wertpapiere/LakeSide" element={<LakeSide />} />
         <Route path="/Digitale-Wertpapiere/Muster" element={<Muster />} />
         <Route path="/Digitale-Wertpapiere/Bitbond" element={<Bitbond />} />
         <Route path="/Digitale-Wertpapiere/Tomorrow" element={<Tomorrow />} />
-        <Route path="/xxx/TestFarben" element={<FarbTesten />} />
-        <Route path="xxx/TestFilter" element={<TestFilter />} />
         <Route
           path="/Digitale-Wertpapiere/Boernerstrasse-2"
           element={<Boernerstrasse_zwei />}
@@ -94,7 +99,6 @@ function App() {
           path="/Digitale-Wertpapiere/Prenzlauer-Promenade"
           element={<Prenzlauer_Promande />}
         />
-        <Route path="/Digitale-Wertpapiere/Rndm" element={<Rndm />} />
         <Route path="FAQ" element={<FAQ />} />
         <Route
           path="/Digitale-Wertpapiere/Ueberseeallee"
@@ -112,9 +116,7 @@ function App() {
         <Route path="/Impressum" element={<Impressum />} />
         <Route path="/Unternehmen" element={<FürUnternehmen />} />
         <Route path="/Ueber-uns" element={<Über_Uns />} />
-        <Route path="/Sekundaermaerkte" element={<Sekundärmärkte />} />
         <Route path="/Emittenten" element={<Emittenten />} />
-        <Route path="xxx/privateTest/Academy" element={<Academy />} />
         <Route
           path="/Datenschutzerklaerung"
           element={<Datenschutzerklärung />}
