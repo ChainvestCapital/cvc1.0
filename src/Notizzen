@@ -336,3 +336,264 @@ MOBILE MENUE
               <h3 id="mobile_menue_pop_up_Content_Aööe_h3">Alle Projekte</h3>
             </div>
           </HashLink>
+
+
+
+
+
+
+
+
+
+          #Pop_Up_Projekt_Wahl_Wrapper {
+    position: absolute;
+    width: 82vw;
+    height: 78vh;
+
+    border-radius: 12PX;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 3vh;
+    padding-Bottom: 4vh;
+
+    z-index: 25;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+#Pop_Up_Projekt_Wahl_WTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+#Pop_Up_Projekt_Wahl_h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    font-size: 2vw;
+    margin: 0;
+    color: black;
+    }
+#Pop_Up_Projekt_Wahl_Closer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#Top_ProjektWahl {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 3vh;
+}
+#ProjektWahl_P{
+    display: flex;
+    flex-direction: column;
+    width: 38vw;
+    
+}
+#ProjektWahl_P_Top{
+    display: flex;
+    flex-direction: row;
+    width: 38vw;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+    align-items: center;
+
+}
+#ProjektWahl_P_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 1.25vw;
+    margin: 0;
+    color: black;
+}
+#ProjektWahl_P_h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 1vw;
+    margin: 0;
+    color: #CBCACE;}
+
+
+#ProjektWahl_P_Bottom{
+    display: flex;
+    flex-direction: row;
+
+    width: 38vw;
+    justify-content: space-between;
+
+}
+
+#Filter_Finanzierungsvolumen_Text_Wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#Pop_Up_Projekt_Wahl_Closer_IMG {
+    width: 1vw;
+}
+#Pop_Up_Projekt_Wahl_Filter{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 1.2vw;
+    margin: 0;
+    color: #CBCACE;
+    
+}
+#Filter_Rendite {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 1vw;
+    margin: 0;
+    color: black;
+    
+
+    display: flex;
+    flex-direction: column;
+}
+#Filter_Rendite_Vergleich_Slider{
+    width: 15vw;
+
+    display: flex;
+    flex-direction: column;
+
+}
+#Filter_FV_Vergleich_Slider{
+    width: 16vw;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+#Filter_Finanzierungsvolumen_Bottom{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    margin-top: 1vh;
+    width: 15vw;
+}
+#Filter_Finanzierungsvolumen_h5{
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 0.8vw;
+    margin: 0;
+    color: #CBCACE;
+}
+#Filter_Finanzierungsvolumen_Slider{
+    width: 16vw;
+    margin-left: 4vw;
+}
+#Filter_Finanzierungsvolumen {
+    display: flex;
+    flex-direction: column;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 1vw;
+    margin: 0;
+    color: black;    
+    margin-left: 4vw;
+
+}
+
+
+
+
+#Filter_Rendite_Vergleich_Slider{
+
+}
+
+
+
+#Pop_Up_Projekt_Wahl_Section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 82vw;
+    margin-top: 3vh;
+}
+#Pop_Up_Projekt_Wahl_Section_Left{
+    width: 38vw;
+    display: flex;    
+    flex-direction: column;
+
+}
+#Pop_Up_Projekt_Wahl_Section_Right{
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#Vegleich_Prop_Up_Projekte_Grid{
+    margin-top: 2vh;
+    padding-left: 0;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+
+    overflow-y: scroll;
+    height: 42vh;
+    overflow-x: hidden;
+}
+#Vegleich_Prop_Up_Projekte_Grid_ul{
+    display: grid;
+    width: 38vw;
+    padding-left: 0;
+    grid-template-columns: repeat(3, auto);
+    gap: 0.85vw;
+    list-style: none;
+
+}
+#Vegleich_Prop_Up_Projekte_Grid_li{}
+#Pop_Up_Projekt_Wahl_Section_h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 1vw;
+    margin: 0;
+    color: black;
+}
+
+#Projekt_Auswahl_Grid{
+    width: 38vw;
+}

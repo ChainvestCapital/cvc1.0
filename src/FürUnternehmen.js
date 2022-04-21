@@ -280,7 +280,7 @@ function FoFUnternehmen(props) {
                       Mehr Informationen zu ihrem Listing finden Sie{" "}
                       <a
                         id="UnderlIne"
-                        href="https://uploads-ssl.webflow.com/5f8025558e24206e1d526137/6064224aab76709cd9d956ef_FAQ%20Listing%20von%20Finanzinstrumenten.pdf"
+                        href="https://chainvest.s3.eu-central-1.amazonaws.com/ColoneOne/Sonstige+Dokumente/FAQ+Listing+und+Handel+von+Finanzinstrumente_22.pdf"
                       >
                         hier
                       </a>
@@ -300,7 +300,7 @@ function FoFUnternehmen(props) {
                         Listingprozess haben wir für Sie{" "}
                         <a
                           id="UnderlIne"
-                          href="https://uploads-ssl.webflow.com/5f8025558e24206e1d526137/6064224aab76709cd9d956ef_FAQ%20Listing%20von%20Finanzinstrumenten.pdf"
+                          href="https://chainvest.s3.eu-central-1.amazonaws.com/ColoneOne/Sonstige+Dokumente/FAQ+Listing+und+Handel+von+Finanzinstrumente_22.pdf"
                         >
                           hier
                         </a>{" "}
@@ -514,7 +514,7 @@ function FoFUnternehmen(props) {
                   Mehr Informationen zu ihrem Listing finden Sie{" "}
                   <a
                     id="UnderlIne"
-                    href="https://uploads-ssl.webflow.com/5f8025558e24206e1d526137/6064224aab76709cd9d956ef_FAQ%20Listing%20von%20Finanzinstrumenten.pdf"
+                    href="https://chainvest.s3.eu-central-1.amazonaws.com/ColoneOne/Sonstige+Dokumente/FAQ+Listing+und+Handel+von+Finanzinstrumente_22.pdf"
                   >
                     hier
                   </a>

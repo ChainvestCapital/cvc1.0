@@ -18,7 +18,7 @@ import UR_Img from "./assets/images/UR_Img.png";
 import OR_Img from "./assets/images/OR_Img.png";
 import { HashLink } from "react-router-hash-link";
 import MRECHTLICH from "./Digitale Wertpapiere/MobileComponents/mRechtliche_Kachel";
-
+import Emittenten_Soon from "./assets/images/Emittenten_Soon.png";
 import Finexeity_Logo from "./assets/images/Finexity_Logo.png";
 import Drei_Teaser_Kachel from "./components/Drei_Teaser_Kachel";
 import Mobile_VierTeaser_kACHEL from "./MobileComponents/Mobile_VierTeaser_Kachel";
@@ -173,6 +173,25 @@ function Emittenten(props) {
                 </h5>
               </div>
             </div>
+            <div id="Emittenten_Cooming_Soon">
+              <h3 id="Finexity_Fragen_Wrapper_Inner_h3">
+                Weitere Emittenten folgen in Kürze!{" "}
+              </h3>
+              <h5 id="Finexity_Fragen_Wrapper_Inner_h5_CS">
+                Chainvest Capital ist eine Vergleichsplattform für diverse
+                Projekte und verschiedenen Emittenten. Um einen noch
+                umfangreichen Vergleich zu ermöglichen, arbeiten wir
+                kontinuierlich daran, neue Partner und Projekte zu integrieren.
+                Sofern Sie Ihr Projekte bei uns listen möchten, finden Sie unten
+                weitere Informationen dazu.
+              </h5>
+              <HashLink to="../Unternehmen#">
+                <div id="Emittenten_Cooming_Soon_Button">
+                  Mehr Informationen
+                </div>
+              </HashLink>
+              <img src={Emittenten_Soon} id="Emittenten_Cooming_Soon_IMg" />
+            </div>{" "}
           </div>{" "}
           <Footer />
         </div>
@@ -222,6 +241,25 @@ function Emittenten(props) {
                 Beschreibung="Nein, die auf Chainvest Capital dargestellten Projekte stellen generell keine Empfehlung durch unser Unternehmen dar. Wir achten insbesondere auf die Bereitstellung der notwendigen regulatorischen Dokumente durch unseren Partner, geben allerdings keinerlei Empfehlung bzgl. des Erfolges des Projektes ab."
               />{" "}
             </div>
+            <div id="mEmittenten_Cooming_Soon">
+              <h3 id="mFinexity_Fragen_Wrapper_Inner_h3">
+                Weitere Emittenten folgen in Kürze!{" "}
+              </h3>
+              <h5 id="mFinexity_Fragen_Wrapper_Inner_h5_CS">
+                Chainvest Capital ist eine Vergleichsplattform für diverse
+                Projekte und verschiedenen Emittenten. Um einen noch
+                umfangreichen Vergleich zu ermöglichen, arbeiten wir
+                kontinuierlich daran, neue Partner und Projekte zu integrieren.
+                Sofern Sie Ihr Projekte bei uns listen möchten, finden Sie unten
+                weitere Informationen dazu.
+              </h5>
+              <HashLink to="../Unternehmen#">
+                <div id="mEmittenten_Cooming_Soon_Button">
+                  Mehr Informationen
+                </div>
+              </HashLink>
+              <img src={Emittenten_Soon} id="mEmittenten_Cooming_Soon_IMg" />
+            </div>{" "}
           </div>
         </div>
         <MOBILE_FOOTER />

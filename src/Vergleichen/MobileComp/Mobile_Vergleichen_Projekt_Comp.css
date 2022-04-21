@@ -1,0 +1,125 @@
+#Mobile_Vergleichen_Projekt_Wrapper{
+    width: 38vw;
+    height: 32vh;
+    border-radius: 12px;
+    overflow: hidden;
+    background:#FBFCFC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    padding-bottom: 2vh;
+    border-width: 1PX;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    cursor: pointer;
+}
+#Mobile_Vergleichen_Projekt_Wrapper_y{
+    width: 38vw;
+    height: 32vh;
+    border-radius: 12px;
+    overflow: hidden;
+    background:#FFB000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    padding-bottom: 2vh;
+    border-width: 1PX;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    cursor: pointer;
+}
+#Mobile_Vergleichen_Projekt_Top{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    height: 12vh;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Mobile_Vergleich_Pop_Up_Projekt_Top_Img{
+    border-radius: 12px;
+    width: 34vw;
+    height: 12vh;
+
+}
+#Mobile_Vergleichen_Projekt_Top_Logo_Wrapper{
+   width: 16vw;
+   height: 5vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+    background-color: white;
+    border-radius: 12px;
+
+    position: absolute;
+}
+#Mobile_Vergleichen_Projekt_Top_Logo{
+    width: 12VW;
+}
+
+#Mobile_Vergleichen_Projekt_Content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+#Mobile_Vergleichen_Projekt_Content_h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 2.8vw;
+    margin: 0;
+    color: black;
+}
+#Mobile_Vergleichen_Projekt_Content_Column{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+#Mobile_Vergleichen_Projekt_Content_h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 3.25vw;
+    margin: 0;
+    color: black;
+}
+#Mobile_Vergleichen_Projekt_Content_h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 3vw;
+    margin: 0;
+    color: #CBCACE;
+}

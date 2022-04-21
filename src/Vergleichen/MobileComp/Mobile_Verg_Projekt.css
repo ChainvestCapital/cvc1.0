@@ -1,0 +1,118 @@
+#Mobile_Vergleichen_Projekt_Wrapper{
+    margin-left: 6vw;
+}
+
+#Vergleichen_Mobile_Beschreibung_title_h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 3.25vw;
+    margin: 0;
+    color: black;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+}
+#Vergleichen_Mobile_Beschreibung_title_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight:500;
+    text-align: start;
+    font-size: 4vw;
+    margin: 0;
+    color: black;
+    margin-top: 3vh;
+
+}
+
+#Mobile_Vergleichen_Standort_Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight:400;
+    text-align:end;
+    font-size: 4vw;
+    margin: 0;
+    color: black;
+    margin-top: 3vh;
+}
+#Mobile_Vergleichen_Standort_Row_Left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    font-size: 3.5vw;
+    margin: 0;
+    color: #CBCACE;
+    width: 25vw;
+
+}
+#Mobile_Vergleichen_Standort_Row_Left_img{
+    width: 10vw;
+    margin-bottom: 1vh;
+}
+
+#Mobile_Vergleich_Laufzeit_Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+}
+#Mobile_Vergleich_Laufzeit_Row_h4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 4vw;
+    margin: 0;
+    color: #CBCACE;
+}
+#Mobile_Vergleich_Laufzeit_Row_h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight:400;
+    text-align: start;
+    font-size: 4vw;
+    margin: 0;
+    color: black;
+}
+
+#Mobile_Vergleichen_Doks_Wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#Mobile_Vergleichen_Doks_Wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vh;
+
+}
+#Mobile_Vergleichen_Doks_Item{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 4vw;
+    margin: 0;
+    color: #CBCACE;
+    align-items: center;
+    width: 40vw;
+}
+#Mobile_AnzahlderTokenChart{
+    width: 25vw;
+}

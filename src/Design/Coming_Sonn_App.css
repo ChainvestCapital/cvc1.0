@@ -4,11 +4,11 @@
   height: auto;
   z-index: 1;
   position: relative;
-  height: 110vh;
+  height: 160vh;
 }
 #CSA_BG_Wrapper_White {
   width: 100vw;
-  height: 110vh;
+  height: 160vh;
   position: absolute;
   background: rgba(255, 255, 255, 0.65);
   left: 0;
@@ -76,14 +76,80 @@
   margin: 0;
 }
 
+#Coming_App_Teaser2 {
+  margin-left: 6vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    width: 80vw;   
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+     background: linear-gradient(95.95deg, #FFFFFF 5.46%, 
+  rgba(205, 240, 234, 0.6) 186.03%);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+#Coming_App_Teaser2_Left {
+  width: 35vw;
+}
+#Coming_App_Teaser2_Img {
+  width: 20vw;
+}
+#Coming_App_Teaser2_Right {
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 8vh;
+ 
+}
+#Coming_App_Teaser2_Right_h2 {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  text-align: start;
+  margin: 0;
+}
+#Coming_App_Teaser2_Right_Grid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+}
+#Coming_App_Teaser2_Right_Grid_Row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-top: 3vh;
+}
+#Coming_App_Teaser2_Right_Grid_Item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 4vw;
+}
+#Coming_App_Teaser2_Right_Haken {
+  width: 1.75vw;
+  margin-right: 2vw;
+}
+#Coming_App_Teaser2_Right_h3 { 
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  text-align: start;
+  margin: 0;}
+
+
+
+
+
+
 /*****************************************************/
 /*****************************************************/
-/*****************************************************/
-/*****************************************************/
-/*****************************************************/
-/*****************************************************/
-/*****************************************************/
-/*****************************************************/
+
 
 #Mobile_VG_Content {
   position: relative;
@@ -94,4 +160,125 @@
 #Mobile_Vergleichstool_Top {
   padding-left: 6vw;
   padding-right: 6vw;
+}
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+
+#Mobile_App_Wrapper{
+  width: 100vw;
+  padding-bottom: 12vh;
+  background-color: #F6F6F6;
+}
+#Mobile_App_Content{
+  padding-left: 6vw;
+}
+#Mobile_App_Content_White_Wrapper{
+  width: 80vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  background-color: white;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  font-size: 3vw;
+  margin: 0;
+  color: black;
+  margin-right: 1.5vw; 
+  margin-top:5vh ;
+  margin-top: 5vh;
+}
+#Mobile_App_Content_White_Wrapper_IMG {
+  width: 80vw;
+}
+#Mobile_App_Content_White_Wrapper_PlayApple{
+  width: 80vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  background-color: white;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  align-items: center;
+
+  font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 3vw;
+    margin: 0;
+    color: black;
+    margin-right: 1.5vw; 
+    margin-top:5vh ;
+
+}
+#Mobile_App_Content_White_Wrapper_PlayApple_G{
+  width: 15VW;
+}
+#Mobile_App_Content_White_Wrapper_PlayApple_A{  width: 15VW;
+}
+#Mobile_App_Content_Teaser{
+  width: 80vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  background-color: white;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  align-items: center;
+justify-content: space-between;
+  
+    margin-top:5vh ;
+}
+#Mobile_App_Content_Teaser_Row_Wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+
+
+
+}
+#Mobile_App_Content_Teaser_Row{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 2vw;
+    margin: 0;
+    color: black;
+    margin-left: 1.5vw; 
+
+    width:40vw;
+    margin-bottom: 0.8vh;
+}
+
+#Coming_App_Teaser2_Right_Haken_mobile{
+  width: 5vw;
+  margin-right: 2vw;
+}
+#Teasder_mOBILE_MockUp{
+width: 40vw;
 }

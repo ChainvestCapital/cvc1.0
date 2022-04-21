@@ -53,6 +53,18 @@ export const createProjekt = /* GraphQL */ `
       Laufzeitbeginn
       NaechsteAusschuettung
       Laufzeitende
+      check_VI
+      check_MWE
+      check_KE
+      Doks_Counter
+      MIohneEuro
+      FVohneEuro
+      LaufzeitBeginMMMJJJJ
+      LaufzeitEndeMMMJJJJ
+      gesRendite
+      DurchschnittRendite
+      Wertentwicklung
+      TokenAnzahlOhneFormat
       createdAt
       updatedAt
     }
@@ -110,6 +122,18 @@ export const updateProjekt = /* GraphQL */ `
       Laufzeitbeginn
       NaechsteAusschuettung
       Laufzeitende
+      check_VI
+      check_MWE
+      check_KE
+      Doks_Counter
+      MIohneEuro
+      FVohneEuro
+      LaufzeitBeginMMMJJJJ
+      LaufzeitEndeMMMJJJJ
+      gesRendite
+      DurchschnittRendite
+      Wertentwicklung
+      TokenAnzahlOhneFormat
       createdAt
       updatedAt
     }
@@ -167,6 +191,18 @@ export const deleteProjekt = /* GraphQL */ `
       Laufzeitbeginn
       NaechsteAusschuettung
       Laufzeitende
+      check_VI
+      check_MWE
+      check_KE
+      Doks_Counter
+      MIohneEuro
+      FVohneEuro
+      LaufzeitBeginMMMJJJJ
+      LaufzeitEndeMMMJJJJ
+      gesRendite
+      DurchschnittRendite
+      Wertentwicklung
+      TokenAnzahlOhneFormat
       createdAt
       updatedAt
     }

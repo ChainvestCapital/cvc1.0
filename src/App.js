@@ -21,7 +21,7 @@ import Impressum from "./Impressum.js";
 import Datenschutzerklärung from "./Datenschutzerklärung.js";
 import FAQ from "./FAQ.js";
 
-import Über_Uns from "./Über-uns.js";
+import Über_Uns from "./About_Us";
 import Sekundärmärkte from "./Sekundärmärkte";
 import FürUnternehmen from "./FürUnternehmen.js";
 import WasSindDigitaleWertpapiere from "./Was-sind-Digitale-Wertpapiere";
@@ -35,15 +35,15 @@ import LakeSide from "./Digitale Wertpapiere/Projekte/Lakeside/Lakeside";
 import TestFilter from "./FilterTest";
 import Prenzlauer_Promande from "./Digitale Wertpapiere/Projekte/Prenzlauer_Promenade/Prenzlauser_Promenade";
 import Rndm from "./RndmTestSeite";
-import Vergleichstool from "./Vergleichstool";
+import Vergleichstool from "./Vergleichen2";
 import Coming_Soon_App from "./Coming_Sonn_App";
 import Academy from "./Academy";
 import DEX from "./Academy/Content/DEX";
 import FarbTesten from "./TestFarben";
-
+import Vergleichen2 from "./Vergleichen2";
 import NonFinancialRisksinDeFi from "./Academy/Content/Non-Financial-Risks-in-DeFi";
 import Testing from "./testing";
-
+import About_Us from "./About_Us.js";
 Amplify.configure(awsExports);
 function App() {
   const [ProjekteArray, setProjekteArray] = useState([]);
@@ -64,7 +64,7 @@ function App() {
     <div className="App">
       {" "}
       {/* 
-              <Route path="/testing" element={<Testing />} />{" "}
+             
   <Route path="/xxx/TestFarben" element={<FarbTesten />} />
         <Route path="xxx/TestFilter" element={<TestFilter />} />
         <Route path="/Digitale-Wertpapiere/Rndm" element={<Rndm />} />
@@ -72,7 +72,11 @@ function App() {
 
       */}
       <Routes>
+        {" "}
+        <Route path="/testing" element={<Testing />} />{" "}
         <Route path="/" element={<Home />} />{" "}
+        <Route path="/Local/Vergleichen2" element={<Vergleichen2 />} />
+        <Route path="/Local/About" element={<About_Us />} />
         <Route path="/Digitale-Wertpapiere/FourTrees" element={<FourTrees />} />
         <Route path="/Digitale-Wertpapiere/FourTrees" element={<FourTrees />} />
         <Route path="/Digitale-Wertpapiere/LakeSide" element={<LakeSide />} />

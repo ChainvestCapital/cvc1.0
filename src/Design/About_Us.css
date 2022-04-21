@@ -1,0 +1,569 @@
+#About_Wrapper{
+    width: 100vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #F6F6F6;
+
+    padding-top: 15vh;
+}
+#About_Top{
+    margin-left: 6vw;
+    width: 84vw;
+    padding-top: 2vh;
+    padding-left: 4vw;
+    
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+#About_Top_Left{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+}
+#About_Top_h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    font-size: 3.8vw;
+    margin: 0;
+    color: #434343;
+}
+#About_Top_h2_yellow{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    font-size: 3.8vw;
+    margin: 0;
+    color: #FFB000;
+}
+#About_Top_h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size:1.8vw;
+    margin: 0;
+    color: #CBCACE;
+    margin-top: 2vh;
+}
+#About_Top_Right{
+    position: relative;
+    
+}
+#About_Top_Right_IMG{
+    width: 20vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#About_Vision{
+    margin-left: 6vw;
+    width: 80vw;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 10vh;
+}
+#About_Vision_Left{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+#About_Visionh3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    font-size: 2.2vw;
+    margin: 0;
+    color: #434343;
+}
+#About_Visionh5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size:0.9vw;
+    margin: 0;
+    color: black;
+    margin-top: 2.5vh;
+}
+#About_Vision_Right{}
+
+#About_Personen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 6vw;
+    margin-top: 10vh;
+    align-items: center;
+    width: 88vw;
+}
+#About_Person_Kachel{
+    padding-top: 2vh;
+    padding-left: 4vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+    width: 36vw;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+}
+#About_Person_Kachel_Img{
+    width: 10vw;
+    height: 10vw;
+}
+#About_Person_Kachel_Right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+#About_Person_Kachel_Right_h3{  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 1.5vw;
+    margin: 0;
+    color: #434343;
+}
+
+#About_Person_Kachel_Right_h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size:1vw;
+    margin: 0;
+    color: black;
+    margin-top: 1vh;
+}
+
+#About_Person_Kachel_Right_h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size:1vw;
+    margin: 0;
+    color: black;
+    margin-top: 2vh;
+}
+
+#About_Backed{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
+
+    justify-content: space-between;
+}
+#About_Backed_Left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+   
+    padding-bottom: 2vh;
+    width: 30vw;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+
+    height: 14vh;    justify-content: end;
+position: relative;
+}
+#About_OC{
+    width: 11vw;
+    height: auto;
+}
+
+#About_Backed_Left_Top{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vh;
+}
+#About_BASH {
+    width: 12vw;
+    margin-left: 3vw;
+}
+#About_Backed_Left_h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size:1vw;
+    margin: 0;
+    color: #CBCACE;
+}
+#About_Backed_Kiel{
+    padding-top: 2vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 2vh;
+    width: 10vw;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 14vh;
+    justify-content: end;
+
+}
+#About_Standort{
+    width: 4vw;
+}
+#About_Backed_Left_h4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size:1vw;
+    margin: 0;
+    color: black;
+    margin-top: 1vh;
+}
+#About_Backed_DEC{
+    padding-top: 2vh;
+    padding-left: 4vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+    width: 26vw;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    height: 14vh;
+
+    display: flex;
+    flex-direction: column;    
+    justify-content: end;
+    align-items: flex-start;
+
+}
+
+#About_Backed_DEC_Top{
+    display: flex;
+    flex-direction: row;
+}
+#About_DEC{
+    width: 5VW;
+    cursor: pointer;
+}
+#About_Backed_DEC_Top_Right{
+    display: flex;
+    flex-direction: column;
+justify-content: center;}
+#About_Backed_DEC_Top_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size:0.8vw;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.83);    
+    margin-bottom: 0.2vh;
+}
+
+#About_Backed_DEC_Top_h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size:0.8vw;
+    margin: 0;
+    color: black;
+    margin-top: 0.5vh;
+}
+
+
+
+/****************************/
+/****************************/
+/****************************/
+/****************************/
+
+#About_Mobile_Wrapper{
+    width: 100vw;
+    padding-bottom: 12vh;
+    background-color: #F6F6F6;
+}
+
+#About_Mobile_Top{
+    
+    width: 80vw;
+    border-radius: 12PX;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 3vh;
+    padding-Bottom: 4vh;
+
+    margin-left: 6vw;
+    margin-bottom: 5vh;
+
+    position: relative;
+}
+#About_Mobile_Top_h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    font-size: 8vw;
+    margin: 0;
+    color: black;
+}
+#About_Mobile_Top_h2_yellow{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    font-size: 8vw;
+    margin: 0;
+    color: #FFB000;
+}
+
+#About_Logo_Mobile_Img{
+    width: 35vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#About_Mobile_Top_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 4.5vw;
+    margin: 0;
+    color: #CBCACE;
+    margin-top: 2vh;}
+#About_Mobile_Mid_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    font-size: 5vw;
+    margin: 0;
+    color: black;
+}
+#About_Mobile_Mid_h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 3.5vw;
+    margin: 0;
+    color: black;
+
+    margin-top: 3vh;
+}
+
+#About_Mobile_Personen_Wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6vw;
+}
+#About_Mobile_Personen_Card{
+    display: flex;
+    flex-direction: column;
+
+    width: 80vw;
+    border-radius: 12PX;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 3vh;
+    padding-Bottom: 4vh;
+    margin-top: 3vh;
+
+}
+#About_Mobile_Personen_Card_Top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#About_Lu_mOBILE_Img{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 100%;
+}
+#About_Mobile_Personen_Card_Top_Right{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 5.5vw;
+    margin: 0;
+    color: black;
+
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+}
+#About_Mobile_Personen_Card_Top_h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 4.5vw;
+    margin: 0;
+    color: #CBCACE;
+}
+#About_Mobile_Personen_Card_Bottom{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 3.5vw;
+    margin: 0;
+    color: black;
+    margin-top: 3vh;
+
+}
+
+#About_Mobile_Backed_Wrapper{
+    width: 80vw;
+    border-radius: 12PX;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 3vh;
+    padding-Bottom: 4vh;
+
+    margin-left: 6vw;
+    margin-top: 6vh;
+}
+
+#About_Mobile_Backed_OC_BA{
+    display: flex;
+    flex-direction: column;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 4.5vw;
+    margin: 0;
+    color: #CBCACE;
+}
+#About_Mobile_Backed_OC_BA_Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+#About_Mobile_Backed_OC_BA_Row_Item{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+    width: 40VW;
+}
+#About_BASH_MOB{
+    width: 36vw;
+}
+#About_Mobile_Backed_OC_BA_Col{
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 4.5vw;
+    margin: 0;
+    color: #CBCACE;
+}
+#About_Mobile_Backed_OBased{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8vh;
+}
+#About_Standort_img{
+    width: 15vw;
+    margin-right: 5vw;
+}
+#About_Mobile_Backed_OBased_Right{
+    display: flex;
+    flex-direction: column;
+}
+#About_Mobile_Backed_OBased_Right_h3{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 4.5vw;
+    margin: 0;
+    color: black;
+}
+
+#About_DEC_Mob{
+    width: 25vw;
+}
+#About_Mob_DEC_Right{
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 3.5vw;
+    margin: 0;
+    color: #CBCACE;
+}
+#About_Mob_DEC_Right_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 3.5vw;
+    margin: 0;
+    color: black;
+    
+}

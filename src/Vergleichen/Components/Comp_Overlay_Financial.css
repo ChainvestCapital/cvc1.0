@@ -1,0 +1,320 @@
+#Comp_Overlay_Financial_Wrapper{
+    width: 64vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#Comp_Overlay_Financial_Left_Box{
+    width: 35vw;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    background-color: white;
+    padding-top: 3vh;
+    height: 51vh;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+#Comp_Overlay_Financial_Top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Comp_Overlay_Financial_Top_Small{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#Comp_Overlay_Financial_h3{ font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 1.1vw;
+    margin: 0;
+    color: black;}
+#Comp_Overlay_Financial_Info {}
+
+#Comp_Overlay_Financial_Rendite_Mid_Legende_Row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vh;
+    align-items: center;
+}
+#Comp_Overlay_Financial_Rendite_Mid_Legende_1{
+    background: #CDF0EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 0.75vw;
+    height: 0.75vw;
+}
+#Comp_Overlay_Financial_Rendite_Mid_Legende_h5{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.6vw;
+    margin: 0;
+    color: #CBCACE;
+    margin-left: 1vw;
+}
+#Comp_Overlay_Financial_Rendite_Mid_Legende_2{ 
+    background: #FFB000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 0.75vw;
+    height: 0.75vw;}
+
+#Comp_Overlay_Financial_Rendite_Mid_Legende_3{ 
+    background: rgba(205, 240, 234, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 0.75vw;
+    height: 0.75vw;}
+
+
+
+#Comp_Overlay_Financial_Rendite_Mid{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vh;
+    
+}
+
+#Comp_Overlay_Financial_Rendite_Mid_Legende{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 10vw;
+    height: 24vh;
+    justify-content: center;
+}
+#Comp_Overlay_Financial_Rendite_Mid_Proj_Wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 22vw;
+    justify-content: space-between;
+    margin-left: 2vw;
+}
+#Comp_Overlay_Financial_Rendite_Mid_Projekt{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    width: 11vw;
+}
+#Comp_Overlay_Financial_Rendite_Mid_Projekt_Chart_Wrapper{
+
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#Comp_Overlay_Financial_Rendite_Mid_Projekt_h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.8vw;
+    margin: 0;
+    color: #CBCACE;
+}
+#ChartwRAPPER {
+    width: 8vw;
+    height: 14vh;
+    margin-bottom: 2vh;
+}
+
+#Comp_Overlay_Financial_Rendite_Bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+#Comp_Overlay_Financial_Rendite_Bottom_Row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#Comp_Overlay_Financial_Rendite_Bottom_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.8vw;
+    margin: 0;
+    color: #CBCACE;
+    width: 12vw;
+
+    
+}
+#Comp_Overlay_Financial_Rendite_Bottom_h3_2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.8vw;
+    margin: 0;
+    color: black;
+
+    width: 11vw;
+}
+#Comp_Overlay_Financial_Rendite_Bottom_h3_3{  font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.8vw;
+    margin: 0;
+    color: black;
+    width: 11vw;
+
+}
+#Rendite_Divider {
+    background-color: rgba(203, 202, 206, 0.5);
+    height: 1px;
+    width: 34vw;
+    margin-top: 0.8vh;
+    margin-bottom: 0.8vh;
+
+}
+
+
+
+
+#Comp_Overlay_Financial_Right_Box {
+    width: 21vw;   
+    padding-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    background-color: white;
+    height: 52vh;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+
+#VG_FV_Mid{
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    margin-top: 6vh;
+}
+
+
+
+
+
+
+#VG_FV_Mid_Left{
+
+    width: 7vw;
+    display: flex;
+    flex-direction: column;
+    height: 24vh;
+    align-items: flex-start;
+    justify-content: center;
+}
+#VG_FV_Mid_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.8vw;
+    margin: 0;
+    color: black;
+    margin-bottom: 1vh;
+}
+#VG_FV_Mid_Row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.6vh;
+    align-items: center;
+}
+#VG_FV_Mid_h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.65vw;
+    margin: 0;
+    color: #CBCACE;
+    margin-left: 0.55vw;
+}
+
+#VG_FV_Mid_Mid{
+    width: 6vw;
+}
+
+
+#VG_FV_Mid_Right{
+    width: 7vw;
+    display: flex;
+    flex-direction: column;
+    height: 24vh;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#Finanzierungsvolumen_Mid_Mid_CHART {
+    width: 5vw;
+}
+
+
+
+
+#Comp_Overlay_Financial_Finanzierungsvolumen_Mid_Legende_1{
+    background: #CDF0EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 0.75vw;
+    height: 0.75vw;
+}
+#Comp_Overlay_Financial_Finanzierungsvolumen_Mid_Legende_2 { 
+    background: #FFB000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 0.75vw;
+    height: 0.75vw;
+}
+
+#Finanzierungsvolumen_Bottom{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1vw;
+}
+#Finanzierungsvolumen_Bottom_Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.8vh;
+}
+#VG_FV_Prozent_Filler{
+    width: 8vw;
+    height: 2vh;
+    border-radius: 12px;
+    background: #CDF0EA;
+
+}
+#VG_FV_Prozent_Filler2{
+    width: 8vw;
+    height: 2vh;
+    border-radius: 12px;
+    background: #FFB000;
+
+}
+#Finanzierungsvolumen_Bottom_Row_h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.8vw;
+    margin: 0;
+    color: #CBCACE;
+    width: 8vw;
+}
+#Finanzierungsvolumen_Bottom_Row{margin-top: 1vh;}

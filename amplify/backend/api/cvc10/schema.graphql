@@ -52,4 +52,17 @@ type Projekt @model {
 
   NaechsteAusschuettung: String
   Laufzeitende: String
+
+  check_VI: String
+  check_MWE: String
+  check_KE: String
+  Doks_Counter: String
+  MIohneEuro: String
+  FVohneEuro: String
+  LaufzeitBeginMMMJJJJ: String
+  LaufzeitEndeMMMJJJJ: String
+  gesRendite: String
+  DurchschnittRendite: String
+  Wertentwicklung: String
+  TokenAnzahlOhneFormat: String
 }

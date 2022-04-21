@@ -6,7 +6,7 @@ import { API, graphqlOperation } from "aws-amplify";
 import { listProjekts } from "./graphql/queries";
 import Amplify from "aws-amplify";
 import * as React from "react";
-
+import TextC from "./TextC";
 import { useState, useEffect } from "react";
 import Slider from "@mui/material/Slider";
 
@@ -296,6 +296,7 @@ function Impressum() {
     setFVValue(newValue);
   };
 
+  const [ValueNorm, setValueNorm] = useState(1);
   return (
     <div>
       <div id="testting_wrapper">
@@ -402,6 +403,12 @@ function Impressum() {
             </div>
           </ul>
         </div>
+      </div>
+
+      <div id="TestComponentCommu">
+        <TextC Value={ValueNorm} />
+
+        <div id="ValueInNorm">Normal {ValueNorm}</div>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 #WSDW_Emii_Wrapper {
   background: #e0e0e0;
   width: 100vw;
-  height: 295vh;
+  height: 335vh;
   z-index: 1;
   position: relative;
 }
@@ -116,6 +116,63 @@
   padding-left: 6vw;
   margin-top: 2vh;
 }
+#Emittenten_Cooming_Soon{
+  width: 84vw;
+  padding-left: 4vw;
+  background-color: white;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  position: relative; 
+  margin-top:5vh ;
+  margin-left: 6vw;
+  margin-bottom: 5vh;
+}
+
+#Emittenten_Cooming_Soon_IMg{
+  width: 8vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#Emittenten_Cooming_Soon_Button{
+  background: #CDF0EA;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  width: 12vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  text-align: start;
+  font-size: 0.7vw;
+  margin: 0;
+  color: black;
+  white-space: nowrap;
+
+  margin-top: 2vh;
+}
+
+#Finexity_Fragen_Wrapper_Inner_h5_CS{
+  width: 50vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  margin: 0;
+  margin-top: 2vh;
+  text-align: start;
+
+  color: #434343;
+}
+
 #Emittenten_Mobile_Wrapper {
   padding-left: 6vw;
   padding-right: 6vw;
@@ -130,4 +187,66 @@
   display: flex;
   flex-direction: column;
   margin-top: 10vh;
+}
+#mEmittenten_Cooming_Soon{
+  width: 84vw;
+  padding-left: 4vw;
+  background-color: white;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  position: relative; 
+  margin-top:5vh ;
+  margin-bottom: 5vh;
+}
+#mFinexity_Fragen_Wrapper_Inner_h3{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  text-align: start;
+  font-size: 5vw;
+  margin: 0;
+  color: black;
+}
+#mEmittenten_Cooming_Soon_IMg{
+  width: 25vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#mFinexity_Fragen_Wrapper_Inner_h5_CS{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5vw;
+  margin: 0;
+  margin-top: 2vh;
+  text-align: start;
+width: 65vw;
+  color: #434343;
+}
+#mEmittenten_Cooming_Soon_Button{
+  background: #CDF0EA;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  width: 25vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2vw;
+  margin: 0;
+  margin-top: 2vh;
+  text-align: start;
+
+  color: #434343;
+white-space: nowrap;
+  margin-top: 2vh;
 }

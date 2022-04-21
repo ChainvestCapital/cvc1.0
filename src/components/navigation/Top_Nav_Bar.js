@@ -10,25 +10,29 @@ function Menue_Bar(props) {
   const [MenueItems1, setMenueItems1] = useState("MenueItemsListe1notSHOW");
   const [MenueOpacityOverlay, setMenueOpacityOverlay] =
     useState("menueOpacityNS");
- 
-    const [menueID, setmenueID] = useState("Menue_Bar_Wrapper");
 
-    
+  const [menueID, setmenueID] = useState("Menue_Bar_Wrapper_ohne_bg");
+
   window.onscroll = function () {
     menueScroll();
   };
 
   function menueScroll() {
+    if (document.body.scrollTop === 0) {
+      setmenueID("Menue_Bar_Wrapper_ohne_bg");
+    }
     if (
       document.body.scrollTop > 50 ||
       document.documentElement.scrollTop > 50
     ) {
+      setmenueID("Menue_Bar_Wrapper");
+
       setMenueOpacityOverlay("menueOpacityS");
     } else {
       setMenueOpacityOverlay("menueOpacityNS");
     }
   }
-
+  const [Menue_Farbe, setMenue_Farbe] = useState("");
   return (
     <div>
       <div
@@ -51,8 +55,6 @@ function Menue_Bar(props) {
               <HashLink to="../Academy#">
                 <h3 id="Menue_Bar_Menue__h3">Academy</h3>{" "}
               </HashLink>
-
-              <div id={MenueItems1}></div>
             </div>
             <div
               id="Menue_Bar_Menue_Item_2"
@@ -93,7 +95,6 @@ function Menue_Bar(props) {
                 {" "}
                 <h3 id="Menue_Bar_Menue__h3">Vergleichen</h3>
               </HashLink>
-              <div id={MenueItems1}></div>
             </div>
             <HashLink to="../Digitale-Wertpapiere#">
               {" "}

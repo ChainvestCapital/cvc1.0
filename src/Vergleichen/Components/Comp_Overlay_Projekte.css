@@ -1,0 +1,322 @@
+#Comp_Overlay_Projekte_Wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 64vw;
+    justify-content: space-between;
+
+}
+#Comp_Overlay_Left{
+    display: flex;
+    flex-direction: column;
+}
+#Comp_Overlay_Left_Standort {
+    width: 28vw;
+    height: 11vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#Comp_Overlay_Left_Standort_Buttom_Projekt_Bottom{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.8vw;
+    margin: 0;
+    
+    color: #CBCACE;
+
+    margin-top: 1vh;
+}
+#Comp_Overlay_Left_Standort_Buttom_Projekt1{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+
+    align-items: flex-start;
+}
+#Comp_Overlay_Left_Standort_Buttom_Projekt_Top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.7vw;
+    margin: 0;
+    color: black;
+}
+#Comp_Overlay_Left_Standort_Buttom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+#Comp_Overlay_Left_Standort_Buttom_item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 50%;
+    align-items: center;
+}
+#Standort_Img {
+    width: 2vw;
+    margin-right: 0.75vh;
+}
+#Margin_bottom_2vh{
+    margin-bottom: 2vh;
+}
+
+#Comp_Overlay_Left_Standort_Buttom_item_h4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.7vw;
+    margin: 0;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#Comp_Overlay_Beschreibung {
+    width: 28vw;
+    height: 34vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+   
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+#Info_hover_Img{
+    width: 1.5vw;
+}
+#Comp_Overlay_Beschreibung_Top {
+    width: 25vw;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+#Comp_Overlay_Beschreibung_Bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    overflow-y: scroll;
+    height: 27vh;
+    overflow-x: hidden;
+
+}
+#Comp_Overlay_Beschreibung_Projekt{
+    display: flex;
+    flex-direction: column;
+}
+#Comp_Overlay_Beschreibung_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 0.8vw;
+    margin: 0;
+    color: black;
+}
+
+#Comp_Overlay_Beschreibung_h4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.8vw;
+    margin: 0;
+    color: black;
+    margin-bottom: 1vh;
+}
+
+
+
+
+
+#Comp_Overlay_Mid{    
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+}
+#Comp_Overlay_Mid_Small_White{
+    width: 13,5vw;
+    height: 11vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+#Comp_Overlay_17vw_Top{
+    width: 13vw;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+#Comp_Overlay_Mid_Big_White {
+    width: 16vw;
+    height: 34vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+#Comp_Overlay_Mid_Big_White_Bottom{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 13,5vw;
+
+}
+#Laufzeit_Bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4vh;
+
+}
+#Laufzeit_Bottom_Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+align-items: center;
+    margin-top: 1vh;
+}
+#Laufzeit_Bottom_h4{ 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 0.65vw;
+    margin: 0;
+    color: #CBCACE;
+    white-space: nowrap;
+
+
+}
+#Laufzeit_Bottom_h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.65vw;
+    margin: 0;
+    color: black;
+}
+
+#C_OL_Token{
+    display: flex;
+    flex-direction: column;
+}
+#C_OL_Token_Chart{
+    width: 12vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vh;
+    height: 16vh;
+}
+#AnzahlderTokenChart{
+    width: 5vw;
+    height: 16vh;
+}
+#C_OL_Token_Legende{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4vh;
+    justify-content: space-between;
+}
+#C_OL_Token_Legende_Projekt{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1vw;
+}
+#C_OL_Token_Legende_Projekt_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.9vw;
+    margin: 0;
+    color: black;
+    margin-bottom: 0.5vh;
+}
+
+#C_OL_Token_Legende_Projekt_B{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    margin-top: 0.5vh;
+
+}
+#C_OL_Token_Legende_Projekt_B_L1{
+    background: #CDF0EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 0.75vw;
+    height: 0.75vw;
+}
+#C_OL_Token_Legende_Projekt_B_L2{
+    background: #FFB000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 0.75vw;
+    height: 0.75vw;
+}
+#C_OL_Token_Legende_Projekt_B_h5{font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 0.6vw;
+    margin: 0;
+    color: #CBCACE;
+    margin-left: 0.35vw;
+
+}
+
+#Comp_Overlay_Right   {
+
+    display: flex;
+    flex-direction: column;
+}

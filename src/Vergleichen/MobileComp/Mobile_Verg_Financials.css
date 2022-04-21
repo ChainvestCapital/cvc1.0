@@ -1,0 +1,272 @@
+#Mobile_Vergleichen_Fin_Rendite_Legende{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+#Mobile_Vergleichen_Fin_Rendite_Legende_Item{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 3vw;
+    margin: 0;
+    color: #CBCACE;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Mobile_Vergleichen_Fin_Rendite_Legende_Cube1{
+    width: 2vw;
+    height: 2vw;
+
+    background: #CDF0EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    margin-right: 2vw;
+}
+#Mobile_Vergleichen_Fin_Rendite_Legende_Cube2{
+    width: 2vw;
+    height: 2vw;
+
+    background: #FFB000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    margin-right: 2vw;
+
+}
+#Mobile_Vergleichen_Fin_Rendite_Legende_Cube3{
+    width: 2vw;
+    height: 2vw;
+
+    background: rgba(205, 240, 234, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    margin-right: 2vw;
+
+}
+
+#Mobile_Vergleichen_Fin_Rendite_Chart_Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+
+    margin-top: 2vh;
+}
+#Mobile_Chart_Wrapper_Fin{
+    width: 25vw;
+}
+#Mobile_Vergleichen_Fin_Rendite_Chart_Wrapper_1{
+    width: 38vw;
+    display: flex;
+    justify-content: center;
+
+}
+#Mobile_Vergleichen_Fin_Rendite_Chart_Wrapper_2 {
+    width: 38vw;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#Mobile_Vergleichen_Fin_Rendite_Namen_Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin-top: 2vh;
+}
+#Mobile_Vergleichen_Fin_Rendite_Namen_Row_Item_1{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    font-size: 4vw;
+    margin: 0;
+    color: black;
+}
+#Mobile_Vergleichen_Fin_Rendite_Namen_Row_Item_2{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    font-size: 4vw;
+    margin: 0;
+    color: black;
+}
+
+#Mobile_Vergleichen_Fin_Rendite_Value_Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+}
+#Mobile_Vergleichen_Fin_Rendite_Value_Row_Item_1{
+    width: 40vw;
+    display:flex;
+    justify-content: center;
+
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 4vw;
+    margin: 0;
+    color: black;
+}
+#Mobile_Vergleichen_Fin_Rendite_Value_Row_Item_2{
+    
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 4vw;
+    margin: 0;
+    color: black;
+}
+#Mobile_Vergleichen_Fin_Vlaues_Wrapper{
+    margin-top: 3vh;
+}
+#Mobile_Vergleichen_Fin_Values_Legende_Row{
+    width: 76vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    text-align: start;
+    font-size: 4vw;
+    margin: 0;
+    color: #CBCACE;
+    border-top-color: #CBCACE;
+    border-top-width:1px;
+    border-top-style:solid;
+
+    border-bottom-color: #CBCACE;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+
+}
+
+#Vergleichen_Mobile_Finanzierungsvolumen_Top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vh;
+
+}
+#Vergleichen_Mobile_Finanzierungsvolumen_Chart_Wrapper{
+    width: 40vw;
+}
+#Vergleichen_Mobile_Finanzierungsvolumen_Legende{
+    width: 40vw;
+    display:flex;
+    flex-direction: column;
+}
+#Vergleichen_Mobile_Finanzierungsvolumen_Legende_Item{
+    display:flex;
+    flex-direction: column;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 4vw;
+    margin: 0;
+    color: black;
+    margin-bottom: 2vh;
+}
+#Vergleichen_Mobile_Finanzierungsvolumen_Legende_Item_Unten{
+    display:flex;
+    flex-direction: row;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    text-align: start;
+    font-size: 4vw;
+    margin: 0;
+    color: #CBCACE;
+    margin-top: 1vh;
+    align-items: center;
+}
+#Mobile_Fin_FV_Wrapper{
+    width: 20vw;
+    padding-left: 10VW;
+}
+#Vergleichen_Mobile_Finanzierungsvolumen_Bottom{
+    margin-top: 3.5vh;
+}
+#Vergleichen_Mobile_Finanzierungsvolumen_Bottom_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 4vw;
+    margin: 0;
+    color: black;
+    margin-top: 1vh;
+}
+#Vergleichen_Mobile_Finanzierungsvolumen_Bottom_Projekt{
+    display: flex;
+    flex-direction: column;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    text-align: start;
+    font-size: 4vw;
+    margin: 0;
+    color: #CBCACE;
+
+    margin-top: 3vh;
+}
+#Vergleichen_Mobile_Finanzierungsvolumen_Bottom_Projekt_Row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 1vh;
+}
+#Vergleichen_Mobile_Finanzierungsvolumen_Bottom_Projekt_Bar1{
+    width: 65vw;
+    height: 2vh;
+    border-radius: 8px;
+    background: #CDF0EA;
+
+
+}
+
+#Vergleichen_Mobile_Finanzierungsvolumen_Bottom_Projekt_Bar2{
+    width: 65vw;
+    height: 2vh;
+
+    border-radius: 8px;
+
+    background: #FFB000;
+
+}

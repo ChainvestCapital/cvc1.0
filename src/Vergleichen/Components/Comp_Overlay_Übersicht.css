@@ -1,0 +1,302 @@
+#VG_Übersicht_Wrapper{
+    display: flex;
+    flex-direction: row;
+}
+#VG_Übersicht_Left{
+    display: flex;
+    flex-direction: column;
+}
+#VG_Übersicht_Beschreibung{
+    width: 28vw;
+    height: 32vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+   
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+#VG_Übersicht_ZuP{
+    width: 28vw;
+    height: 12vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+   
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+#Comp_Overlay_Beschreibung_h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 0.75vw;
+    margin: 0;
+    color: #CBCACE;
+    margin-bottom: 2vh;
+}
+
+#VG_Übersicht_ZuP_Bottom{
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 24vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 4vh;
+
+    margin-top: 2vh;
+    
+
+    
+
+}
+#VG_Übersicht_ZuP_Bottom_Button{
+    background: #CDF0EA;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 0.7vw;
+    margin: 0;
+    color: black;
+    white-space: nowrap;
+
+
+}
+#VG_Übersicht_ZuP_Bottom_Button_Img{
+    width: 1vw;
+    margin-left: 1vw;
+}
+
+#VG_Übersicht_Midest_Bottom_Chart_Wrapper{
+    width: 4vw;
+    display: flex;
+}
+#Übersicht_Mind_Chart_Wrapper{
+    width: 4vw;    align-items: flex-end;
+
+}
+#VG_Übersicht_Midest_Bottom{
+    display: flex;
+    flex-direction: row;
+    width: 13vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 3vh;
+    justify-content: space-between;
+}
+#VG_Übersicht_Midest_Bottom_Legende{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    padding-left: 1vw;
+}
+#VG_Über_Mar2{
+    margin-top: 2vh;
+}
+#VG_Über_FV_Mid_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.8vw;
+    margin: 0;
+    color: black;
+}
+#VG_Übersicht_Midest_Bottom_Legende_Row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 0.65vw;
+    margin: 0;
+    color: black;
+}
+#VG_Übersicht_Legende_1{
+    background: #CDF0EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 0.65vw;
+    height: 0.65vw;
+
+    margin-right: 0.5vw;
+
+}
+#VG_Übersicht_Legende_2{
+    background: #FFB000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 0.65vw;
+    height: 0.65vw;
+
+    margin-right: 0.5vw;
+}
+#VG_Übersicht_Left{
+    display: flex;
+    flex-direction: column;
+}
+#VG_Übersicht_Mid{
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    margin-left: 2vw;
+
+}
+#Comp_Overlay_Übersicht_Smal_Top{
+    width: 13vw;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+#VG_Übersicht_Mid_Top{
+    width: 16vw;
+    height: 22vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+   
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+#VG_Übersicht_Mid_Bottom{
+    width: 16vw;
+    height: 22vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+   
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#VG_Übersicht_Right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+#VG_Übersicht_Laufzeit_Bottom{
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-top: 1vh;
+}
+#VG_Übersicht_Laufzeit_Bottom_Row{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    margin-top:0.5vh;
+    width: 13vw;
+}
+#VG_Übersicht_Laufzeit_Bottom_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 0.8vw;
+    margin: 0;
+    color: #CBCACE;
+    white-space: nowrap;
+
+}
+#VG_Übersicht_Laufzeit_Bottom_h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.8vw;
+    margin: 0;
+    color: black;    white-space: nowrap;
+
+}
+#VG_Übersicht_Laufzeit_Bottom__Bottom_h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.85vw;
+    margin: 0;
+    color: black;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+#Übersicht_Dokuemnte_Bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    padding-left: 2vw;
+}
+#Übersicht_Dokuemnte_Projekt {
+    display: flex;
+    flex-direction: row;
+    width: 12vw;
+    align-items: center;
+    margin-top: 2vh;
+    justify-content: space-between;
+    
+}
+#Übersicht_Dokuemnte_h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 0.75vw;
+    margin: 0;
+    color: black;
+        white-space: nowrap;
+
+}
+
+
+#Übersicht_FinanzierungsVolumen_Chart{
+    width: 5vw;
+}
+#VG_Übersicht_Mid_Bottom_Bottom{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 2vh;
+}
+#VG_Übersicht_Mid_Bottom_Chart_Warpper{
+    width: 6vw;
+}
+
+#Übersicht_MI_Chart{
+    width: 5vw;
+}
+#VG_Übersicht_Mid_Bottom_Legende{
+    width: 6vw;
+}

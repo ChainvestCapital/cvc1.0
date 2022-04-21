@@ -50,6 +50,18 @@ export const getProjekt = /* GraphQL */ `
       Laufzeitbeginn
       NaechsteAusschuettung
       Laufzeitende
+      check_VI
+      check_MWE
+      check_KE
+      Doks_Counter
+      MIohneEuro
+      FVohneEuro
+      LaufzeitBeginMMMJJJJ
+      LaufzeitEndeMMMJJJJ
+      gesRendite
+      DurchschnittRendite
+      Wertentwicklung
+      TokenAnzahlOhneFormat
       createdAt
       updatedAt
     }
@@ -109,6 +121,18 @@ export const listProjekts = /* GraphQL */ `
         Laufzeitbeginn
         NaechsteAusschuettung
         Laufzeitende
+        check_VI
+        check_MWE
+        check_KE
+        Doks_Counter
+        MIohneEuro
+        FVohneEuro
+        LaufzeitBeginMMMJJJJ
+        LaufzeitEndeMMMJJJJ
+        gesRendite
+        DurchschnittRendite
+        Wertentwicklung
+        TokenAnzahlOhneFormat
         createdAt
         updatedAt
       }

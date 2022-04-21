@@ -748,7 +748,6 @@ function AlleProjekte() {
         console.log(shownProjects);
       } else {
         setLogistikArray([]);
-        console.log("S");
       }
     });
   }
@@ -883,7 +882,7 @@ function AlleProjekte() {
       return (
         <div id="KeinegefundenWrapper">
           <h2 id="Keinegefunden_h2">
-            Aktuelle leider keine Projekte in dieser Kategorie gefunden
+            Aktuell leider keine Projekte in dieser Kategorie gefunden
           </h2>
         </div>
       );

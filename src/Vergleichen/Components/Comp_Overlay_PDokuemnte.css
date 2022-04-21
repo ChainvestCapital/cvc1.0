@@ -1,0 +1,147 @@
+#Comp_Overlay_Dokumente_Wrapper{
+    display: flex;
+    
+    flex-direction: column;    
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 62vw;
+    height: 54vh;
+    padding-left: 2vw;
+    padding-right: 0vw;
+
+}
+#Comp_Overlay_Dokumente_Top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 12vh;
+    padding-top: 2vh;
+}
+#Vergleichen2_h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 1.6vw;
+    margin: 0;
+    color: black;
+}
+#Comp_Overlay_Dokumente_Info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vh;
+}
+#Comp_Overlay_Dokumente_Bottom {
+    display: flex;
+    flex-direction: row;
+
+}
+#Comp_Overlay_Dokumente_Bottom_Left {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+}
+#Comp_Overlay_Dokumente_Bottom_Projekt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+}
+#Comp_Overlay_Dokumente_Bottom_Left_Table {
+    display: flex;
+    flex-direction: column;
+}
+#Comp_Overlay_Dokumente_Bottom_Left_Table_row {
+    display: flex;
+    flex-direction: row;
+    width: 36vw;
+    justify-content: space-between;
+}
+#Comp_Overlay_Dokumente_Bottom_Left_Table_row_Col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Comp_Overlay_Dokumente_Table_Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+#Overlay_Doks_GreenCheck_Img{
+    width: 1.2vw;
+}
+#Overlay_Doks_RednCheck_Img {
+    width: 1.2vw;
+
+}
+#Comp_Overlay_Dokumente_Table_Item_h4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.8vw;
+    margin: 0;
+    color: #CBCACE;
+    margin-top: 1vh;
+}
+#Comp_Overlay_Dokumente_Bottom_Left_Divide{
+    width: 36vw;
+    height: 2px;
+    background-color: rgba(203, 202, 206, 0.5);
+
+}
+#Comp_Overlay_Dokumente_Bottom_Left_Counter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6vw;
+    align-items: center;
+    width: 5vw;
+    
+}
+#Projekt_Doks_Counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 1vw;
+    margin: 0;
+    color: black;
+    
+    background: #CDF0EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 2.5VW;
+    height: 2.5VW;
+}
+#Comp_Overlay_Dokumente_Bottom_Left_Counter_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.2vw;
+    margin: 0;
+    color: #CBCACE;
+    margin-top: 2vh;
+}
+#Comp_Overlay_Dokumente_Bottom_Right {
+    position: relative;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 46vh;
+    width: 100%;
+} 
+#Doks_Ov_Bild_Img {
+    position: absolute;
+    right: -2vw;
+    bottom: -1vh;
+    width: 15vw;
+    transform: rotate(-10deg);
+}
