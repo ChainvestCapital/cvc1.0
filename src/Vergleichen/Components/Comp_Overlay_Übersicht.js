@@ -141,20 +141,24 @@ function Comp_Overlay_Übersicht(props) {
             </div>
             <div id="VG_Übersicht_ZuP_Bottom">
               {" "}
-              <div id="VG_Übersicht_ZuP_Bottom_Button">
-                {props.titleP1}
-                <img
-                  src={yellow_Arrow}
-                  id="VG_Übersicht_ZuP_Bottom_Button_Img"
-                />
-              </div>
-              <div id="VG_Übersicht_ZuP_Bottom_Button">
-                {props.titleP2}
-                <img
-                  src={yellow_Arrow}
-                  id="VG_Übersicht_ZuP_Bottom_Button_Img"
-                />
-              </div>
+              <a href={props.ProjektLink1}>
+                <div id="VG_Übersicht_ZuP_Bottom_Button">
+                  {props.titleP1}
+                  <img
+                    src={yellow_Arrow}
+                    id="VG_Übersicht_ZuP_Bottom_Button_Img"
+                  />
+                </div>
+              </a>{" "}
+              <a href={props.ProjektLink2}>
+                <div id="VG_Übersicht_ZuP_Bottom_Button">
+                  {props.titleP2}
+                  <img
+                    src={yellow_Arrow}
+                    id="VG_Übersicht_ZuP_Bottom_Button_Img"
+                  />
+                </div>
+              </a>
             </div>{" "}
           </div>
         </div>

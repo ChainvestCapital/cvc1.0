@@ -722,7 +722,9 @@ function Vergleichen2(props) {
     msetmOverlay_Financials(false);
     msetOverlay_Dokumente(false);
   }
-
+  useEffect(() => {
+    document.title = "Vergleichen";
+  }, []);
   return (
     <div>
       <div id="Desktop_Wrapper">
@@ -954,8 +956,8 @@ function Vergleichen2(props) {
                   MI2={chossenProjekt2.MIohneEuro}
                   FV2={chossenProjekt2.FVohneEuro}
                   FV1={chossenProjekt1.FVohneEuro}
-                  ProjektLink1={chossenProjekt1.InternerLink}
-                  ProjektLink2={chossenProjekt2.InternerLink}
+                  ProjektLink1={chossenProjekt1.ExternerLink}
+                  ProjektLink2={chossenProjekt2.ExternerLink}
                 />
 
                 <Comp_Overlay_Projekte
@@ -1043,9 +1045,11 @@ function Vergleichen2(props) {
                     Rendite={chossenProjekt1.ErwRendite}
                   />
                   <div id="Vergleichen_Projekt_Auswahl_Projekte_Row">
-                    <div id="Vergleichen_Projekt_Auswahl_Projekte_Row_Button">
-                      Zum Projekt
-                    </div>
+                    <a href={chossenProjekt1.InternerLink}>
+                      <div id="Vergleichen_Projekt_Auswahl_Projekte_Row_Button">
+                        Zum Projekt
+                      </div>
+                    </a>
                     <h3 id="Vergleichen_Projekt_Auswahl_Projekte_h3">
                       Projekt 1
                     </h3>
@@ -1060,9 +1064,11 @@ function Vergleichen2(props) {
                   />
 
                   <div id="Vergleichen_Projekt_Auswahl_Projekte_Row">
-                    <div id="Vergleichen_Projekt_Auswahl_Projekte_Row_Button">
-                      Zum Projekt
-                    </div>
+                    <a href={chossenProjekt2.InternerLink}>
+                      <div id="Vergleichen_Projekt_Auswahl_Projekte_Row_Button">
+                        Zum Projekt
+                      </div>
+                    </a>
                     <h3 id="Vergleichen_Projekt_Auswahl_Projekte_h3">
                       Projekt 2
                     </h3>
