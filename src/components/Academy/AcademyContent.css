@@ -1,103 +1,68 @@
-#AcademyContent_Wrapper {
-  background-color: white;
+#Academy_Content_Wrapper {
   display: flex;
   flex-direction: row;
-  border-radius: 12px;
-  align-items: center;
   justify-content: space-between;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  position: relative;
   width: 88vw;
-  margin-top: 3vh;
+  margin-top: 8vh;
 }
-
-#AcademyContent_Left_H2 {
-  color: rgba(0, 0, 0, 0.9);
-  font-family: Montserrat;
-  font-size: 1.4vw;
-  font-weight: 700;
-  margin: 0;
-  text-align: start;
-}
-#AcademyContent_Left_H5 {
-  color: rgba(0, 0, 0, 0.8);
-  font-family: Montserrat;
-  font-size: 0.9vw;
-  font-weight: 400;
-  margin: 0;
-  margin-top: 3vh;
-  text-align: start;
-}
-
-#AcademyContent_Left {
-  width: 35vw;
-  padding-left: 3vw;
-  padding-top: 3vh;
-  padding-bottom: 2vh;
-}
-#AcademyContent_Right {
-  width: 34vw;
-  border-radius: 12px;
-  height: 100%;
-  position: relative;
+#Academy_Content_Left {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  width: 37vw;
+  margin-right: 8vw;
 }
-#AcademyContent_Right_IMG {
-  width: 100%;
-  height: 100%;
-}
-#AcademyContent_Right_Content_Länge {
-  color: rgba(0, 0, 0, 0.8);
-  font-family: Montserrat;
-  font-size: 1.2vw;
-  font-weight: 600;
-  margin: 0;
-  padding-left: 2vw;
-}
-#AcademyContent_Right_Content {
+#Academy_Content_Right {
+  width: 43vw;
   display: flex;
   flex-direction: column;
-  position: absolute;
-  align-items: flex-start;
+
+  justify-content: center;
 }
-#AcademyContent_Right_Tag_Wrapper {
-  margin-top: 3vh;
+#Academy_Content_Tags_Bar {
   display: flex;
   flex-direction: row;
+  margin-bottom: 2vh;
 }
-#AcademyContent_Right_Tag {
-  color: rgba(0, 0, 0, 0.8);
-  font-family: Montserrat;
-  font-size: 0.8vw;
-  font-weight: 400;
-  margin: 0;
-
-  margin-left: 2vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-bottom: 1vh;
-  padding-top: 1vh;
+#Acadmey_Content_bgimg {
+  width: 37VW;
   border-radius: 12px;
-  background-color: white;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-#Mobile_Academy_Content {
-  position: relative;
-  z-index: 55;
-  padding-bottom: 4vh;
+#Academy_Content_Tag {
+  margin-right: 2vw;
+  border-radius: 12px;
 }
-#Mobile_Academy_Top {
-  padding-left: 6vw;
-  padding-right: 6vw;
+#Academy_Content_Tag {
+  border-radius: 12px;
+padding-top: 0.7vh;
+padding-bottom: 0.7vh;
+padding-left: 2vw;
+padding-right: 2vw;
 
-  position: relative;
-  z-index: 50;
+background: rgba(205, 240, 234, 0.75);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 1.2vw;
+color: #007460;
+
 }
-#Mobile_Academy_Menue {
-  margin-top: 8vh;
+#Academy_Content_h2 {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size:2vw;
+color: black;
+margin: 0;
+text-align: start;
 }
-#Mobile_Academy_Content {
-  margin-top: 8vh;
+#Academy_Content_h4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  text-align: start;
+
+  font-weight: 400;
+  font-size:0.95vw;
+  color: black;
+  margin: 0;
+margin-top: 2vh;
 }

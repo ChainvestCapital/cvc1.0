@@ -2,26 +2,19 @@ import "./AcademyContent.css";
 function AcademyContent(props) {
   return (
     <div>
-      <div id="AcademyContent_Wrapper">
-        <div id="AcademyContent_Left">
-          <h2 id="AcademyContent_Left_H2">{props.Heading}</h2>
-
-          <h5 id="AcademyContent_Left_H5">{props.Beschreibung}</h5>
+      <div id="Academy_Content_Wrapper">
+        <div id="Academy_Content_Left">
+          <img src={props.bgimg} id="Acadmey_Content_bgimg" />
         </div>
-        <div id="AcademyContent_Right">
-          <img src={props.bgimg} id="AcademyContent_Right_IMG" />
-          <div id="AcademyContent_Right_Content">
-            <h3 id="AcademyContent_Right_Content_Länge">
-              Länge: {props.Länge}
-            </h3>
-            <div id="AcademyContent_Right_Tag_Wrapper">
-              <div id="AcademyContent_Right_Tag">{props.Tag1}</div>
-
-              <div id="AcademyContent_Right_Tag">{props.Tag2}</div>
-
-              <div id="AcademyContent_Right_Tag">{props.Tag3}</div>
-            </div>
+        <div id="Academy_Content_Right">
+          <div id="Academy_Content_Tags_Bar">
+            <div id="Academy_Content_Tag">{props.Tag1}</div>
+            <div id="Academy_Content_Tag">{props.Tag2}</div>
           </div>
+
+          <h2 id="Academy_Content_h2">{props.Heading}</h2>
+
+          <h4 id="Academy_Content_h4">{props.Beschreibung}</h4>
         </div>
       </div>
     </div>

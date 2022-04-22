@@ -1,4 +1,3 @@
-import "./App.css";
 import React from "react";
 import awsExports from "./aws-exports";
 import { useState, useEffect } from "react";
@@ -153,11 +152,10 @@ function FAQ() {
         </CookieConsent>{" "}
         <TOP_NAV_BAR />
         <div
-          id="FAQ_BG
+          id="FAQ_Wrapper
         "
         >
           {" "}
-          <div id="FAQ_BG_Wrapper_White"></div>
           <div id="FAQ_BG_Wrapper_Content">
             <div id="Blue_Absolute"></div>
             <div id="FAQ_TOP">
@@ -245,8 +243,7 @@ function FAQ() {
           <Link to="./Datenschutzerklaerung">Datenschutzerklärung</Link>
           <span style={{ fontSize: "10px" }}></span>
         </CookieConsent>{" "}
-        <div id="Mobile_Background_Grey">
-          <div id="Mobile_Background_White_Overlay"></div>
+        <div id="Mobile_FAQ_Wrapper">
           <div id="Mobile_ÜU_Content">
             <MOBILE_MENUE />
             <div id="Mobile_FAQ_Top">

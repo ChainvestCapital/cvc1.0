@@ -4,6 +4,7 @@ import ContentImg2 from "../../assets/images/ContentImg2.png";
 import { HashLink } from "react-router-hash-link";
 
 import ContentImg1 from "../../assets/images/ContentImg1.png";
+
 function DigitaleAssets(props) {
   return props.trigger ? (
     <div>

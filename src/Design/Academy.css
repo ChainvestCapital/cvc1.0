@@ -1,9 +1,10 @@
 #Academy_BG_Wrapper_diese {
-  background: #e0e0e0;
   width: 100vw;
-  height: auto;
-  z-index: 1;
-  position: relative;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: #F6F6F6;
+
+  padding-top: 15vh;
 }
 #Academy_BG_Wrapper_White_diese {
   width: 100vw;
@@ -54,6 +55,7 @@
   position: relative;
   width: 84vw;
   margin-left: 6vw;
+  display: none;
 }
 #Academy_Current_Aktive {
   color: rgba(0, 0, 0, 0.5);
@@ -119,10 +121,17 @@
 /*****************************/
 /*****************************/
 /*****************************/
-
-#Mobile_Academy_Content {
+#Mobile_Academy_Wrapper{
+  width: 100vw;
+  padding-bottom: 12vh;
+  background-color: #F6F6F6;
 }
-
+#Mobile_Academy_Content {
+  padding-left: 6vw;
+}
+#Mobile_Academy_Content_bOTTOM{
+  margin-top: 10vh;
+}
 #mAcademy_Current_Aktive {
   color: rgba(0, 0, 0, 0.5);
   font-family: Montserrat;
@@ -176,4 +185,6 @@
   position: relative;
   width: 84vw;
   margin-left: 6vw;
+
+  display: none;
 }

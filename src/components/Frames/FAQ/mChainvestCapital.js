@@ -5,12 +5,16 @@ function ChainvestCapital(props) {
     <div>
       <div id="mFragen_Wrapper">
         <MFragenBox
-          Frage="Was macht Chainvest Capital?"
-          Antwort="Chainvest Capital stellt die Schnittstelle zwischen spannenden Investitionsprojekten und einer breiten Investorencommunity dar. Über unsere Plattform erhalten AnlegerInnen einen Überblick über Projekte aus unterschiedlichen Branchen, an denen über den Erwerb digitaler Wertpapiere partizipiert werden kann."
+          Frage="Vergleicht Chainvest Capital ausschließlich Projekte von FINEXITY? 
+          "
+          Antwort="Wir arbeiten stetig an der Akquirierung neuer Partnerschaften und möchten zukünftig den
+Vergleich diverser Anbieter und Projekte verschiedener Branchen auf unserer Plattform
+anbieten.
+"
         />{" "}
         <MFragenBox
-          Frage="Welche Vorteile bietet Chainvest Capital?"
-          Antwort="Chainvest Capital bietet Zugang zu spannenden Finanzierungsprojekten aus verschiedenen Bereichen. Wir schaffen durch unser Angebot eine Übersicht über den intransparenten Markt der digitalen Wertpapiere und ermöglichen durch die Schaffung von Standards und einer einheitlichen Darstellung eine Vergleichbarkeit der Projekte und Anbieter. "
+          Frage="Warum werden nur Projekte aus der Kategorie Immobilien verglichen?"
+          Antwort="Aktuell besteht der Markt für digitale Wertpapiere insbesondere aus Immobilien-Finanzierungen. Um eine sinnhafte Vergleichbarkeit zwischen den Projekten zu gewährleisten, konzentriert sich der Vergleich aktuell auf Immobilien-Projekte."
         />{" "}
         <MFragenBox
           Frage="Spricht Chainvest Capital eine Empfehlung aus?"

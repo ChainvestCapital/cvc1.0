@@ -6,6 +6,7 @@ import Footer from "./components/navigation/Footer";
 
 import MOBILE_FOOTER from "./MobileComponents/Mobile_Footer";
 import MOBILE_MENUE from "./MobileComponents/Mobile_menue";
+import MAcademyContent from "./components/Academy/MAcademyContent";
 
 import CookieConsent from "react-cookie-consent";
 import { Link } from "react-router-dom";
@@ -14,11 +15,16 @@ import MDigitaleWP from "./components/Frames/FAQ/mDigitale_Wertpapiere";
 import Blockchain from "./components/Academy/Blockchain";
 import DeFi from "./components/Academy/DeFi";
 import DigitaleAssets from "./components/Academy/DigitaleAssets";
+import { HashLink } from "react-router-hash-link";
 
 import MBlockchain from "./components/Academy/mBlockchain";
 import MDeFi from "./components/Academy/mDeFi";
 import MDigitaleAssets from "./components/Academy/mDigitaleAssets";
 import Mobile_Academy_Top_Img from "./assets/images/Academy_Img.png";
+import ContentImg1 from "./assets/images/Content/Content_Dig_Wp.png";
+import ContentImg2 from "./assets/images/Content/Content_exchange.png";
+import ContentImg3 from "./assets/images/Content/Content_NFRIDF.png";
+
 import "./Design/Academy.css";
 function FoFUnternehmen(props) {
   useEffect(() => {
@@ -28,7 +34,7 @@ function FoFUnternehmen(props) {
   const [showDeFi, setshowDeFi] = useState(false);
   const [showBlockchain, setshowBlockchain] = useState(false);
 
-  const [mshowDigitaleAssets, setmshowDigitaleAssets] = useState(true);
+  const [mshowDigitaleAssets, setmshowDigitaleAssets] = useState(false);
   const [mshowDeFi, setmshowDeFi] = useState(false);
   const [mshowBlockchain, setmshowBlockchain] = useState(false);
 
@@ -268,7 +274,6 @@ function FoFUnternehmen(props) {
           <span style={{ fontSize: "10px" }}></span>
         </CookieConsent>{" "}
         <div id="Academy_BG_Wrapper_diese">
-          <div id="Academy_BG_Wrapper_White_diese"></div>
           <div id="Academy_BG_Wrapper_Content">
             <TOP_NAV_BAR />
             <div id="Academy_Top">
@@ -279,9 +284,7 @@ function FoFUnternehmen(props) {
                   Chainvest Capital möchte über die transparente Darstellung von
                   unseren Projekten zu besseren Investitionsentscheidung
                   beitragen. Dafür stellen wir Ihnen hilfreiche Informtionen zu
-                  diversen Themenbereichen zur Verfügung. Wählen Sie zwischen
-                  den drei Kategorien aus, über welches Thema Sie sich
-                  informieren wollen.
+                  diversen Themenbereichen zur Verfügung.
                 </h5>
               </div>
               <div id="Academy_Top_Right">
@@ -337,8 +340,8 @@ function FoFUnternehmen(props) {
           <Link to="./Datenschutzerklaerung">Datenschutzerklärung</Link>
           <span style={{ fontSize: "10px" }}></span>
         </CookieConsent>{" "}
-        <div id="Mobile_Background_Grey">
-          <div id="Mobile_Background_White_Overlay"></div> <MOBILE_MENUE />
+        <div id="Mobile_Academy_Wrapper">
+          <MOBILE_MENUE />
           <div id="Mobile_Academy_Content">
             {" "}
             <div id="Mobile_Academy_Top">
@@ -348,15 +351,52 @@ function FoFUnternehmen(props) {
                 Chainvest Capital möchte über die transparente Darstellung von
                 unseren Projekten zu besseren Investitionsentscheidung
                 beitragen. Dafür stellen wir Ihnen hilfreiche Informtionen zu
-                diversen Themenbereichen zur Verfügung. Wählen Sie zwischen den
-                drei Kategorien aus, über welches Thema Sie sich informieren
-                wollen. wollen.
+                diversen Themenbereichen zur Verfügung.
               </h5>{" "}
             </div>
             <div id="Mobile_Academy_Menue">
               <div id="Mobile_Academy_Menue_White">{buildMenuem()}</div>
             </div>
-            <div id="Mobile_Academy_Content">
+            <div id="Mobile_Academy_Content_bOTTOM">
+              <HashLink to="../Academy/Was-sind-digitale-Wertpapiere#">
+                <MAcademyContent
+                  Heading="Was sind digitale Wertpapiere ?"
+                  Länge="653 Wörter"
+                  Tag1="Digitale Wertpapiere"
+                  Tag2="Security Token"
+                  bgimg={ContentImg1}
+                  Tag3="Tokenisierung"
+                  Beschreibung="In den letzten Jahren hat die Anwendung der Blockchain-Technologie in unterschiedlichen Bereichen zugenommen und dabei unter Beweis gestellt, dass diese geeignet ist, um effizient und transparent Daten zu transferieren. Neben vielen Anwendungsmöglichkeiten hat sich insbesondere die Tokenisierung von Vermögenswerten als einer der Anwendungsfälle mit dem höchsten Disruptionspotential herausgestellt. 
+
+      Durch die Tokenisierung entstehen sog. digitale Wertpapiere, die sowohl Vermögenswerte als auch klassische Wertpapiere in die digitale Welt bringen. Dabei entstehen durch das Verwenden der Blockchain-Technologie Vorteile für InvestorInnen und EmittentInnen.
+      "
+                />
+              </HashLink>
+              <HashLink to="../Academy/Non-Financial-Risks-in-DeFi#">
+                <MAcademyContent
+                  Heading="Non Financial Risks 
+          in DeFi"
+                  Länge="855 Wörter"
+                  Tag1="DeFi"
+                  Tag2="Tech"
+                  bgimg={ContentImg2}
+                  Tag3="Tokenisierung"
+                  Beschreibung="Einer der spannendsten Einsatzbereiche der Blockchain Technologie stellt der Bereich des Decentralised Finance (DeFi) dar. Die vergleichsweise hohen Renditen haben seit 2017 viele Anleger in diesen Bereich gelockt. Das innerhalb des DeFi Systems investierte Kapital (Total Value locked) konnte innerhalb weniger Jahre auf weltweit über 270 Milliarden USD wachsen. "
+                />{" "}
+              </HashLink>
+              <div id="Margin-Bottom-2vh"></div>
+              <div id="Margin-Bottom-2vh"></div>{" "}
+              <HashLink to="../Academy/DEX">
+                <MAcademyContent
+                  Heading="Decentralised Exchanges"
+                  Länge="553 Wörter"
+                  Tag1="DeFi"
+                  Tag2="Finance"
+                  bgimg={ContentImg3}
+                  Tag3="Tokenisierung"
+                  Beschreibung="Das Konzept der Dezentralsierung macht auch vor Börsenplätzen (eng. Exchanges) nicht Halt. Durch das große Wachstum des DeFi Bereich konnten dezentrale Börsen schnell wachsen und wickeln mittlerweile Transaktionsvolumen in ähnlichen Größenordnungen wie zentrale Börsenplätze im Krypto-Ökosystem ab."
+                />
+              </HashLink>
               <MBlockchain
                 trigger={mshowBlockchain}
                 setTrigger={setmshowBlockchain}

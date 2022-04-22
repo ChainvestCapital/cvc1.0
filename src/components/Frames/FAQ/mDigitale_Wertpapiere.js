@@ -5,17 +5,31 @@ function ChainvestCapital(props) {
     <div>
       <div id="mFragen_Wrapper">
         <MFragenBox
-          Frage="Was sind digitale Wertpapiere?"
-          Antwort="Digitale Wertpapiere verleihen dem Inhaber Eigentumsrechte an einem Vermögenswert oder bilden Wertpapiere ab. Damit gehen bspw. Nutzungsrechte, Stimmrechte und Rechte an künftigen Cashflows an die InhaberInnen über.
-
-Technisch gesehen handelt es sich um Datenbank-Einträge (meist auf einer Blockchain), die den Anteil eines Vermögenswertes repräsentieren und als Besitznachweis geführt werden können.
-"
+          Frage="Bin ich nach dem Erwerb von digitalen Vermögenswerten an eine Mindesthaltedauer
+          gebunden?"
+          Antwort="Die Mindesthaltedauer von digitalen Vermögenswerten kann je nach Anbieter und dem zu
+finanzierenden Projekt variieren.
+Unser Partner FINEXITY bietet in der Regel z.B. die Möglichkeit, Ihre digitalen Anteile jederzeit auf dem
+FINEXITY Marktplatz zum Verkauf anzubieten."
         />{" "}
         <MFragenBox
-          Frage="Warum nutzt man digitale Wertpapiere?
+          Frage="Brauche ich für das Verwahren der digitalen Vermögenswerte ein eigenes Wallet ? 
           "
-          Antwort="Die Verwendung von digitalen Wertpapieren bietet verschiedenen Vorteile. Dazu zählen beispielsweise die Kostenreduzierung sowie die Erhöhung von Handelbarkeit und
-Abwicklungsgeschwindigkeit. Zudem ist es durch digitale Wertpapiere möglich, bereits mit kleinen Investitionssummen Zugang in bestimmte Asset-Klassen zu erhalten. Durch den Prozess der Tokenisierung erhöht sich ebenfalls die Transparenz des Projektes. Mehr dazu finden Sie hier."
+          Antwort="In der Regel bietet der Emittent die Möglichkeit der Verwahrung der Security Token auf
+         seiner eigenen Plattform an.
+         Demnach würde hier kein eigenes Wallet zur Verwahrung digitaler Vermögenswerte benötigt
+         werden."
+        />
+        <MFragenBox
+          Frage="Gibt es einen Mindestbetrag, welchen ich investieren muss ?"
+          Antwort="Die Forderung eines zu investierenden Mindestbetrags kann abhängig vom Emittenten der
+         Security Token bzw. der jeweiligen Handelsplattform variieren.
+         FINEXITY bietet z.B. die Möglichkeit ab einem Betrag von 500 € in digitale
+         Vermögenswerte zu investieren."
+        />
+        <MFragenBox
+          Frage="Welche Kosten entstehen bei der Investition in digitale Wertpapiere?"
+          Antwort="In der Regel werden von den Emittenten keine zusätzlichen Gebühren für den Erwerb verlangt."
         />{" "}
       </div>
     </div>
