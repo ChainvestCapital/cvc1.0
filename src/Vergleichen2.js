@@ -956,8 +956,8 @@ function Vergleichen2(props) {
                   MI2={chossenProjekt2.MIohneEuro}
                   FV2={chossenProjekt2.FVohneEuro}
                   FV1={chossenProjekt1.FVohneEuro}
-                  ProjektLink1={chossenProjekt1.ExternerLink}
-                  ProjektLink2={chossenProjekt2.ExternerLink}
+                  ProjektLink1={chossenProjekt1.InternerLink}
+                  ProjektLink2={chossenProjekt2.InternerLink}
                 />
 
                 <Comp_Overlay_Projekte
