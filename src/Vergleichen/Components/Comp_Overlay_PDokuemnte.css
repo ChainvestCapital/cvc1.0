@@ -10,6 +10,9 @@
     padding-left: 2vw;
     padding-right: 0vw;
 
+    position: relative;
+
+
 }
 #Comp_Overlay_Dokumente_Top {
     display: flex;
@@ -17,6 +20,8 @@
     justify-content: space-between;
     height: 12vh;
     padding-top: 2vh;
+    padding-right: 2vw;
+    position: relative;
 }
 #Vergleichen2_h2 {
     font-family: Montserrat;
@@ -31,7 +36,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4vh;
 }
 #Comp_Overlay_Dokumente_Bottom {
     display: flex;
@@ -144,4 +148,53 @@
     bottom: -1vh;
     width: 15vw;
     transform: rotate(-10deg);
+}
+#show_hower_Dokumente{
+    background-color:white;
+    padding-right: 2vw;
+    height: 46vh;
+
+    position: absolute;
+    bottom: 2VH;
+
+
+}
+#show_hower_Dokumente_not{
+    display: none;
+
+}
+#Hover_Doks_Einleitung{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size:0.85vw;
+    margin: 0;
+    color: black;
+
+    margin-bottom: 1vh;
+}
+#Hover_Doks_Item_Wrapper{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size:0.8vw;
+    margin: 0;
+    color: black;
+
+    margin-top: 1.8vh;
+}
+#Hover_Doks_Item_h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 0.8vw;
+    margin: 0;
+    color: black;
+
+    margin-top: 0.25vh;
 }

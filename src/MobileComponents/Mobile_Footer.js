@@ -8,35 +8,33 @@ function Mobile_Footer(props) {
     <div>
       <div id="Mobile_Footer_Wrapper">
         <div id="Mobile_Footer_Top">
-          <h2 id="Mobile_Footer_h2">
-            Let digital assets deploy their full potential
-          </h2>
+          <h2 id="Mobile_Footer_h2">Finden • Vergleichen • Verstehen</h2>
           <h5 id="Mobile_Footer_H5">
-            Die Schnittstelle zwischen digitalen Wertpapieren und einer breiten
-            Investorencommunity.
+            Chainvest Capital - Für mehr Transparenz und Übersicht im Markt der
+            digitalen Wertpapiere
           </h5>
           <div id="Mobile_Footer_Top_Spalten">
             <div id="Mobile_Footer_Top_Spalte">
-              <h3 id="Mobile_Footer_Spalte_h3">Unternehmen</h3>{" "}
-              <HashLink to="../Ueber-uns#">
+              <h3 id="Mobile_Footer_Spalte_h3">Für Investoren</h3>{" "}
+              <HashLink to="../Digitale-Wertpapiere#">
                 <div id="Mobile_Footer_Spalte_Eintrag">
-                  <h4 id="Mobile_Footer_Spalte_Eintrag_h4">Über uns</h4>
+                  <h4 id="Mobile_Footer_Spalte_Eintrag_h4">Alle Projekte</h4>
                 </div>{" "}
               </HashLink>
-              <HashLink to="../Emittenten#">
+              <HashLink to="../Vergleichstool#">
                 <div id="Mobile_Footer_Spalte_Eintrag">
-                  <h4 id="Mobile_Footer_Spalte_Eintrag_h4">Emittenten</h4>
+                  <h4 id="Mobile_Footer_Spalte_Eintrag_h4">Vergleichen</h4>
                 </div>{" "}
+              </HashLink>{" "}
+              <HashLink to="../Academy#">
+                <div id="Mobile_Footer_Spalte_Eintrag">
+                  <h4 id="Mobile_Footer_Spalte_Eintrag_h4">Academy</h4>
+                </div>
               </HashLink>
               <HashLink to="../FAQ#">
                 <div id="Mobile_Footer_Spalte_Eintrag">
                   <h4 id="Mobile_Footer_Spalte_Eintrag_h4">FAQ</h4>
                 </div>{" "}
-              </HashLink>
-              <HashLink to="../Digitale-Wertpapiere#">
-                <div id="Mobile_Footer_Spalte_Eintrag">
-                  <h4 id="Mobile_Footer_Spalte_Eintrag_h4">Alle Projekte</h4>
-                </div>
               </HashLink>
             </div>
             <div id="Mobile_Footer_Top_Spalte">
@@ -51,6 +49,27 @@ function Mobile_Footer(props) {
                   <h4 id="Mobile_Footer_Spalte_Eintrag_h4">Medium</h4>
                 </div>
               </a>
+            </div>
+          </div>
+
+          <div id="Mobile_Footer_Spalten_Wrapper">
+            <div id="Mobile_Footer_Top_Spalte">
+              <h3 id="Mobile_Footer_Spalte_h3">Unternehmen</h3>{" "}
+              <HashLink to="../Ueber-uns#">
+                <div id="Mobile_Footer_Spalte_Eintrag">
+                  <h4 id="Mobile_Footer_Spalte_Eintrag_h4">Über uns</h4>
+                </div>{" "}
+              </HashLink>
+              <HashLink to="../Unternehmen#">
+                <div id="Mobile_Footer_Spalte_Eintrag">
+                  <h4 id="Mobile_Footer_Spalte_Eintrag_h4">Für Unternehmen</h4>
+                </div>{" "}
+              </HashLink>{" "}
+              <HashLink to="../Emittenten#">
+                <div id="Mobile_Footer_Spalte_Eintrag">
+                  <h4 id="Mobile_Footer_Spalte_Eintrag_h4">Emittenten</h4>
+                </div>
+              </HashLink>
             </div>
           </div>
         </div>

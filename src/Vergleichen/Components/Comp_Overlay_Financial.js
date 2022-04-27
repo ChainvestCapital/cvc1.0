@@ -1,9 +1,13 @@
 import "./Comp_Overlay_Financial.css";
 import Chart from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
-import Info_hover from "../../assets/images/Info_Hover.png";
-
+import Info_hover from "../../assets/images/info.png";
+import { useState } from "react";
 function Comp_Overlay_Financial(props) {
+  const [cshow_hower_Rendite, setcshow_hower_Rendite] = useState(
+    "show_hower_not_Rendite"
+  );
+
   const BarChart1 = () => {
     return (
       <div id="ChartwRAPPER">
@@ -161,15 +165,52 @@ function Comp_Overlay_Financial(props) {
       </div>
     );
   };
-
   return props.trigger ? (
     <div>
       <div id="Comp_Overlay_Financial_Wrapper">
         <div id="Comp_Overlay_Financial_Left_Box">
+          <div id={cshow_hower_Rendite}>
+            <div id="show_hower_Rendite_P_Wrapper">
+              Die hier aufgeführte Gesamtrendite beschreibt eine prognostizierte
+              durchschnittliche Rendite, welche sich aus dem durchschnittlichen
+              prognostizierten Zins und der durchschnittlichen prognostizierten
+              Wertentwicklung zusammensetzt.
+              <div id="show_hower_Rendite_P_Wrapper_Bottom">
+                <div id="Hover_Legende_1"></div>
+                Gesamtrendite
+              </div>
+            </div>
+
+            <div id="show_hower_Rendite_P_Wrapper">
+              Der durchschnittliche prognostizierte Zins erfolgt pro Jahr in
+              Abhängigkeit von den erzielten Nettomieteinnahmen abzüglich aller
+              Kosten. (Es handelt sich dabei nicht um einen Festzins)
+              <div id="show_hower_Rendite_P_Wrapper_Bottom">
+                <div id="Hover_Legende_2"></div>
+                Durchschnittsrendite
+              </div>
+            </div>
+
+            <div id="show_hower_Rendite_P_Wrapper">
+              Die durchschnittliche prognostizierte Wertentwicklung ergibt sich
+              aus der Wertsteigerung der Immobilie(n), sowie der Rückführung des
+              Bankdarlehens.
+              <div id="show_hower_Rendite_P_Wrapper_Bottom">
+                <div id="Hover_Legende_3"></div>
+                Wertentwicklung
+              </div>
+            </div>
+          </div>
           <div id="Comp_Overlay_Financial_Top">
             <h3 id="Comp_Overlay_Financial_h3">Rendite</h3>
 
-            <div id="Comp_Overlay_Financial_Info">
+            <div
+              id="Comp_Overlay_Financial_Info"
+              onMouseEnter={() => setcshow_hower_Rendite("show_hower_Rendite")}
+              onMouseLeave={() =>
+                setcshow_hower_Rendite("show_hower_not_Rendite")
+              }
+            >
               {" "}
               <img src={Info_hover} id="Info_hover_Img" />
               <div id="Hover_Text_Projektbeschreibung"></div>
@@ -269,7 +310,7 @@ function Comp_Overlay_Financial(props) {
           {" "}
           <div id="Comp_Overlay_Financial_Top">
             <h3 id="Comp_Overlay_Financial_h3">Finanzierungsvolumen</h3>
-            <div id="Comp_Overlay_Financial_Info">
+            <div id="Comp_Overlay_Financial_Info_d_n">
               {" "}
               <img src={Info_hover} id="Info_hover_Img" />
               <div id="Hover_Text_Projektbeschreibung"></div>

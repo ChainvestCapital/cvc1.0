@@ -466,6 +466,41 @@
     overflow-y: scroll;
     height: 42vh;
     overflow-x: hidden;
+    padding-bottom: 4vh;
+
+    
+}
+#Display_None{
+    width: 38vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all 0.42s  linear;
+    -moz-transition: all 0.42s  linear;
+    -ms-transition: all 0.42s  linear;
+    -o-transition: all 0.42s  linear;
+    transition: all 0.42s  linear; 
+    transform: translateY(2vh);
+
+    visibility: hidden;
+    
+}
+
+#Padding{
+    width: 38vw;
+    background-color: #FFB000;
+    height: 5vh;
+}
+#Vegleich_Prop_Up_Projekte_Grid_Wrapper{
+    width: 38vw;
+    height: 42vh;
+    position: relative;
+}
+#Vegleich_Prop_Up_Projekte_Grid_li{
+    padding-bottom: 2vh;
 }
 #Vegleich_Prop_Up_Projekte_Grid_ul{
     display: grid;
@@ -474,15 +509,8 @@
     grid-template-columns: repeat(3, auto);
     gap: 0.85vw;
     list-style: none;
-    padding-bottom: 10vh;
-
+    transition:visibility 0.3s linear;
 }
-#Vegleich_Prop_Up_Projekte_Grid_Wrapper{
-    width: 38vw;
-    height: 42vh;
-    position: relative;
-}
-#Vegleich_Prop_Up_Projekte_Grid_li{}
 #Vegleich_Prop_Up_Projekte_Grid_Übergang_Wrapper{
     
     width: 38vw;
@@ -492,6 +520,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-transition: all 0.42s  linear;
+    -moz-transition: all 0.42s linear;
+    -ms-transition: all 0.42s  linear;
+    -o-transition: all 0.42s  linear;
+    transition: all 0.42s linear; 
+    transition:visibility 0.3s linear;
+    visibility: visible;
 
 }
 
@@ -524,6 +559,8 @@
 
 #Projekt_Auswahl_Grid{
     width: 38vw;
+    padding-bottom: 2vh;
+    padding-left: 0.5vw;
 }
 
 

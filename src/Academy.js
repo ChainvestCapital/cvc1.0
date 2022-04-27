@@ -25,6 +25,8 @@ import ContentImg1 from "./assets/images/Content/Content_Dig_Wp.png";
 import ContentImg2 from "./assets/images/Content/Content_exchange.png";
 import ContentImg3 from "./assets/images/Content/Content_NFRIDF.png";
 
+import AcademyAcademyTop_Right from "./assets/images/Academy-Top_Right.png";
+
 import "./Design/Academy.css";
 function FoFUnternehmen(props) {
   useEffect(() => {
@@ -281,14 +283,15 @@ function FoFUnternehmen(props) {
                 <h1 id="CV_h1_dark">Chainvest Capital</h1>
                 <h1 id="CV_h1_yellow">Academy</h1>
                 <h5 id="FU_Top_left_h5">
-                  Chainvest Capital möchte über die transparente Darstellung von
-                  unseren Projekten zu besseren Investitionsentscheidung
-                  beitragen. Dafür stellen wir Ihnen hilfreiche Informtionen zu
-                  diversen Themenbereichen zur Verfügung.
+                  Der digitale Kapitalmarkt ist extrem schnelllebig und für
+                  viele Marktteilnehmer nur schwer verständlich. Wir möchten
+                  Abhilfe schaffen und durch unsere Academy das Verständnis
+                  diverser Themenbereiche rund um die Blockchain fördern, um so
+                  zu einer optimalen Investitionsentscheidung beizutragen.
                 </h5>
               </div>
               <div id="Academy_Top_Right">
-                <img src={Mobile_Academy_Top_Img} id="Mobile_Academy_Top_Img" />
+                <img src={AcademyAcademyTop_Right} id="Academy-Top_Right_IMG" />
               </div>
             </div>
             <div id="Academy_Heading_Bar">{buildMenue()}</div>
@@ -348,10 +351,11 @@ function FoFUnternehmen(props) {
               <h2 id="Mobile_Home_Top_Sec_H2"></h2>
               <h2 id="Mobile_Home_Top_Sec_H2_yellow">Academy</h2>
               <h5 id="Mobile_Home_Top_Sec_H5">
-                Chainvest Capital möchte über die transparente Darstellung von
-                unseren Projekten zu besseren Investitionsentscheidung
-                beitragen. Dafür stellen wir Ihnen hilfreiche Informtionen zu
-                diversen Themenbereichen zur Verfügung.
+                Der digitale Kapitalmarkt ist extrem schnelllebig und für viele
+                Marktteilnehmer nur schwer verständlich. Wir möchten Abhilfe
+                schaffen und durch unsere Academy das Verständnis diverser
+                Themenbereiche rund um die Blockchain fördern, um so zu einer
+                optimalen Investitionsentscheidung beizutragen.
               </h5>{" "}
             </div>
             <div id="Mobile_Academy_Menue">
@@ -394,7 +398,7 @@ function FoFUnternehmen(props) {
                   Tag2="Finance"
                   bgimg={ContentImg3}
                   Tag3="Tokenisierung"
-                  Beschreibung="Das Konzept der Dezentralsierung macht auch vor Börsenplätzen (eng. Exchanges) nicht Halt. Durch das große Wachstum des DeFi Bereich konnten dezentrale Börsen schnell wachsen und wickeln mittlerweile Transaktionsvolumen in ähnlichen Größenordnungen wie zentrale Börsenplätze im Krypto-Ökosystem ab."
+                  Beschreibung="Das Konzept der Dezentralisierung macht auch vor Börsenplätzen (eng. Exchanges) nicht Halt. Durch das große Wachstum des DeFi-Bereichs konnten dezentrale Börsen schnell wachsen und wickeln mittlerweile Transaktionsvolumen in ähnlichen Größenordnungen wie zentrale Börsenplätze im Krypto-Ökosystem ab."
                 />
               </HashLink>
               <MBlockchain

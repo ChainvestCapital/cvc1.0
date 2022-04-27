@@ -43,17 +43,16 @@
   display: flex;
   flex-direction: row;
   padding-left: 6vw;
-  padding-right: 6vw;
-  padding-top: 20vh;
   justify-content: space-between;
-  width: 88vw;
+  width: 94vw;
   height: 88vh;
+  align-items: center;
 }
 #FU_Top_left {
   display: flex;
   flex-direction: column;
   width: 40vw;
-  padding-top: 10vh;
+  padding-top: 20vh;
 }
 #FU_Top_left_h2 {
   font-family: Montserrat;
@@ -87,11 +86,18 @@
 #FU_Top_right {
   display: flex;
   flex-direction: row;
+
   justify-content: flex-end;
+}
+#FU_Top_Right_img{
+  position: relative;
+  width: 45vw;
 }
 #FU_Vorteile_Wrapper {
   padding-left: 6vw;
   padding-right: 6vw;
+
+  margin-top: 10vh;
 }
 #FU_Vorteile_Innner {
   display: flex;

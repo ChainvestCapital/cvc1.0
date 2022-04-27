@@ -16,7 +16,7 @@ FINEXITY Marktplatz zum Verkauf anzubieten."
         <FragenBox
           Frage="Brauche ich für das Verwahren der digitalen Vermögenswerte ein eigenes Wallet ? 
           "
-          Antwort="In der Regel bietet der Emittent die Möglichkeit der Verwahrung der Security Token auf
+          Antwort="In der Regel bietet der Emittent die Möglichkeit der Verwahrung der digitalen Wertpapiere auf
          seiner eigenen Plattform an.
          Demnach würde hier kein eigenes Wallet zur Verwahrung digitaler Vermögenswerte benötigt
          werden."
@@ -24,7 +24,7 @@ FINEXITY Marktplatz zum Verkauf anzubieten."
         <FragenBox
           Frage="Gibt es einen Mindestbetrag, welchen ich investieren muss ?"
           Antwort="Die Forderung eines zu investierenden Mindestbetrags kann abhängig vom Emittenten der
-         Security Token bzw. der jeweiligen Handelsplattform variieren.
+          digitalen Wertpapiere bzw. der jeweiligen Handelsplattform variieren.
          FINEXITY bietet z.B. die Möglichkeit ab einem Betrag von 500 € in digitale
          Vermögenswerte zu investieren."
         />

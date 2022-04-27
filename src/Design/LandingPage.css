@@ -1,0 +1,660 @@
+#LandingPage_Wrapper{
+    width: 100vw;
+    padding-bottom: 5vh;
+    background-color: #F6F6F6;
+
+    padding-top: 3vh;
+}
+#LandingPage_Top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+#LandingPage_Top_Left{
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 6vw;
+
+    justify-content: center;
+    width: 40vw;
+}
+#LandingPage_Top_Left_Pre_Heading{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.85vw;
+    margin: 0;
+    color: black;
+    margin-bottom: 1vh;
+}
+#LandingPage_Top_Left_h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    font-size:4.2vw;
+    margin: 0;
+    color: black;
+}
+#LandingPage_Top_Left_Yellow{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    font-size:4.2vw;
+    margin: 0;
+    color: #FFB000;
+}
+#LandingPage_Top_Left_h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 0.9vw;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);    
+    margin-top: 2vh;
+}
+#LandingPage_Top_Left_Bottom_Wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2.8vh;
+    justify-content: flex-start;
+    width: auto;
+
+
+
+}
+#LandingPage_Top_Left_Button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.85vw;
+    margin: 0;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    align-items: center;
+    margin-right: 2vw;
+
+    padding-left: 2vw;
+    padding-right: 1vw;
+
+    
+    display: flex;
+    flex-direction: row;
+    background-color: #FFB000;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: auto;
+    cursor: pointer;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;   
+    
+}
+#LandingPage_Top_Left_Button:hover{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.85vw;
+    margin: 0;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    align-items: center;
+    margin-right: 2vw;
+
+    padding-left: 2vw;
+    padding-right: 1vw;
+
+    
+    display: flex;
+    flex-direction: row;
+    background-color: #CDF0EA;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: auto;
+    cursor: pointer;   
+}
+#LandingPage_Top_Left_Button_IMG{
+    width: 1.5vw;
+    margin-left: 1vw;
+}
+#LandingPage_Top_Left_Button_Trans{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.85vw;
+    margin: 0;
+    color: black;  
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+
+}
+#LandingPage_Top_Left_Button_Trans:hover{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.85vw;
+    margin: 0;
+    color: #FFB000;
+    display: flex;
+    flex-direction: row;
+}
+
+#LandingPage_Top_Right_IMG{
+width: 50vw;
+position: absolute;
+
+
+}
+#LandingPage_Top_Right_IMG_ger{
+    width: 25vw;
+    transform: matrix(0.94, -0.32, 0.36, 0.95, 0, 0);
+}
+#LandingPage_Top_Right{
+position: relative;
+display: flex;
+justify-content: flex-end;
+width: 52vw;
+padding-top: 0vh;
+
+}
+
+
+
+
+
+#LandingPage_Projekte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8vh;
+    width: 88vw;
+    align-items: center;
+}
+
+#LandingPage_Projekte_Left{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: relative;
+}
+
+#LandingPage_Projekte_Left_Left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 6vw;
+    position: relative;
+    z-index: 10;
+}
+#Eccplipse_Finden_IMG{
+    position: absolute;
+    width:50vw;
+    z-index: 5;
+    left: 0;
+
+}
+#LandingPage_Projekte_Left_Right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    margin-left: 3vh;
+    position: relative;
+    z-index: 10;
+}
+
+
+#LandingPage_Projekte_Right{
+    width:34vw;
+}
+#LandingPage_h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    font-size: 3.2vw;
+    margin: 0;
+    color: black;
+    white-space: nowrap;
+
+}
+#LandingPage_h3_yellow {
+    font-family: Montserrat;
+    font-style:normal;
+    font-weight: 700;
+    text-align: start;
+    font-size:3.2vw;
+    margin: 0;
+    color: #FFB000;
+}
+
+#LandingPage_h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 0.9vw;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);    
+    margin-top: 2vh;
+}
+
+#LandingPage_Under_Button_Wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2vh;
+    justify-content: flex-start;
+    width: auto;
+}
+
+
+
+#LandingPage_Vergleichen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+#LandingPage_Vergleichen_Left{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding-left: 6vw;
+}
+
+
+#LandingPage_Vergleichen_Right{}
+
+#LandingPage_Vergleichen_Img{
+    width: 35vw;
+}
+
+
+
+
+
+
+
+
+#LandingPage_Academy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0vh;
+    width: 88vw;
+}
+
+#LandingPage_Academy_Left{
+    width: 35vw;
+}
+#LandingPage_Academy_Right{
+    width:34vw;
+}
+#LandingPage_Academy_Img{
+    width: 50vw;
+}
+
+
+/*******************************/
+/*******************************/
+/*******************************/
+/*******************************/
+/*******************************/
+/*******************************/
+
+#Mobile_LandingPage{
+    width: 100vw;
+    padding-bottom: 12vh;
+    background-color: #F6F6F6;
+}
+
+#Mobile_LandingPage_Top{
+    display: flex;
+    flex-direction: column;
+}
+#Mobile_LandingPage_Top_Pre_Heading{
+    font-family: Montserrat;
+    font-style:normal;
+    font-weight: 500;
+    text-align: start;
+    font-size:4vw;
+    margin: 0;
+    color: black;
+    margin-bottom: 2vh;
+}
+#Mobile_LandingPage_Top_Pre_Heading_h1{
+    font-family: Montserrat;
+    font-style:normal;
+    font-weight: 700;
+    text-align: start;
+    font-size:9vw;
+    margin: 0;
+    color: black;
+}
+#Mobile_LandingPage_Top_Pre_Heading_h1_yellow{
+    font-family: Montserrat;
+    font-style:normal;
+    font-weight: 700;
+    text-align: start;
+    font-size:9vw;
+    margin: 0;
+    color: #FFB000;
+}
+#Mobile_LandingPage_Top_Pre_Heading_h4{
+    font-family: Montserrat;
+    font-style:normal;
+    font-weight: 500;
+    text-align: start;
+    font-size:3.5vw;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+        margin-top: 2vh;
+}
+#Mobile_Landing_Top_img{
+    width: 55vw;
+    position: absolute;
+    right: 0;
+    top:-5vh;
+}
+#Mobile_LandingPage_Top_Button_Wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top:10vh;
+    width: auto;
+    position: relative;
+}
+#Mobile_LandingPage_Top_Top{
+    display: flex;
+    flex-direction: column;
+    padding-left: 6vw;
+    width: 88vw;  
+
+}
+#Mobile_LandingPage_Top_Bottom{
+    width: 94vw;
+    padding-left: 6vw;
+    position: relative;
+    height: 25vh;
+}
+#Mobile_LandingPage_Top_Button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 3vw;
+    margin: 0;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    align-items: center;
+    margin-right: 2vw;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFB000;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 33vw;
+    cursor: pointer;
+}
+#Mobile_LandingPage_Top_Button_img{
+    width: 4vw;
+    margin-left: 2vw;
+}
+#Mobile_LandingPage_Top_Button_trans{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 3vw;
+    margin: 0;
+    color: black;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 2vh;
+}
+
+
+
+#Mobile_LandingPage_Vergleichen_Bottom_o{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 2.75vw;
+    margin: 0;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    align-items: center;
+    margin-right: 2vw;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFB000;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 30vw;
+    cursor: pointer;
+
+    margin-top: 2vh;
+}
+
+#Mobile_LandingPage_Finden{
+    margin-top:22vh;
+    padding-left: 6vw;
+    width: 88vw;    
+}
+
+#Mobile_Landing_Finden_Proejkt_Wrapper{
+    margin-top: 5vh;
+}
+
+#Mobile_LandingPage_Vergleichen{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 12vh;
+}
+
+#Mobile_LandingPage_Vergleichen_top{
+    display: flex;
+    flex-direction: column;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    width: 88vw;
+
+}
+#Mobile_Landing_h2{
+    font-family: Montserrat;
+    font-style:normal;
+    font-weight: 700;
+    text-align: start;
+    font-size:8vw;
+    margin: 0;
+    color: black;
+}
+#Mobile_Landing_h2_yellow{
+    font-family: Montserrat;
+    font-style:normal;
+    font-weight: 700;
+    text-align: start;
+    font-size:8vw;
+    margin: 0;
+    color: #FFB000;
+}
+#Mobile_Landing_h4{
+    font-family: Montserrat;
+    font-style:normal;
+    font-weight: 500;
+    text-align: start;
+    font-size:3vw;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+        margin-top: 2vh;
+}
+#Mobile_LandingPage_Vergleichen_Bottom{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 2.75vw;
+    margin: 0;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    align-items: center;
+    margin-right: 2vw;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFB000;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 30vw;
+    cursor: pointer;
+
+    margin-top: 8vh;
+}
+
+#Mobile_LandingPage_Vergleichen_Bottom_s{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 2.75vw;
+    margin: 0;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    align-items: center;
+    margin-right: 2vw;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFB000;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 22vw;
+    cursor: pointer;
+
+    margin-top: 8vh;
+}
+
+
+#Mobile_LandingPage_Vergleichen_Bottom_sb{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 2.75vw;
+    margin: 0;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    align-items: center;
+    margin-right: 2vw;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFB000;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 22vw;
+    cursor: pointer;
+
+    margin-top: 0vh;
+}
+#Mobile_LandIng_Vergleichen_Button_img{
+    width: 3.5vw;
+    margin-left: 2vw;
+}
+#Mobile_LandingPage_Vergleichen_Buttom{
+    padding-left: 6vw;
+    position: relative;
+    margin-top: 5vh;
+
+    height: 45vh;
+
+    display: flex;
+align-items: flex-start;}
+
+#Mobile_Lanidng_Vergleichen_IMG{
+    position: absolute;
+    right: 0;
+    top: -7vh;
+}
+
+
+#Mobile_LandingPage_Academy{
+    margin-bottom: 0vh;
+    margin-top: 6vh;
+}
+
+#Mobile_LandingPage_Academy_Button{
+    position: relative;
+    margin-top: 8vh;
+    height: 45vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 94vw;
+}
+
+#Mobile_Lanidng_Academy_IMG{
+    width: 80vw;
+    position: absolute;
+    left: 0;
+    top:-18vh;
+}

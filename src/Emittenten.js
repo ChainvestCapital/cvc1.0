@@ -22,6 +22,8 @@ import Emittenten_Soon from "./assets/images/Emittenten_Soon.png";
 import Finexeity_Logo from "./assets/images/Finexity_Logo.png";
 import Drei_Teaser_Kachel from "./components/Drei_Teaser_Kachel";
 import Mobile_VierTeaser_kACHEL from "./MobileComponents/Mobile_VierTeaser_Kachel";
+import Emi_Top_right_Img from "./assets/images/Emi_Top_right.png";
+
 function Emittenten(props) {
   useEffect(() => {
     document.title = "Emittenten";
@@ -75,38 +77,14 @@ function Emittenten(props) {
                 <h5 id="FU_Top_left_h5">
                   Chainvest Capital stellt Ihnen auf dieser Webseite digitale
                   Wertpapiere von Partner Unternehmen vor. In unserer
-                  Zusammenarbeit spielen die Transparenz und Erfüllung
+                  Zusammenarbeit spielen die Transparenz und die Erfüllung
                   regulatorischer Standards eine zentrale Rolle. Hier erfahren
                   Sie mehr über diese Unternehmen.
                 </h5>
               </div>
 
               <div id="FU_Top_right">
-                <div id="FU_Top_right_Spalte1">
-                  <div id="Div_Home_Top_Section_Right_TL_Wrapper">
-                    <img
-                      src={TL_Img}
-                      id="Div_Home_Top_Section_Right_TL_Img"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div id="FU_Top_right_Spalte 2">
-                  <div id="Div_Home_Top_Section_Right_TR_Wrapper">
-                    <img
-                      src={OR_Img}
-                      id="Div_Home_Top_Section_Right_OR_Img"
-                      alt=""
-                    />
-                  </div>
-                  <div id="Div_Home_Top_Section_Right_BR_Wrapper">
-                    <img
-                      src={UR_Img}
-                      id="Div_Home_Top_Section_Right_UR_Img"
-                      alt=""
-                    />
-                  </div>
-                </div>
+                <img src={Emi_Top_right_Img} id="Emi_Top_right_Img" />
               </div>
             </div>
             <div id="White_Wrapper">
@@ -118,7 +96,7 @@ function Emittenten(props) {
                     entscheidenen Plattformen für die Emission und
                     Projektdurchführung von digitalen Wertpapieren dar. Durch
                     das erfolgreiche Management von spannenden Projekten konnte
-                    das durch Finexitx verwaltete Vermögen auf über 10.000.000 €
+                    das durch Finexity verwaltete Vermögen auf über 10.000.000 €
                     steigen. Die hohe Qualität der Plattform wurde ebenfalls
                     durch Auszeichnungen als bestes Finanz-Start-Up oder
                     innovativste Immobilieninvestitionsplattform bestätigt.{" "}
@@ -169,7 +147,7 @@ function Emittenten(props) {
                   achten insbesondere auf die Bereitstellung der notwendigen
                   regulatorischen Dokumente durch unseren Partner, geben
                   allerdings keinerlei Empfehlung bzgl. des Erfolges des
-                  Projektes ab.
+                  Projekts ab.
                 </h5>
               </div>
             </div>
@@ -178,12 +156,11 @@ function Emittenten(props) {
                 Weitere Emittenten folgen in Kürze!{" "}
               </h3>
               <h5 id="Finexity_Fragen_Wrapper_Inner_h5_CS">
-                Chainvest Capital ist eine Vergleichsplattform für diverse
-                Projekte und verschiedenen Emittenten. Um einen noch
-                umfangreichen Vergleich zu ermöglichen, arbeiten wir
-                kontinuierlich daran, neue Partner und Projekte zu integrieren.
-                Sofern Sie Ihr Projekte bei uns listen möchten, finden Sie unten
-                weitere Informationen dazu.
+                Chainvest Capital ist eine Vergleichsplattform für Projekte
+                verschiedener Emittenten. Um einen umfangreichen Vergleich zu
+                ermöglichen, arbeiten wir kontinuierlich daran, neue Partner und
+                Projekte zu integrieren. Sofern Sie Ihr Projekte bei uns listen
+                möchten, finden Sie unten weitere Informationen dazu.
               </h5>
               <HashLink to="../Unternehmen#">
                 <div id="Emittenten_Cooming_Soon_Button">
@@ -193,8 +170,8 @@ function Emittenten(props) {
               <img src={Emittenten_Soon} id="Emittenten_Cooming_Soon_IMg" />
             </div>{" "}
           </div>{" "}
-          <Footer />
-        </div>
+        </div>{" "}
+        <Footer />
       </div>
 
       <div id="Mobile_Wrapper">
@@ -206,8 +183,8 @@ function Emittenten(props) {
             <h5 id="Mobile_Home_Top_Sec_H5">
               Chainvest Capital stellt Ihnen auf dieser Webseite digitale
               Wertpapiere von Partner Unternehmen vor. In unserer Zusammenarbeit
-              spielen die Transparenz und Erfüllung regulatorischer Standards
-              eine zentrale Rolle. Hier erfahren Sie mehr über diese
+              spielen die Transparenz und die Erfüllung regulatorischer
+              Standards eine zentrale Rolle. Hier erfahren Sie mehr über diese
               Unternehmen.{" "}
             </h5>
             <div id="Mobile_Home_Top_Wertpapiere">
@@ -218,7 +195,7 @@ function Emittenten(props) {
                   entscheidenen Plattformen für die Emission und
                   Projektdurchführung von digitalen Wertpapieren dar. Durch das
                   erfolgreiche Management von spannenden Projekten konnte das
-                  durch Finexitx verwaltete Vermögen auf über 10.000.000 €
+                  durch Finexity verwaltete Vermögen auf über 10.000.000 €
                   steigen. Die hohe Qualität der Plattform wurde ebenfalls durch
                   Auszeichnungen als bestes Finanz-Start-Up oder innovativste
                   Immobilieninvestitionsplattform bestätigt.
@@ -238,7 +215,7 @@ function Emittenten(props) {
               />
               <MRECHTLICH
                 title="Werden Projekte von Finexity auf Chainvest Capital empfohlen?"
-                Beschreibung="Nein, die auf Chainvest Capital dargestellten Projekte stellen generell keine Empfehlung durch unser Unternehmen dar. Wir achten insbesondere auf die Bereitstellung der notwendigen regulatorischen Dokumente durch unseren Partner, geben allerdings keinerlei Empfehlung bzgl. des Erfolges des Projektes ab."
+                Beschreibung="Nein, die auf Chainvest Capital dargestellten Projekte stellen generell keine Empfehlung durch unser Unternehmen dar. Wir achten insbesondere auf die Bereitstellung der notwendigen regulatorischen Dokumente durch unseren Partner, geben allerdings keinerlei Empfehlung bzgl. des Erfolges des Projekts ab."
               />{" "}
             </div>
             <div id="mEmittenten_Cooming_Soon">
@@ -246,12 +223,11 @@ function Emittenten(props) {
                 Weitere Emittenten folgen in Kürze!{" "}
               </h3>
               <h5 id="mFinexity_Fragen_Wrapper_Inner_h5_CS">
-                Chainvest Capital ist eine Vergleichsplattform für diverse
-                Projekte und verschiedenen Emittenten. Um einen noch
-                umfangreichen Vergleich zu ermöglichen, arbeiten wir
-                kontinuierlich daran, neue Partner und Projekte zu integrieren.
-                Sofern Sie Ihr Projekte bei uns listen möchten, finden Sie unten
-                weitere Informationen dazu.
+                Chainvest Capital ist eine Vergleichsplattform für Projekte
+                verschiedener Emittenten. Um einen umfangreichen Vergleich zu
+                ermöglichen, arbeiten wir kontinuierlich daran, neue Partner und
+                Projekte zu integrieren. Sofern Sie Ihr Projekte bei uns listen
+                möchten, finden Sie unten weitere Informationen dazu.
               </h5>
               <HashLink to="../Unternehmen#">
                 <div id="mEmittenten_Cooming_Soon_Button">

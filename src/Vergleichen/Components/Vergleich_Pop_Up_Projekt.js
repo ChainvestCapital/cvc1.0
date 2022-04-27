@@ -35,7 +35,6 @@ function Vergleich_Pop_Up_Projekt(props) {
           </h3>
           <h3 id="Vergleich_Pop_Up_Projekt_Content_h4">Erwartete Rendite</h3>
         </div>
-        <div id="Vergleich_Pop_Up_Projekt_Bottom">Projekt auswählen -> </div>
       </div>
     </div>
   );

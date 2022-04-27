@@ -202,6 +202,8 @@
     border-radius: 12px;
     display: flex;
     flex-direction: column;
+
+    position: relative;
 }
 #Comp_Overlay_Mid_Big_White_Bottom{
     padding-left: 2vw;
@@ -256,6 +258,42 @@ align-items: center;
     margin-top: 2vh;
     height: 16vh;
 }
+
+#show_T_Token{
+    background-color:white;
+    width: 11vw;
+    padding-right: 2vw;
+    height: 30vh;
+    background-color: white;
+    padding-left: 2vw;
+    position: absolute;
+    bottom: 2VH;
+
+
+}
+#show_hower_Token_not{
+    display: none;
+}
+
+
+#show_T_Token_h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 0.8vw;
+    margin: 0;
+    color: black;
+
+    margin-top: 1.25vh;
+}
+
+
+
+
+
+
+
 #AnzahlderTokenChart{
     width: 5vw;
     height: 16vh;

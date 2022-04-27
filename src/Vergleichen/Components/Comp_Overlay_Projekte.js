@@ -3,7 +3,8 @@ import Standort_yellow from "../../assets/images/Standort_yellow.png";
 import Standort_blue from "../../assets/images/Standort_blue.png";
 import Chart from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
-import Info_hover from "../../assets/images/Info_Hover.png";
+import Info_hover from "../../assets/images/info.png";
+import { useState } from "react";
 
 function Comp_Overlay_Projekte(props) {
   const AnzahlderTokenChart = () => {
@@ -111,7 +112,9 @@ function Comp_Overlay_Projekte(props) {
       </div>
     );
   };
-
+  const [cshow_hower_AnzahlT, setcshow_hower_AnzahlT] = useState(
+    "show_hower_Token_not"
+  );
   return props.trigger ? (
     <div>
       <div id="Comp_Overlay_Projekte_Wrapper">
@@ -157,10 +160,7 @@ function Comp_Overlay_Projekte(props) {
           <div id="Comp_Overlay_Beschreibung">
             <div id="Comp_Overlay_Beschreibung_Top">
               <h3 id="Comp_Overlay_Financial_h3">Projektbeschreibung</h3>
-              <div id="Comp_Overlay_Financial_Info">
-                <img src={Info_hover} id="Info_hover_Img" />
-                <div id="Hover_Text_Projektbeschreibung"></div>
-              </div>
+              <div id="Comp_Overlay_Financial_Info"></div>
             </div>
 
             <div id="Comp_Overlay_Beschreibung_Bottom">
@@ -203,9 +203,23 @@ function Comp_Overlay_Projekte(props) {
           <div id="Margin_bottom_2vh"></div>
 
           <div id="Comp_Overlay_Mid_Big_White">
+            <div id={cshow_hower_AnzahlT}>
+              <h5 id="show_T_Token_h5">
+                Ein Token repräsentiert den digitalen Anteil eines
+                Vermögensgegenstands. Der jeweilige Vermögensgegenstand kann
+                dabei in beliebig viele digitale Anteile geteilt werden. Dies
+                führt zu einer projektabhängigen, variablen Anzahl der Token.
+              </h5>
+            </div>
             <div id="Comp_Overlay_17vw_Top">
               <h3 id="Comp_Overlay_Financial_h3">Anzahl der Token</h3>
-              <div id="Comp_Overlay_Financial_Info">
+              <div
+                id="Comp_Overlay_Financial_Info"
+                onMouseEnter={() => setcshow_hower_AnzahlT("show_T_Token")}
+                onMouseLeave={() =>
+                  setcshow_hower_AnzahlT("show_hower_Token_not")
+                }
+              >
                 <img src={Info_hover} id="Info_hover_Img" />
                 <div id="Hover_Text_Projektbeschreibung"></div>
               </div>
@@ -247,10 +261,7 @@ function Comp_Overlay_Projekte(props) {
           <div id="Comp_Overlay_Mid_Big_White">
             <div id="Comp_Overlay_17vw_Top">
               <h3 id="Comp_Overlay_Financial_h3">Mindestinvestition</h3>
-              <div id="Comp_Overlay_Financial_Info">
-                <img src={Info_hover} id="Info_hover_Img" />
-                <div id="Hover_Text_Projektbeschreibung"></div>
-              </div>
+              <div id="Comp_Overlay_Financial_Info"></div>
             </div>
 
             <div id="Comp_Overlay_Mid_Big_White_Bottom">

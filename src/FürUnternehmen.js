@@ -19,7 +19,7 @@ import FU_Mobile from "./assets/images/FU_Mobile.png";
 import Projekt_Bild from "./assets/images/FU_FilterBild.png";
 import CookieConsent from "react-cookie-consent";
 import { Link } from "react-router-dom";
-
+import FU_Top_Right from "./assets/images/FU_Top_Right.png";
 import "./Design/Unternehmen.css";
 function FoFUnternehmen(props) {
   useEffect(() => {
@@ -78,31 +78,7 @@ function FoFUnternehmen(props) {
               </div>
 
               <div id="FU_Top_right">
-                <div id="FU_Top_right_Spalte1">
-                  <div id="Div_Home_Top_Section_Right_TL_Wrapper">
-                    <img
-                      src={TL_Img}
-                      id="Div_Home_Top_Section_Right_TL_Img"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div id="FU_Top_right_Spalte 2">
-                  <div id="Div_Home_Top_Section_Right_TR_Wrapper">
-                    <img
-                      src={OR_Img}
-                      id="Div_Home_Top_Section_Right_OR_Img"
-                      alt=""
-                    />
-                  </div>
-                  <div id="Div_Home_Top_Section_Right_BR_Wrapper">
-                    <img
-                      src={UR_Img}
-                      id="Div_Home_Top_Section_Right_UR_Img"
-                      alt=""
-                    />
-                  </div>
-                </div>
+                <img src={FU_Top_Right} id="FU_Top_Right_img" />
               </div>
             </div>
 
@@ -160,9 +136,8 @@ function FoFUnternehmen(props) {
                         Bei Chainvest Capital unterstützten wir Sie bei der
                         Vermarktung Ihres digitalen Wertpapiers und finden
                         individuelle Marketinglösungen für Ihr
-                        Investitionsprojekt für eine effiziente Kapitalaufnahme.
-                        Gewinnen Sie mit einer Platzierung das
-                        Investoreninteresse und schaffen Sie Vertrauen.
+                        Finanzierungsprojekt. Gewinnen Sie mit einer Platzierung
+                        das Investoreninteresse und schaffen Sie Vertrauen.
                       </h5>
                     </div>
                   </div>
@@ -178,7 +153,7 @@ function FoFUnternehmen(props) {
                       <h3 id="FU_Vorteile_Innner_Right_Wrapper_h3">Wachstum</h3>
                       <h5 id="FU_Vorteile_Innner_Right_Wrapper_h5">
                         Erreichen Sie mit einer Platzierung Ihres digitalen
-                        Wertpapaiers bei Chainvest Capital mehr Sichtbarkeit und
+                        Wertpapiers bei Chainvest Capital mehr Sichtbarkeit und
                         setzen Sie ein Zeichen für Transparenz. Nutzen Sie unser
                         Netzwerk für eine erfolgreiche Unternehmensfinanzierung
                         und steigern Sie das Wachstumspotenzial Ihres
@@ -277,7 +252,7 @@ function FoFUnternehmen(props) {
                       />
                     </div>
                     <h4 id="FU_Ablauf_Inner_Right_Unten_h4">
-                      Mehr Informationen zu ihrem Listing finden Sie{" "}
+                      Mehr Informationen zu Ihrem Listing finden Sie{" "}
                       <a
                         id="UnderlIne"
                         href="https://chainvest.s3.eu-central-1.amazonaws.com/ColoneOne/Sonstige+Dokumente/FAQ+Listing+und+Handel+von+Finanzinstrumente_22.pdf"
@@ -368,18 +343,16 @@ function FoFUnternehmen(props) {
                 Sie von unserem starken Netzwerk.
               </h5>{" "}
             </div>
-            <div id="Mobile_FU_IMG_Wrapper">
-              <img src={FU_Mobile} id="Mobile_FU_IMG_Wrapper_Img" alt="" />
-            </div>
+            <div id="Mobile_FU_IMG_Wrapper"></div>
             <div id="Mobile_FU_Vorteile_Wrapper">
               <div id="Mobile_FU_Vorteile_Inner">
                 <div id="Mobile_FU_Vorteile_Inner_yellow">
                   <h5 id="Mobile_FU_Vorteile_Inner_yellow_h5">
-                    Warum Chainvest Capital
+                    Warum Chainvest Capital?
                   </h5>
                 </div>
                 <h3 id="Mobile_FU_Vorteile_Inner_h3">
-                  Ihr Vorteile auf Chainvest Capital
+                  Ihre Vorteile auf Chainvest Capital
                 </h3>
 
                 <div id="Mobile_FU_Vorteile_Inner_Box_Wrapper">
@@ -415,10 +388,9 @@ function FoFUnternehmen(props) {
                   <h5 id="Mobile_FU_Vorteile_Inner_Box_Bottom_h5">
                     Bei Chainvest Capital unterstützten wir Sie bei der
                     Vermarktung Ihres digitalen Wertpapiers und finden
-                    individuelle Marketinglösungen für Ihr Investitionsprojekt
-                    für eine effiziente Kapitalaufnahme. Gewinnen Sie mit einer
-                    Platzierung das Investoreninteresse und schaffen Sie
-                    Vertrauen.
+                    individuelle Marketinglösungen für Ihr Finanzierungsprojekt.
+                    Gewinnen Sie mit einer Platzierung das Investoreninteresse
+                    und schaffen Sie Vertrauen.
                   </h5>
                 </div>
                 <div id="Mobile_FU_Vorteile_Inner_Box_Wrapper">
@@ -511,7 +483,7 @@ function FoFUnternehmen(props) {
                   </div>
                 </div>
                 <h4 id="Mobile_FU_Ablauf_Inner_Box_Right_h5">
-                  Mehr Informationen zu ihrem Listing finden Sie{" "}
+                  Mehr Informationen zu Ihrem Listing finden Sie{" "}
                   <a
                     id="UnderlIne"
                     href="https://chainvest.s3.eu-central-1.amazonaws.com/ColoneOne/Sonstige+Dokumente/FAQ+Listing+und+Handel+von+Finanzinstrumente_22.pdf"

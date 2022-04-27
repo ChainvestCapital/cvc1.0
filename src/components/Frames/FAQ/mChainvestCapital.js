@@ -7,9 +7,7 @@ function ChainvestCapital(props) {
         <MFragenBox
           Frage="Vergleicht Chainvest Capital ausschließlich Projekte von FINEXITY? 
           "
-          Antwort="Wir arbeiten stetig an der Akquirierung neuer Partnerschaften und möchten zukünftig den
-Vergleich diverser Anbieter und Projekte verschiedener Branchen auf unserer Plattform
-anbieten.
+          Antwort="Wir arbeiten stetig an der Akquirierung neuer Partnerschaften und möchten zukünftig den Vergleich diverser Anbieter und Projekte verschiedener Branchen auf unserer Plattform anbieten.
 "
         />{" "}
         <MFragenBox

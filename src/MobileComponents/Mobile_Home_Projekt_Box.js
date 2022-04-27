@@ -1,10 +1,17 @@
-import React from "react";
 import "./Mobile_Home_Projekt_Box.css";
+import { HashLink } from "react-router-hash-link";
+import React, { useState, useEffect } from "react";
 
 function Mobile_Home_Projekt_Box(props) {
+  const [Link, setLink] = useState("");
+
+  function setLinkf() {
+    setLink(props.Link);
+  }
+
   return (
     <div>
-      <div id="Mobile_Home_Projekt_Box_Wrapper">
+      <div id="Mobile_Home_Projekt_Box_Wrapper" onLoad={() => setLinkf()}>
         <div id="Mobile_Home_Projekt_Box_top">
           <img
             src={props.titleImg}

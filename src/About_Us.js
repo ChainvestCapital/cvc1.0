@@ -81,7 +81,7 @@ function About() {
                 ermöglichen und die individuelle Investitionsentscheidung zu
                 unterstützen. Wir möchten die Vorteile der
                 Blockchain-Technologie im Finanzbereich nutzbar machen und die
-                Zugägnglichkeit zu vorher vorschossenen Anlagebereichen für
+                Zugänglichkeit zu vorher vorschossenen Anlagebereichen für
                 PrivatinvestorenInnen erhöhen. Damit leisten wir einen Beitrag
                 zur Demokratisierung des Kapitalmarktes.
               </h5>
@@ -176,7 +176,7 @@ function About() {
               Vergleiche zu ermöglichen und die individuelle
               Investitionsentscheidung zu unterstützen. Wir möchten die Vorteile
               der Blockchain-Technologie im Finanzbereich nutzbar machen und die
-              Zugägnglichkeit zu vorher vorschlossenen Anlagebereichen für
+              Zugänglichkeit zu vorher vorschlossenen Anlagebereichen für
               PrivatinvestorenInnen erhöhen. Damit leisten wir einen Beitrag zur
               Demokratisierung des Kapitalmarktes.
             </h5>

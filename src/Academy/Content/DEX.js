@@ -80,7 +80,7 @@ function DEX(props) {
                 <h2 id="WSDW_Top_Wrapper_h2">Decentralised Exchanges </h2>{" "}
                 <h1 id="WSDW_Top_Wrapper_h2_Yellow"></h1>
                 <h4 id="WSDW_h470">
-                  Das Konzept der Dezentralsierung macht auch vor Börsenplätzen
+                  Das Konzept der Dezentralisierung macht auch vor Börsenplätzen
                   (eng. Exchanges) nicht Halt. Durch das große Wachstum des
                   DeFi- Bereichs konnten dezentrale Börsen schnell wachsen und
                   wickeln mittlerweile Transaktionsvolumen in ähnlichen

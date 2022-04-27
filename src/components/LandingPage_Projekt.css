@@ -1,0 +1,123 @@
+#LandingPage_Projekt_Wrapper {
+    background: white;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    width: 12vw;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+#LandingPage_Projekt_Top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 14vw;
+}
+#LandingPage_Projekt_Top_BG_img {
+    height: 18vh;
+    width: 14vw;
+    border-radius: 12px;
+}
+#LandingPage_Projekt_Top_Logo_Wrapper {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 12px;
+
+    position: absolute;
+}
+#LandingPage_Projekt_Top_Logo_Img {
+    height: 2.5vh;
+}
+#LandingPage_Projekt_Title_Row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5vh;
+    align-items: center;
+
+    width: 14vw;
+}
+#LandingPage_Projekt_Title_Row_Left {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 0.8vw;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+}
+#LandingPage_Projekt_Title_Row_Title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 1vw;
+    margin: 0;
+    color: black;
+    margin-bottom: 0.35vh;
+}
+#LandingPage_Projekt_Title_Row_Right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5vw;
+    width: 2.5vw;
+    
+
+    border-radius: 8px;
+    background-color: #CDF0EA;
+
+}
+#LandingPage_Projekt_Title_Row_Right_img {
+    width: 1.75vw;
+}
+#LandingPage_Projekt_Content {
+    display: flex;
+    flex-direction: column;
+    width: 14vw;
+    align-items: flex-start;
+    margin-top: 1.5vh;
+}
+#LandingPage_Projekt_Content_Pair {
+    display: flex;
+    flex-direction: column;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size: 0.9vw;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1.5vh;
+}
+#LandingPage_Projekt_Content_h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    font-size: 1vw;
+    margin: 0;
+    color: black;
+}

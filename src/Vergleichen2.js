@@ -146,12 +146,30 @@ function Vergleichen2(props) {
     setchossenProjekt2(Projekt);
   }
   /*      Standard Ansicht Grid 1      */
+  function P1onScroll() {
+    setP1Banner_Fade("Display_None");
+  }
+
+  function P2onScroll() {
+    setP2Banner_Fade("Display_None");
+  }
+
+  const [P1Banner_Fade, setP1Banner_Fade] = useState(
+    "Vegleich_Prop_Up_Projekte_Grid_Übergang_Wrapper"
+  );
+  const [P2Banner_Fade, setP2Banner_Fade] = useState(
+    "Vegleich_Prop_Up_Projekte_Grid_Übergang_Wrapper"
+  );
   function P1_AlleShown() {
     if (aktiverFilter === "Alle") {
       return (
         <div id="Vegleich_Prop_Up_Projekte_Grid_Wrapper">
-          <div id="Vegleich_Prop_Up_Projekte_Grid">
+          <div
+            id="Vegleich_Prop_Up_Projekte_Grid"
+            onScroll={() => P1onScroll()}
+          >
             <ul id="Vegleich_Prop_Up_Projekte_Grid_ul">
+              {" "}
               {shownProjects.map((Projekt) => {
                 if (Projekt.Kategorie === "Immobilien") {
                   return (
@@ -174,9 +192,9 @@ function Vergleichen2(props) {
                   );
                 }
               })}
-            </ul>
+            </ul>{" "}
           </div>
-          <div id="Vegleich_Prop_Up_Projekte_Grid_Übergang_Wrapper">
+          <div id={P1Banner_Fade}>
             {" "}
             <div id="Vegleich_Prop_Up_Projekte_Grid_Übergang">
               {" "}
@@ -193,7 +211,10 @@ function Vergleichen2(props) {
     if (aktiverFilter2 === "Alle") {
       return (
         <div id="Vegleich_Prop_Up_Projekte_Grid_Wrapper">
-          <div id="Vegleich_Prop_Up_Projekte_Grid">
+          <div
+            id="Vegleich_Prop_Up_Projekte_Grid"
+            onScroll={() => P2onScroll()}
+          >
             <ul id="Vegleich_Prop_Up_Projekte_Grid_ul">
               {shownProjects.map((Projekt) => {
                 if (Projekt.Kategorie === "Immobilien") {
@@ -218,7 +239,7 @@ function Vergleichen2(props) {
               })}
             </ul>
           </div>
-          <div id="Vegleich_Prop_Up_Projekte_Grid_Übergang_Wrapper">
+          <div id={P2Banner_Fade}>
             {" "}
             <div id="Vegleich_Prop_Up_Projekte_Grid_Übergang">
               {" "}
@@ -725,6 +746,185 @@ function Vergleichen2(props) {
   useEffect(() => {
     document.title = "Vergleichen";
   }, []);
+
+  function Ergebnisse() {
+    if (chossenProjekt1 == "" || chossenProjekt2 == "") {
+      return <div></div>;
+    } else {
+      return (
+        <div id="Vergleichen_Dashbaord">
+          <div id="Vergleichen_Results">
+            <div id="Vergleichen_Results_Menue">
+              <div id={Menue_Choice1} onClick={() => openÜbersicht()}>
+                Übersicht
+              </div>
+              <div id={Menue_Choice2} onClick={() => openProjekt()}>
+                Projekt
+              </div>
+              <div id={Menue_Choice3} onClick={() => openFinancial()}>
+                Financial
+              </div>
+              <div id={Menue_Choice4} onClick={() => openDokumente()}>
+                Dokumente
+              </div>
+            </div>
+            <div id="Vergleichen_Results_Content">
+              <Comp_Overlay_Übersicht
+                trigger={Overlay_Übersicht}
+                setTrigger={setOverlay_Übersicht}
+                titleP1={chossenProjekt1.name}
+                KategorieBildLinkP1={chossenProjekt1.KategorieBildLink}
+                FinanzierungsvolumenP1={chossenProjekt1.Finanzierungsvolumen}
+                ErwarteteRenditeP1={chossenProjekt1.ErwRendite}
+                TypP1={chossenProjekt1.Typ}
+                LogoP1={chossenProjekt1.LogoLink}
+                titleImgP1={chossenProjekt1.TitleLink}
+                MindestinvestitionP1={chossenProjekt1.Mindestinvestition}
+                KurzBeschreibungP1={chossenProjekt1.KurzBeschreibung}
+                DoksCounter1={chossenProjekt1.Doks_Counter}
+                titleP2={chossenProjekt2.name}
+                KategorieBildLinkP2={chossenProjekt2.KategorieBildLink}
+                FinanzierungsvolumenP2={chossenProjekt2.Finanzierungsvolumen}
+                ErwarteteRenditeP2={chossenProjekt2.ErwRendite}
+                TypP2={chossenProjekt2.Typ}
+                LogoP2={chossenProjekt2.LogoLink}
+                titleImgP2={chossenProjekt2.TitleLink}
+                MindestinvestitionP2={chossenProjekt2.Mindestinvestition}
+                KurzBeschreibungP2={chossenProjekt2.KurzBeschreibung}
+                DoksCounter2={chossenProjekt2.Doks_Counter}
+                LFZB2={chossenProjekt2.LaufzeitBeginMMMJJJJ}
+                LFZE2={chossenProjekt2.LaufzeitEndeMMMJJJJ}
+                LFZB1={chossenProjekt1.LaufzeitBeginMMMJJJJ}
+                LFZE1={chossenProjekt1.LaufzeitEndeMMMJJJJ}
+                MI1={chossenProjekt1.MIohneEuro}
+                MI2={chossenProjekt2.MIohneEuro}
+                FV2={chossenProjekt2.FVohneEuro}
+                FV1={chossenProjekt1.FVohneEuro}
+                ProjektLink1={chossenProjekt1.InternerLink}
+                ProjektLink2={chossenProjekt2.InternerLink}
+              />
+
+              <Comp_Overlay_Projekte
+                trigger={Overlay_Projekte}
+                setTrigger={setOverlay_Projekte}
+                Projekt1={chossenProjekt1.name}
+                Projekt2={chossenProjekt2.name}
+                TokenAnzahlP1={chossenProjekt2.TokenAnzahlOhneFormat}
+                TokenAnzahlP2={chossenProjekt2.TokenAnzahlOhneFormat}
+                TokenAnzahlP1Chart1={chossenProjekt1.TokenAnzahlOhneFormat}
+                TokenAnzahlP2Chart2={chossenProjekt2.TokenAnzahlOhneFormat}
+                MindestInv1={chossenProjekt1.MIohneEuro}
+                MindestInv2={chossenProjekt2.MIohneEuro}
+                Adress1={chossenProjekt1.Ort}
+                Adress2={chossenProjekt2.Ort}
+                KurzBeschreibungP1={chossenProjekt1.KurzBeschreibung}
+                KurzBeschreibungP2={chossenProjekt2.KurzBeschreibung}
+                LFZB2={chossenProjekt2.LaufzeitBeginMMMJJJJ}
+                LFZE2={chossenProjekt2.LaufzeitEndeMMMJJJJ}
+                LFZB1={chossenProjekt1.LaufzeitBeginMMMJJJJ}
+                LFZE1={chossenProjekt1.LaufzeitEndeMMMJJJJ}
+                MI1={chossenProjekt1.MIohneEuro}
+                FV1={chossenProjekt1.FVohneEuro}
+                MI2={chossenProjekt2.MIohneEuro}
+                FV2={chossenProjekt2.FVohneEuro}
+              />
+
+              <Comp_Overlay_Financial
+                trigger={Overlay_Financial}
+                setTrigger={setOverlay_Financial}
+                Projekt1={chossenProjekt1.name}
+                Projekt2={chossenProjekt2.name}
+                gesRendite1={chossenProjekt1.gesRendite}
+                DurchRendite1={chossenProjekt1.DurchschnittRendite}
+                WertEnt1={chossenProjekt1.Wertentwicklung}
+                gesRendite2={chossenProjekt2.gesRendite}
+                DurchRendite2={chossenProjekt2.DurchschnittRendite}
+                WertEnt2={chossenProjekt2.Wertentwicklung}
+                Finanzierungsvolumen1={chossenProjekt1.Finanzierungsvolumen}
+                Finanzierungsvolumen2={chossenProjekt2.Finanzierungsvolumen}
+                davonFinanziert1="100%"
+                davonFinanziert2="100%"
+                FVChart1={chossenProjekt1.FVohneEuro}
+                FVChart2={chossenProjekt2.FVohneEuro}
+              />
+
+              <Comp_Overlay_PDokuemnte
+                trigger={Overlay_Dokumente}
+                setTrigger={setOverlay_Dokumente}
+                Projekt1={chossenProjekt1.name}
+                Projekt2={chossenProjekt2.name}
+                P1_BIB={chossenProjekt1.checkBasisinformationsblatt}
+                P1_SVB={chossenProjekt1.checkSchuldverschreibungsbedingungen}
+                P1_Risk={chossenProjekt1.checkRisiken}
+                P1_VI={chossenProjekt1.check_VI}
+                P1_KE={chossenProjekt1.check_KE}
+                P1_MWE={chossenProjekt1.check_MWE}
+                P2_BIB={chossenProjekt1.checkBasisinformationsblatt}
+                P2_Risk={chossenProjekt2.checkRisiken}
+                P2_VI={chossenProjekt2.check_VI}
+                P2_SVB={chossenProjekt2.checkSchuldverschreibungsbedingungen}
+                P2_KE={chossenProjekt2.check_KE}
+                P2_MWE={chossenProjekt2.check_MWE}
+                P1_DoksCounter={chossenProjekt1.Doks_Counter}
+                P2_DoksCounter={chossenProjekt2.Doks_Counter}
+              />
+            </div>
+          </div>
+          <div id="Vergleichen_Projekt_Auswahl">
+            <div id="Vergleichen_Projekt_Auswahl_Top">
+              <h2 id="Vergleichen_Projekt_Auswahl_h2">Projekte</h2>
+              <HashLink to="#Projekt-Auswahl">
+                <div id="Vergleichen_Projekt_Auswahl_Neue_Button">
+                  Projekt auswählen
+                </div>
+              </HashLink>
+            </div>
+
+            <div id="Vergleichen_Projekt_Auswahl_Projekte">
+              <div id="Vergleichen_Projekt_Auswahl_Projekte_RowX">
+                <Projekt_Kachel_Rechts
+                  titleImg={chossenProjekt1.TitleLink}
+                  title={chossenProjekt1.name}
+                  Finanzierungsvolumen={chossenProjekt1.Finanzierungsvolumen}
+                  Rendite={chossenProjekt1.ErwRendite}
+                />
+                <div id="Vergleichen_Projekt_Auswahl_Projekte_Row">
+                  <a href={chossenProjekt1.InternerLink}>
+                    <div id="Vergleichen_Projekt_Auswahl_Projekte_Row_Button">
+                      Zum Projekt
+                    </div>
+                  </a>
+                  <h3 id="Vergleichen_Projekt_Auswahl_Projekte_h3">
+                    Projekt 1
+                  </h3>
+                </div>
+              </div>
+              <div id="Vergleichen_Projekt_Auswahl_Projekte_RowX2">
+                <Projekt_Kachel_Rechts
+                  titleImg={chossenProjekt2.TitleLink}
+                  title={chossenProjekt2.name}
+                  Finanzierungsvolumen={chossenProjekt2.Finanzierungsvolumen}
+                  Rendite={chossenProjekt2.ErwRendite}
+                />
+
+                <div id="Vergleichen_Projekt_Auswahl_Projekte_Row">
+                  <a href={chossenProjekt2.InternerLink}>
+                    <div id="Vergleichen_Projekt_Auswahl_Projekte_Row_Button">
+                      Zum Projekt
+                    </div>
+                  </a>
+                  <h3 id="Vergleichen_Projekt_Auswahl_Projekte_h3">
+                    Projekt 2
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+  }
+
   return (
     <div>
       <div id="Desktop_Wrapper">
@@ -908,181 +1108,45 @@ function Vergleichen2(props) {
             </div>
           </div>
 
-          <div id="Vergleichen_Dashbaord">
-            <div id="Vergleichen_Results">
-              <div id="Vergleichen_Results_Menue">
-                <div id={Menue_Choice1} onClick={() => openÜbersicht()}>
-                  Übersicht
-                </div>
-                <div id={Menue_Choice2} onClick={() => openProjekt()}>
-                  Projekt
-                </div>
-                <div id={Menue_Choice3} onClick={() => openFinancial()}>
-                  Financial
-                </div>
-                <div id={Menue_Choice4} onClick={() => openDokumente()}>
-                  Dokumente
-                </div>
-              </div>
-              <div id="Vergleichen_Results_Content">
-                <Comp_Overlay_Übersicht
-                  trigger={Overlay_Übersicht}
-                  setTrigger={setOverlay_Übersicht}
-                  titleP1={chossenProjekt1.name}
-                  KategorieBildLinkP1={chossenProjekt1.KategorieBildLink}
-                  FinanzierungsvolumenP1={chossenProjekt1.Finanzierungsvolumen}
-                  ErwarteteRenditeP1={chossenProjekt1.ErwRendite}
-                  TypP1={chossenProjekt1.Typ}
-                  LogoP1={chossenProjekt1.LogoLink}
-                  titleImgP1={chossenProjekt1.TitleLink}
-                  MindestinvestitionP1={chossenProjekt1.Mindestinvestition}
-                  KurzBeschreibungP1={chossenProjekt1.KurzBeschreibung}
-                  DoksCounter1={chossenProjekt1.Doks_Counter}
-                  titleP2={chossenProjekt2.name}
-                  KategorieBildLinkP2={chossenProjekt2.KategorieBildLink}
-                  FinanzierungsvolumenP2={chossenProjekt2.Finanzierungsvolumen}
-                  ErwarteteRenditeP2={chossenProjekt2.ErwRendite}
-                  TypP2={chossenProjekt2.Typ}
-                  LogoP2={chossenProjekt2.LogoLink}
-                  titleImgP2={chossenProjekt2.TitleLink}
-                  MindestinvestitionP2={chossenProjekt2.Mindestinvestition}
-                  KurzBeschreibungP2={chossenProjekt2.KurzBeschreibung}
-                  DoksCounter2={chossenProjekt2.Doks_Counter}
-                  LFZB2={chossenProjekt2.LaufzeitBeginMMMJJJJ}
-                  LFZE2={chossenProjekt2.LaufzeitEndeMMMJJJJ}
-                  LFZB1={chossenProjekt1.LaufzeitBeginMMMJJJJ}
-                  LFZE1={chossenProjekt1.LaufzeitEndeMMMJJJJ}
-                  MI1={chossenProjekt1.MIohneEuro}
-                  MI2={chossenProjekt2.MIohneEuro}
-                  FV2={chossenProjekt2.FVohneEuro}
-                  FV1={chossenProjekt1.FVohneEuro}
-                  ProjektLink1={chossenProjekt1.InternerLink}
-                  ProjektLink2={chossenProjekt2.InternerLink}
-                />
-
-                <Comp_Overlay_Projekte
-                  trigger={Overlay_Projekte}
-                  setTrigger={setOverlay_Projekte}
-                  Projekt1={chossenProjekt1.name}
-                  Projekt2={chossenProjekt2.name}
-                  TokenAnzahlP1={chossenProjekt2.TokenAnzahlOhneFormat}
-                  TokenAnzahlP2={chossenProjekt2.TokenAnzahlOhneFormat}
-                  TokenAnzahlP1Chart1={chossenProjekt1.TokenAnzahlOhneFormat}
-                  TokenAnzahlP2Chart2={chossenProjekt2.TokenAnzahlOhneFormat}
-                  MindestInv1={chossenProjekt1.MIohneEuro}
-                  MindestInv2={chossenProjekt2.MIohneEuro}
-                  Adress1={chossenProjekt1.Ort}
-                  Adress2={chossenProjekt2.Ort}
-                  KurzBeschreibungP1={chossenProjekt1.KurzBeschreibung}
-                  KurzBeschreibungP2={chossenProjekt2.KurzBeschreibung}
-                  LFZB2={chossenProjekt2.LaufzeitBeginMMMJJJJ}
-                  LFZE2={chossenProjekt2.LaufzeitEndeMMMJJJJ}
-                  LFZB1={chossenProjekt1.LaufzeitBeginMMMJJJJ}
-                  LFZE1={chossenProjekt1.LaufzeitEndeMMMJJJJ}
-                  MI1={chossenProjekt1.MIohneEuro}
-                  FV1={chossenProjekt1.FVohneEuro}
-                  MI2={chossenProjekt2.MIohneEuro}
-                  FV2={chossenProjekt2.FVohneEuro}
-                />
-
-                <Comp_Overlay_Financial
-                  trigger={Overlay_Financial}
-                  setTrigger={setOverlay_Financial}
-                  Projekt1={chossenProjekt1.name}
-                  Projekt2={chossenProjekt2.name}
-                  gesRendite1={chossenProjekt1.gesRendite}
-                  DurchRendite1={chossenProjekt1.DurchschnittRendite}
-                  WertEnt1={chossenProjekt1.Wertentwicklung}
-                  gesRendite2={chossenProjekt2.gesRendite}
-                  DurchRendite2={chossenProjekt2.DurchschnittRendite}
-                  WertEnt2={chossenProjekt2.Wertentwicklung}
-                  Finanzierungsvolumen1={chossenProjekt1.Finanzierungsvolumen}
-                  Finanzierungsvolumen2={chossenProjekt2.Finanzierungsvolumen}
-                  davonFinanziert1="100%"
-                  davonFinanziert2="100%"
-                  FVChart1={chossenProjekt1.FVohneEuro}
-                  FVChart2={chossenProjekt2.FVohneEuro}
-                />
-
-                <Comp_Overlay_PDokuemnte
-                  trigger={Overlay_Dokumente}
-                  setTrigger={setOverlay_Dokumente}
-                  Projekt1={chossenProjekt1.name}
-                  Projekt2={chossenProjekt2.name}
-                  P1_BIB={chossenProjekt1.checkBasisinformationsblatt}
-                  P1_SVB={chossenProjekt1.checkSchuldverschreibungsbedingungen}
-                  P1_Risk={chossenProjekt1.checkRisiken}
-                  P1_VI={chossenProjekt1.check_VI}
-                  P1_KE={chossenProjekt1.check_KE}
-                  P1_MWE={chossenProjekt1.check_MWE}
-                  P2_BIB={chossenProjekt1.checkBasisinformationsblatt}
-                  P2_Risk={chossenProjekt2.checkRisiken}
-                  P2_VI={chossenProjekt2.check_VI}
-                  P2_SVB={chossenProjekt2.checkSchuldverschreibungsbedingungen}
-                  P2_KE={chossenProjekt2.check_KE}
-                  P2_MWE={chossenProjekt2.check_MWE}
-                  P1_DoksCounter={chossenProjekt1.Doks_Counter}
-                  P2_DoksCounter={chossenProjekt2.Doks_Counter}
-                />
-              </div>
-            </div>
-            <div id="Vergleichen_Projekt_Auswahl">
-              <div id="Vergleichen_Projekt_Auswahl_Top">
-                <h2 id="Vergleichen_Projekt_Auswahl_h2">Projekte</h2>
-                <HashLink to="#Projekt-Auswahl">
-                  <div id="Vergleichen_Projekt_Auswahl_Neue_Button">
-                    Projekt auswählen
-                  </div>
-                </HashLink>
-              </div>
-
-              <div id="Vergleichen_Projekt_Auswahl_Projekte">
-                <div id="Vergleichen_Projekt_Auswahl_Projekte_RowX">
-                  <Projekt_Kachel_Rechts
-                    titleImg={chossenProjekt1.TitleLink}
-                    title={chossenProjekt1.name}
-                    Finanzierungsvolumen={chossenProjekt1.Finanzierungsvolumen}
-                    Rendite={chossenProjekt1.ErwRendite}
-                  />
-                  <div id="Vergleichen_Projekt_Auswahl_Projekte_Row">
-                    <a href={chossenProjekt1.InternerLink}>
-                      <div id="Vergleichen_Projekt_Auswahl_Projekte_Row_Button">
-                        Zum Projekt
-                      </div>
-                    </a>
-                    <h3 id="Vergleichen_Projekt_Auswahl_Projekte_h3">
-                      Projekt 1
-                    </h3>
-                  </div>
-                </div>
-                <div id="Vergleichen_Projekt_Auswahl_Projekte_RowX2">
-                  <Projekt_Kachel_Rechts
-                    titleImg={chossenProjekt2.TitleLink}
-                    title={chossenProjekt2.name}
-                    Finanzierungsvolumen={chossenProjekt2.Finanzierungsvolumen}
-                    Rendite={chossenProjekt2.ErwRendite}
-                  />
-
-                  <div id="Vergleichen_Projekt_Auswahl_Projekte_Row">
-                    <a href={chossenProjekt2.InternerLink}>
-                      <div id="Vergleichen_Projekt_Auswahl_Projekte_Row_Button">
-                        Zum Projekt
-                      </div>
-                    </a>
-                    <h3 id="Vergleichen_Projekt_Auswahl_Projekte_h3">
-                      Projekt 2
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          {Ergebnisse()}
         </div>{" "}
         <Footer />
       </div>
 
       <div id="Mobile_Wrapper">
         <div id="Mobile_Vergleichen_Wrapper">
+          <CookieConsent
+            location="bottom"
+            buttonText="Akzeptieren"
+            cookieName="myAwesomeCookieName2"
+            style={{
+              background: "#eee",
+              color: "#000",
+              textAlign: "start",
+              fontFamily: "Montserrat",
+              fontSize: "13px",
+            }}
+            buttonStyle={{
+              color: "#434343",
+              fontSize: "12px",
+              borderRadius: "12px",
+              background: "#CDF0EA",
+              paddingLeft: "20px",
+              paddingRight: "20px",
+              paddingTop: "10px",
+              paddingBottom: "10px",
+              fontFamily: "Montserrat",
+            }}
+            expires={150}
+          >
+            Diese Internetseite verwendet Cookies und Google Analytics für die
+            Analyse und Statistik. Wir nutzen Cookies zu unterschiedlichen
+            Zwecken, unter anderem zur Analyse und für personalisierte
+            Marketing-Mitteilungen. Durch die weitere Nutzung der Website
+            stimmen Sie der Verwendung zu. Mehr dazu finden sie in unser{" "}
+            <Link to="./Datenschutzerklaerung">Datenschutzerklärung</Link>
+            <span style={{ fontSize: "10px" }}></span>
+          </CookieConsent>
           <Mobile_menue />
 
           <div id="Mobile_Vergleichen_Projekt_Auswahl">

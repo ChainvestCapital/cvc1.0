@@ -1,7 +1,7 @@
 #WSDW_Emii_Wrapper {
   background: #e0e0e0;
   width: 100vw;
-  height: 335vh;
+  height: 305vh;
   z-index: 1;
   position: relative;
 }
@@ -21,6 +21,11 @@
   margin-top: 4vh;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
   margin-left: 6vw;
+}
+
+
+#Emi_Top_right_Img{
+  width: 45vw;
 }
 #Finexity_Wrapper {
   display: flex;

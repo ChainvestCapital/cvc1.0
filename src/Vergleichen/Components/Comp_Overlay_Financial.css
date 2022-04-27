@@ -13,6 +13,8 @@
     height: 51vh;
     box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
+
+    position: relative;
 }
 
 #Comp_Overlay_Financial_Top{
@@ -36,7 +38,73 @@
     margin: 0;
     color: black;}
 #Comp_Overlay_Financial_Info {}
+#Comp_Overlay_Financial_Info_d_n{
+    display: none;
+}
+#show_hower_Rendite{
+    background-color:white;
+    width: 34vw;
+    padding-right: 2vw;
+    height: 40vh;
 
+    position: absolute;
+    bottom: 2VH;
+    left: 1vw;
+    padding-left: 1vw;
+
+}
+#show_hower_Rendite_P_Wrapper{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    font-size:0.85vw;
+    margin: 0;
+    color: black;
+    margin-bottom: 3vh;
+}
+#show_hower_Rendite_P_Wrapper_Bottom{
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    font-size: 0.8vw;
+    margin: 0;
+    color: #CBCACE;
+
+    margin-top: 1vh;
+}
+#Hover_Legende_1{
+    margin-right: 2vw;
+    background: #CDF0EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 0.75vw;
+    height: 0.75vw;
+}
+#Hover_Legende_2{
+    margin-right: 2vw;
+    background: #FFB000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 0.75vw;
+    height: 0.75vw;
+}
+#Hover_Legende_3{
+    margin-right: 2vw;
+    background: rgba(205, 240, 234, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 0.75vw;
+    height: 0.75vw;}
+
+#show_hower_not_Rendite{
+    display: none;
+}
 #Comp_Overlay_Financial_Rendite_Mid_Legende_Row{
     display: flex;
     flex-direction: row;

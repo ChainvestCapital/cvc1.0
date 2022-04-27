@@ -40,7 +40,7 @@ import Coming_Soon_App from "./Coming_Sonn_App";
 import Academy from "./Academy";
 import DEX from "./Academy/Content/DEX";
 import FarbTesten from "./TestFarben";
-import Vergleichen2 from "./Vergleichen2";
+import HomeSS from "./LandingPage";
 import NonFinancialRisksinDeFi from "./Academy/Content/Non-Financial-Risks-in-DeFi";
 import Testing from "./testing";
 import About_Us from "./About_Us.js";
@@ -69,14 +69,13 @@ function App() {
         <Route path="xxx/TestFilter" element={<TestFilter />} />
         <Route path="/Digitale-Wertpapiere/Rndm" element={<Rndm />} />
                 <Route path="xxx/privateTest/Academy" element={<Academy />} />        <Route path="/Sekundaermaerkte" element={<Sekundärmärkte />} />
-
+        <Route path="/testing" element={<Testing />} />{" "}
+<Route path="/Local/home" element={<HomeSS />} />
+        <Route path="/Local/About" element={<About_Us />} />
       */}
       <Routes>
         {" "}
-        <Route path="/testing" element={<Testing />} />{" "}
-        <Route path="/" element={<Home />} />{" "}
-        <Route path="/Local/Vergleichen2" element={<Vergleichen2 />} />
-        <Route path="/Local/About" element={<About_Us />} />
+        <Route path="/" element={<HomeSS />} />{" "}
         <Route path="/Digitale-Wertpapiere/FourTrees" element={<FourTrees />} />
         <Route path="/Digitale-Wertpapiere/FourTrees" element={<FourTrees />} />
         <Route path="/Digitale-Wertpapiere/LakeSide" element={<LakeSide />} />

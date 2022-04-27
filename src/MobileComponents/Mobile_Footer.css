@@ -18,12 +18,14 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 6vw;
+  font-size: 5vw;
   text-align: start;
 
   margin: 0;
   margin-top: 2vh;
-  color: #434343;
+  color: black;
+
+  white-space: nowrap;
 }
 #Mobile_Footer_H5 {
   font-family: Montserrat;
@@ -46,6 +48,9 @@
 #Mobile_Footer_Top_Spalte {
   display: flex;
   flex-direction: column;
+}
+#Mobile_Footer_Spalten_Wrapper{
+  margin-top: 4vh;
 }
 #Mobile_Footer_Spalte_h3 {
   font-family: Montserrat;

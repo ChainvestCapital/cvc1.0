@@ -79,6 +79,7 @@ function FAQ() {
   useEffect(() => {
     document.title = "Vergleichen";
   }, []);
+
   return (
     <div>
       <div id="Desktop_Wrapper">
