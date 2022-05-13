@@ -60,53 +60,19 @@ function Top_Header(props) {
           <div id="Top_Header_Content_Right">
             <div id="Top_Header_Content_Right_Top">
               <div id="Top_Header_Content_Right_Top_Inner">
-                <h3 id="Top_Header_Content_Right_Top_Inner_h2">
-                  Weitere Projekte
-                </h3>
-                <div id="Top_Header_Content_Left_Top_Projekte_Wrapper">
-                  <Link to={props.weitereLink}>
-                    <div id="Top_Header_Content_Left_Top_Projekt">
-                      <img
-                        alt=""
-                        src={props.weiterebg2}
-                        id="Top_Header_Content_Left_Top_Projekt_bg"
-                      />
-                      <div id="Top_Header_Content_LeftbOTTOM_Left_right_Logo">
-                        <img
-                          alt=""
-                          src={props.weitereLogo2}
-                          id="Top_Header_Content_Left_Top_Projekt_Logo"
-                        />
-                      </div>
-                      <img
-                        alt=""
-                        src={arrow}
-                        id="Top_Header_Content_Left_Top_Projekt_Arrow"
-                      />
-                    </div>
-                  </Link>{" "}
-                  <Link to={props.weitereLink2}>
-                    <div id="Top_Header_Content_Left_Top_Projekt">
-                      <img
-                        alt=""
-                        src={props.weiterebg}
-                        id="Top_Header_Content_Left_Top_Projekt_bg"
-                      />
-                      <div id="Top_Header_Content_LeftbOTTOM_Left_right_Logo">
-                        <img
-                          alt=""
-                          src={props.weitereLogo}
-                          id="Top_Header_Content_Left_Top_Projekt_Logo"
-                        />
-                      </div>
-                      <img
-                        alt=""
-                        src={arrow}
-                        id="Top_Header_Content_Left_Top_Projekt_Arrow"
-                      />
-                    </div>{" "}
-                  </Link>
-                </div>
+                <Link to="../Academy/Was-sind-digitale-Wertpapiere">
+                  <h3 id="Top_Header_Content_Right_Top_Inner_h2">
+                    Was sind digitale Wertpapiere ?
+                  </h3>
+                </Link>
+                <Link to="../Vergleichstool">
+                  <div id="Top_Header_Content_LeftbOTTOM_Left_Inner_Zum_Proj">
+                    <h4 id="Top_Header_Content_LeftbOTTOM_Left_Inner_h4">
+                      Vergleichen
+                    </h4>
+                    <img src={arrow} id="Arrow_Img" alt="" />
+                  </div>
+                </Link>
               </div>
             </div>
             <div id="Top_Header_Content_Right_Bottom">

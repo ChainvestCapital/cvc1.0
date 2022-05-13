@@ -232,6 +232,18 @@
   margin: 0;
   color: #434343;
 }
+
+#Top_Header_Content_Right_Top_Inner_h2:hover {
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: start;
+
+  font-weight: 600;
+  font-size: 1vw;
+  margin: 0;
+  color: #ffb000;
+}
+
 #Top_Header_Content_Left_Top_Projekte_Wrapper {
   display: flex;
   flex-direction: row;

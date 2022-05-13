@@ -20,9 +20,9 @@ import LandingPage_Projekt from "./components/LandingPage_Projekt";
 import LandingPage_Vergleichen from "./assets/images/LandingPage_Vergleichen.png";
 import LandingPage_Academy from "./assets/images/LandingPage_Academy.png";
 import Eccplipse_Finden from "./assets/images/Eccplipse_Finden.png";
-import Mobile_Landing_Top from "./assets/images/Mobile_Landing_Top.png";
-import Mobile_LandIng_Academy from "./assets/images/Mobile_LandIng_Academy.png";
-import Mobile_LandIng_Vergleichen from "./assets/images/Mobile_LandIng_Vergleichen_.png";
+import Mobile_Landing_Top from "./assets/images/LandingPage_Mobile_Hero_cut_HQ.png";
+import Mobile_LandIng_Academy from "./assets/images/LandingPage_Mobile_Academy_cut_HQ.png";
+import Mobile_LandIng_Vergleichen from "./assets/images/LandingPage_Mobile_vVergl_cut_HQ.png";
 
 function LandingPage() {
   useEffect(() => {

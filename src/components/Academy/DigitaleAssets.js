@@ -6,6 +6,8 @@ import ContentImg2 from "../../assets/images/Content/Content_exchange.png";
 
 import ContentImg3 from "../../assets/images/Content/Content_NFRIDF.png";
 
+import Content_Immobilienindizes from "../../assets/images/Content/Content_Immobilienindizes.png";
+import Content_Metaverse from "../../assets/images/Content/Content_Metaverse.png";
 function DigitaleAssets(props) {
   return props.trigger ? (
     <div>
@@ -25,8 +27,7 @@ function DigitaleAssets(props) {
 
         <HashLink to="../Academy/Non-Financial-Risks-in-DeFi#">
           <AcademyContent
-            Heading="Non Financial Risks 
-          in DeFi"
+            Heading="Non Financial Risks in DeFi"
             Länge="855 Wörter"
             Tag1="DeFi"
             Tag2="Tech"
@@ -45,6 +46,30 @@ function DigitaleAssets(props) {
             bgimg={ContentImg2}
             Tag3="Tokenisierung"
             Beschreibung="Das Konzept der Dezentralisierung macht auch vor Börsenplätzen (eng. Exchanges) nicht Halt. Durch das große Wachstum des DeFi-Bereichs konnten dezentrale Börsen schnell wachsen und wickeln mittlerweile Transaktionsvolumen in ähnlichen Größenordnungen wie zentrale Börsenplätze im Krypto-Ökosystem ab."
+          />
+        </HashLink>
+
+        <HashLink to="../Academy/Metaverse#">
+          <AcademyContent
+            Heading="Das Metaverse und Web 3.0 im Überblick
+            "
+            Länge="553 Wörter"
+            Tag1="Metaverse"
+            Tag2="Tokenisierung"
+            bgimg={Content_Metaverse}
+            Beschreibung="Die Digitalisierung verläuft rasend schnell und mit ihr die Anwendungsmöglichkeiten, welche Technologien zukünftig bieten könnten. Die digitale Identität ist schon lange ein wichtiger Bestandteil des Lebens vieler Nutzer und scheint sich schon heute immer weiter in herkömmliche Strukturen zu implementieren. Konzeptionen, wie das Metaverse, lassen Nutzer spekulieren, wie ein nahtloses Zusammenspiel zwischen der herkömmlichen und digitalen Welt Realität werden könnte ab."
+          />
+        </HashLink>
+
+        <HashLink to="../Academy/Immobilienindizes-und-tokenisierte-Immobilien-im-Vergleich#">
+          <AcademyContent
+            Heading="Immobilienindizes und tokenisierte Immobilien im
+            Vergleich"
+            Länge="553 Wörter"
+            Tag1="Tokenisierung"
+            Tag2="Finance"
+            bgimg={Content_Immobilienindizes}
+            Beschreibung="Eine Investition am Immobilienmarkt ist aus vielerlei Gründen attraktiv, allerdings bieten die klassichen Investitionsvehikel wie Derivate einige Probleme. Digitale Wertpapiere und insbesondere tokenisierte Immobilien, bieten eine neue Art der Investition in den Immobiliensektor und scheinen in einigen Aspekten revolutionäre Vorteile zu bieten."
           />
         </HashLink>
       </div>{" "}

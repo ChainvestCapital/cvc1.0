@@ -747,6 +747,174 @@ function Vergleichen2(props) {
     document.title = "Vergleichen";
   }, []);
 
+  function mErgebnisse() {
+    if (mobileChoosen1 == "" || mobileChoosen2 == "") {
+      return <div></div>;
+    } else {
+      return (
+        <div id="Mobile_Vergleichen_Projekte_Wrapper">
+          <div id="Mobile_Vergleichen_Projekte_Menue">
+            <div id="Mobile_Vergleichen_Projekte_Menue_Column">
+              <div
+                id="Mobile_Vergleichen_Projekte_Menue_Button"
+                onClick={() => mopenÜbersicht()}
+              >
+                <img
+                  src={Übersicht_IMG}
+                  id="Mobile_Vergleichen_Projekte_Menue_Button_IMG"
+                />
+                Übersicht
+              </div>
+              <div
+                id="Mobile_Vergleichen_Projekte_Menue_Button"
+                onClick={() => mopenProjekt()}
+              >
+                <img
+                  src={Projekt_IMG}
+                  id="Mobile_Vergleichen_Projekte_Menue_Button_IMG"
+                />
+                Projekt
+              </div>
+            </div>
+            <div id="">
+              <div id="Mobile_Vergleichen_Projekte_Menue_Column_mid">
+                <HashLink to="#Mobile_Vergleichen_Projekt_Auswahl">
+                  <div id="Mobile_Vergleichen_Projekte_Menue_Button_mid">
+                    <img
+                      src={Auswahl_IMG}
+                      id="Mobile_Vergleichen_Projekte_Menue_Button_IMG_MID"
+                    />
+                    Auswahl
+                  </div>
+                </HashLink>
+              </div>
+            </div>
+
+            <div id="Mobile_Vergleichen_Projekte_Menue_Column">
+              <div
+                id="Mobile_Vergleichen_Projekte_Menue_Button"
+                onClick={() => mopenFinancials()}
+              >
+                <img
+                  src={Finance_IMG}
+                  id="Mobile_Vergleichen_Projekte_Menue_Button_IMG"
+                />{" "}
+                Financials
+              </div>
+              <div
+                id="Mobile_Vergleichen_Projekte_Menue_Button"
+                onClick={() => mopenDokumente()}
+              >
+                <img
+                  src={Doks_Img}
+                  id="Mobile_Vergleichen_Projekte_Menue_Button_IMG"
+                />
+                Dokumente
+              </div>
+            </div>
+          </div>
+          <Mobile_Verg_Financials
+            trigger={mOverlay_Financials}
+            setTrigger={msetmOverlay_Financials}
+            Projekt1={mobileChoosen1.name}
+            Projekt2={mobileChoosen2.name}
+            gesRendite1={mobileChoosen1.gesRendite}
+            DurchRendite1={mobileChoosen1.DurchschnittRendite}
+            WertEnt1={mobileChoosen1.Wertentwicklung}
+            gesRendite2={mobileChoosen2.gesRendite}
+            DurchRendite2={mobileChoosen2.DurchschnittRendite}
+            WertEnt2={mobileChoosen2.Wertentwicklung}
+            Finanzierungsvolumen1={mobileChoosen1.Finanzierungsvolumen}
+            Finanzierungsvolumen2={mobileChoosen2.Finanzierungsvolumen}
+            davonFinanziert1="100%"
+            davonFinanziert2="100%"
+            FVChart1={mobileChoosen1.FVohneEuro}
+            FVChart2={mobileChoosen2.FVohneEuro}
+          />
+          <Mobile_Verg_Dokumente
+            trigger={mOverlay_Dokumente}
+            setTrigger={msetOverlay_Dokumente}
+            Projekt1={mobileChoosen1.name}
+            Projekt2={mobileChoosen2.name}
+            P1_BIB={mobileChoosen1.checkBasisinformationsblatt}
+            P1_SVB={mobileChoosen1.checkSchuldverschreibungsbedingungen}
+            P1_Risk={mobileChoosen1.checkRisiken}
+            P1_VI={mobileChoosen1.check_VI}
+            P1_KE={mobileChoosen1.check_KE}
+            P1_MWE={mobileChoosen1.check_MWE}
+            P2_BIB={mobileChoosen1.checkBasisinformationsblatt}
+            P2_Risk={mobileChoosen2.checkRisiken}
+            P2_VI={mobileChoosen2.check_VI}
+            P2_SVB={mobileChoosen2.checkSchuldverschreibungsbedingungen}
+            P2_KE={mobileChoosen2.check_KE}
+            P2_MWE={mobileChoosen2.check_MWE}
+            P1_DoksCounter={mobileChoosen2.Doks_Counter}
+            P2_DoksCounter={mobileChoosen2.Doks_Counter}
+          />
+
+          <Mobile_Verg_Projekt
+            trigger={mOverlay_Projekt}
+            setTrigger={msetmOverlay_Projekt}
+            Projekt1={mobileChoosen1.name}
+            Projekt2={mobileChoosen2.name}
+            TokenAnzahlP1={mobileChoosen1.TokenAnzahlOhneFormat}
+            TokenAnzahlP2={mobileChoosen2.TokenAnzahlOhneFormat}
+            TokenAnzahlP1Chart1={mobileChoosen1.TokenAnzahlOhneFormat}
+            TokenAnzahlP2Chart2={mobileChoosen2.TokenAnzahlOhneFormat}
+            MindestInv1={mobileChoosen1.MIohneEuro}
+            MindestInv2={mobileChoosen2.MIohneEuro}
+            Adress1={mobileChoosen1.Ort}
+            Adress2={mobileChoosen2.Ort}
+            KurzBeschreibungP1={mobileChoosen1.KurzBeschreibung}
+            KurzBeschreibungP2={mobileChoosen2.KurzBeschreibung}
+            LFZB2={mobileChoosen2.LaufzeitBeginMMMJJJJ}
+            LFZE2={mobileChoosen2.LaufzeitEndeMMMJJJJ}
+            LFZB1={mobileChoosen1.LaufzeitBeginMMMJJJJ}
+            LFZE1={mobileChoosen1.LaufzeitEndeMMMJJJJ}
+            MI1={mobileChoosen1.MIohneEuro}
+            FV1={mobileChoosen1.FVohneEuro}
+            MI2={mobileChoosen2.MIohneEuro}
+            FV2={mobileChoosen2.FVohneEuro}
+          />
+
+          <Mobile_Verg_Übersicht
+            trigger={mOverlay_Übersicht}
+            setTrigger={msetOverlay_Übersicht}
+            titleP1={mobileChoosen1.name}
+            KategorieBildLinkP1={mobileChoosen1.KategorieBildLink}
+            FinanzierungsvolumenP1={mobileChoosen1.Finanzierungsvolumen}
+            ErwarteteRenditeP1={mobileChoosen1.ErwRendite}
+            TypP1={mobileChoosen1.Typ}
+            LogoP1={mobileChoosen1.LogoLink}
+            titleImgP1={mobileChoosen1.TitleLink}
+            MindestinvestitionP1={mobileChoosen1.Mindestinvestition}
+            KurzBeschreibungP1={mobileChoosen1.KurzBeschreibung}
+            DoksCounter1={mobileChoosen1.Doks_Counter}
+            titleP2={mobileChoosen2.name}
+            KategorieBildLinkP2={mobileChoosen2.KategorieBildLink}
+            FinanzierungsvolumenP2={mobileChoosen2.Finanzierungsvolumen}
+            ErwarteteRenditeP2={mobileChoosen2.ErwRendite}
+            TypP2={mobileChoosen2.Typ}
+            LogoP2={mobileChoosen2.LogoLink}
+            titleImgP2={mobileChoosen2.TitleLink}
+            MindestinvestitionP2={mobileChoosen2.Mindestinvestition}
+            KurzBeschreibungP2={mobileChoosen2.KurzBeschreibung}
+            DoksCounter2={mobileChoosen2.Doks_Counter}
+            LFZB2={mobileChoosen2.LaufzeitBeginMMMJJJJ}
+            LFZE2={mobileChoosen2.LaufzeitEndeMMMJJJJ}
+            LFZB1={mobileChoosen1.LaufzeitBeginMMMJJJJ}
+            LFZE1={mobileChoosen1.LaufzeitEndeMMMJJJJ}
+            MI1={mobileChoosen1.MIohneEuro}
+            MI2={mobileChoosen2.MIohneEuro}
+            FV2={mobileChoosen2.FVohneEuro}
+            FV1={mobileChoosen1.FVohneEuro}
+            ProjektLink1={mobileChoosen1.InternerLink}
+            ProjektLink2={mobileChoosen2.InternerLink}
+          />
+        </div>
+      );
+    }
+  }
   function Ergebnisse() {
     if (chossenProjekt1 == "" || chossenProjekt2 == "") {
       return <div></div>;
@@ -1277,166 +1445,7 @@ function Vergleichen2(props) {
             </div>
           </div>
 
-          <div id="Mobile_Vergleichen_Projekte_Wrapper">
-            <div id="Mobile_Vergleichen_Projekte_Menue">
-              <div id="Mobile_Vergleichen_Projekte_Menue_Column">
-                <div
-                  id="Mobile_Vergleichen_Projekte_Menue_Button"
-                  onClick={() => mopenÜbersicht()}
-                >
-                  <img
-                    src={Übersicht_IMG}
-                    id="Mobile_Vergleichen_Projekte_Menue_Button_IMG"
-                  />
-                  Übersicht
-                </div>
-                <div
-                  id="Mobile_Vergleichen_Projekte_Menue_Button"
-                  onClick={() => mopenProjekt()}
-                >
-                  <img
-                    src={Projekt_IMG}
-                    id="Mobile_Vergleichen_Projekte_Menue_Button_IMG"
-                  />
-                  Projekt
-                </div>
-              </div>
-              <div id="">
-                <div id="Mobile_Vergleichen_Projekte_Menue_Column_mid">
-                  <HashLink to="#Mobile_Vergleichen_Projekt_Auswahl">
-                    <div id="Mobile_Vergleichen_Projekte_Menue_Button_mid">
-                      <img
-                        src={Auswahl_IMG}
-                        id="Mobile_Vergleichen_Projekte_Menue_Button_IMG_MID"
-                      />
-                      Auswahl
-                    </div>
-                  </HashLink>
-                </div>
-              </div>
-
-              <div id="Mobile_Vergleichen_Projekte_Menue_Column">
-                <div
-                  id="Mobile_Vergleichen_Projekte_Menue_Button"
-                  onClick={() => mopenFinancials()}
-                >
-                  <img
-                    src={Finance_IMG}
-                    id="Mobile_Vergleichen_Projekte_Menue_Button_IMG"
-                  />{" "}
-                  Financials
-                </div>
-                <div
-                  id="Mobile_Vergleichen_Projekte_Menue_Button"
-                  onClick={() => mopenDokumente()}
-                >
-                  <img
-                    src={Doks_Img}
-                    id="Mobile_Vergleichen_Projekte_Menue_Button_IMG"
-                  />
-                  Dokumente
-                </div>
-              </div>
-            </div>
-            <Mobile_Verg_Financials
-              trigger={mOverlay_Financials}
-              setTrigger={msetmOverlay_Financials}
-              Projekt1={mobileChoosen1.name}
-              Projekt2={mobileChoosen2.name}
-              gesRendite1={mobileChoosen1.gesRendite}
-              DurchRendite1={mobileChoosen1.DurchschnittRendite}
-              WertEnt1={mobileChoosen1.Wertentwicklung}
-              gesRendite2={mobileChoosen2.gesRendite}
-              DurchRendite2={mobileChoosen2.DurchschnittRendite}
-              WertEnt2={mobileChoosen2.Wertentwicklung}
-              Finanzierungsvolumen1={mobileChoosen1.Finanzierungsvolumen}
-              Finanzierungsvolumen2={mobileChoosen2.Finanzierungsvolumen}
-              davonFinanziert1="100%"
-              davonFinanziert2="100%"
-              FVChart1={mobileChoosen1.FVohneEuro}
-              FVChart2={mobileChoosen2.FVohneEuro}
-            />
-            <Mobile_Verg_Dokumente
-              trigger={mOverlay_Dokumente}
-              setTrigger={msetOverlay_Dokumente}
-              Projekt1={mobileChoosen1.name}
-              Projekt2={mobileChoosen2.name}
-              P1_BIB={mobileChoosen1.checkBasisinformationsblatt}
-              P1_SVB={mobileChoosen1.checkSchuldverschreibungsbedingungen}
-              P1_Risk={mobileChoosen1.checkRisiken}
-              P1_VI={mobileChoosen1.check_VI}
-              P1_KE={mobileChoosen1.check_KE}
-              P1_MWE={mobileChoosen1.check_MWE}
-              P2_BIB={mobileChoosen1.checkBasisinformationsblatt}
-              P2_Risk={mobileChoosen2.checkRisiken}
-              P2_VI={mobileChoosen2.check_VI}
-              P2_SVB={mobileChoosen2.checkSchuldverschreibungsbedingungen}
-              P2_KE={mobileChoosen2.check_KE}
-              P2_MWE={mobileChoosen2.check_MWE}
-              P1_DoksCounter={mobileChoosen2.Doks_Counter}
-              P2_DoksCounter={mobileChoosen2.Doks_Counter}
-            />
-
-            <Mobile_Verg_Projekt
-              trigger={mOverlay_Projekt}
-              setTrigger={msetmOverlay_Projekt}
-              Projekt1={mobileChoosen1.name}
-              Projekt2={mobileChoosen2.name}
-              TokenAnzahlP1={mobileChoosen1.TokenAnzahlOhneFormat}
-              TokenAnzahlP2={mobileChoosen2.TokenAnzahlOhneFormat}
-              TokenAnzahlP1Chart1={mobileChoosen1.TokenAnzahlOhneFormat}
-              TokenAnzahlP2Chart2={mobileChoosen2.TokenAnzahlOhneFormat}
-              MindestInv1={mobileChoosen1.MIohneEuro}
-              MindestInv2={mobileChoosen2.MIohneEuro}
-              Adress1={mobileChoosen1.Ort}
-              Adress2={mobileChoosen2.Ort}
-              KurzBeschreibungP1={mobileChoosen1.KurzBeschreibung}
-              KurzBeschreibungP2={mobileChoosen2.KurzBeschreibung}
-              LFZB2={mobileChoosen2.LaufzeitBeginMMMJJJJ}
-              LFZE2={mobileChoosen2.LaufzeitEndeMMMJJJJ}
-              LFZB1={mobileChoosen1.LaufzeitBeginMMMJJJJ}
-              LFZE1={mobileChoosen1.LaufzeitEndeMMMJJJJ}
-              MI1={mobileChoosen1.MIohneEuro}
-              FV1={mobileChoosen1.FVohneEuro}
-              MI2={mobileChoosen2.MIohneEuro}
-              FV2={mobileChoosen2.FVohneEuro}
-            />
-
-            <Mobile_Verg_Übersicht
-              trigger={mOverlay_Übersicht}
-              setTrigger={msetOverlay_Übersicht}
-              titleP1={mobileChoosen1.name}
-              KategorieBildLinkP1={mobileChoosen1.KategorieBildLink}
-              FinanzierungsvolumenP1={mobileChoosen1.Finanzierungsvolumen}
-              ErwarteteRenditeP1={mobileChoosen1.ErwRendite}
-              TypP1={mobileChoosen1.Typ}
-              LogoP1={mobileChoosen1.LogoLink}
-              titleImgP1={mobileChoosen1.TitleLink}
-              MindestinvestitionP1={mobileChoosen1.Mindestinvestition}
-              KurzBeschreibungP1={mobileChoosen1.KurzBeschreibung}
-              DoksCounter1={mobileChoosen1.Doks_Counter}
-              titleP2={mobileChoosen2.name}
-              KategorieBildLinkP2={mobileChoosen2.KategorieBildLink}
-              FinanzierungsvolumenP2={mobileChoosen2.Finanzierungsvolumen}
-              ErwarteteRenditeP2={mobileChoosen2.ErwRendite}
-              TypP2={mobileChoosen2.Typ}
-              LogoP2={mobileChoosen2.LogoLink}
-              titleImgP2={mobileChoosen2.TitleLink}
-              MindestinvestitionP2={mobileChoosen2.Mindestinvestition}
-              KurzBeschreibungP2={mobileChoosen2.KurzBeschreibung}
-              DoksCounter2={mobileChoosen2.Doks_Counter}
-              LFZB2={mobileChoosen2.LaufzeitBeginMMMJJJJ}
-              LFZE2={mobileChoosen2.LaufzeitEndeMMMJJJJ}
-              LFZB1={mobileChoosen1.LaufzeitBeginMMMJJJJ}
-              LFZE1={mobileChoosen1.LaufzeitEndeMMMJJJJ}
-              MI1={mobileChoosen1.MIohneEuro}
-              MI2={mobileChoosen2.MIohneEuro}
-              FV2={mobileChoosen2.FVohneEuro}
-              FV1={mobileChoosen1.FVohneEuro}
-              ProjektLink1={mobileChoosen1.InternerLink}
-              ProjektLink2={mobileChoosen2.InternerLink}
-            />
-          </div>
+          {mErgebnisse()}
         </div>
         <Mobile_Footer />
       </div>

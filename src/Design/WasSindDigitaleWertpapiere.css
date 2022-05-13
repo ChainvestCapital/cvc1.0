@@ -54,6 +54,7 @@
   margin: 0;
 
   color: rgba(0, 0, 0, 0.55);
+  margin-top: 2vh;
 }
 #WSDW_Top_Wrapper_Left {
   display: flex;
@@ -71,7 +72,6 @@
   font-size: 4vw;
   margin: 0;
   color: #434343;
-  margin-bottom: 2vh;
 }
 #WSDW_Top_Wrapper_Right {
   display: flex;
@@ -183,7 +183,7 @@
   margin-top: 2vh;
   text-align: start;
 
-  color: #434343;
+  color: black;
 }
 #WSDW_WAS_Sind_Inner_h5_thic_om {
   font-family: Montserrat;

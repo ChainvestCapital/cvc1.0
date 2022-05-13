@@ -42,6 +42,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding-left: 4vw;
   padding-right: 4vw;
   padding-top: 4vh;
@@ -58,17 +59,20 @@
   width: 30%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 #DEX_Was_sind_Right_Top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 3vh;
+  margin-bottom: 6vh;
 }
 #DEX_Was_sind_Right_ITEM {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+ 
 }
 #DEX_Was_sind_Right_Buttom {
   display: flex;
@@ -109,7 +113,6 @@
   margin: 0;
 
   color: rgba(0, 0, 0, 0.65);
-  margin-top: 2vh;
   white-space: pre-line;
 }
 
@@ -140,17 +143,44 @@
   margin-bottom: 3vh;
   padding-left: 15vw;
   padding-right: 15vw;
+  align-items: flex-end;
 }
+
 #DEX_Was_sind_Item {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 15vw;
-  justify-content: center;
+  justify-content: space-around;
+  height: 100%;
+}
+#DEX_Was_sind_Right_Buttom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3vh;
+  align-items: flex-end;
+}
+
+#DEX_Was_sind_Right_Top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: flex-end;
+}
+#DEX_Was_sind_Right_ITEM {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 13vw;
+  justify-content: space-between;
+  height: 14vh; 
 }
 #DEX_Was_sind_Item_IMG {
   width: 10vw;
 }
+
 #DEX_Was_sind_Item_h5 {
   font-family: Montserrat;
   font-style: normal;
@@ -161,6 +191,7 @@
 
   color: rgba(0, 0, 0, 0.65);
   margin-top: 2vh;
+  white-space: nowrap;
 }
 #DEX_Was_sind_Wrapper {
   width: 80vw;

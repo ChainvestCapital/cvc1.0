@@ -11,6 +11,9 @@
   padding-right: 4vw;
   padding-top: 4vh;
   padding-bottom: 4vh;
+
+  position: relative;
+  z-index: 25;
 }
 #Weiss_einfach_Col_1h_Heading {
   font-family: Montserrat;

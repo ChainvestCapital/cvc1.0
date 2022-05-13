@@ -47,6 +47,7 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 #Orakelabhängigkeit_IMG {
   width: 20vw;

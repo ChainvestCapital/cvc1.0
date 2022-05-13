@@ -41,9 +41,12 @@ import Academy from "./Academy";
 import DEX from "./Academy/Content/DEX";
 import FarbTesten from "./TestFarben";
 import HomeSS from "./LandingPage";
+import Metaverse from "./Academy/Content/Metaverse";
+import Immobilienindizes_und_tokenisierte_Immobilien_im_Vergleich from "./Academy/Content/Immobilienindizes_und_tokenisierte_Immobilien_im_Vergleich.js";
 import NonFinancialRisksinDeFi from "./Academy/Content/Non-Financial-Risks-in-DeFi";
 import Testing from "./testing";
 import About_Us from "./About_Us.js";
+
 Amplify.configure(awsExports);
 function App() {
   const [ProjekteArray, setProjekteArray] = useState([]);
@@ -133,6 +136,13 @@ function App() {
           element={<NonFinancialRisksinDeFi />}
         />
         <Route path="Academy/DEX" element={<DEX />} />
+        <Route path="Academy/Metaverse" element={<Metaverse />} />
+        <Route
+          path="Academy/Immobilienindizes-und-tokenisierte-Immobilien-im-Vergleich"
+          element={
+            <Immobilienindizes_und_tokenisierte_Immobilien_im_Vergleich />
+          }
+        />
       </Routes>
     </div>
   );
