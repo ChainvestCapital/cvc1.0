@@ -81,7 +81,7 @@ function About() {
                 ermöglichen und die individuelle Investitionsentscheidung zu
                 unterstützen. Wir möchten die Vorteile der
                 Blockchain-Technologie im Finanzbereich nutzbar machen und die
-                Zugänglichkeit zu vorher vorschossenen Anlagebereichen für
+                Zugänglichkeit zu vorher vorschlossenen Anlagebereichen für
                 PrivatinvestorenInnen erhöhen. Damit leisten wir einen Beitrag
                 zur Demokratisierung des Kapitalmarktes.
               </h5>
@@ -98,7 +98,7 @@ function About() {
                 <h3 id="About_Person_Kachel_Right_h5">
                   Lu-Mieke kombiniert Expertise aus der Wirtschaftsprüfung und
                   Transaktionsberatung mit der akademischen Auseinandersetzung
-                  bzgl. digital Assets.
+                  mit Digital Assets.
                 </h3>
               </div>
             </div>
@@ -109,8 +109,8 @@ function About() {
                 <h3 id="About_Person_Kachel_Right_h4">Co-Founder</h3>
                 <h3 id="About_Person_Kachel_Right_h5">
                   Tim ist seit mehreren Jahren im Blockchain-Bereich tätig und
-                  betreut Projekte im DeFi- sowie NFT-Bereich bzgl. technischer
-                  & wirtschaftlicher Fragestellungen.
+                  betreut Projekte im DeFi- sowie NFT-Bereich in technischen &
+                  wirtschaftlichen Fragestellungen.
                 </h3>
               </div>
             </div>{" "}
@@ -208,8 +208,8 @@ function About() {
               </div>
               <div id="About_Mobile_Personen_Card_Bottom">
                 Tim ist seit mehreren Jahren im Blockchain-Bereich tätig und
-                betreut Projekte im DeFi sowie NFT-Bereich bzgl. technischer &
-                wirtschaftlicher Fragestellungen.
+                betreut Projekte im DeFi sowie NFT-Bereich in technischen &
+                wirtschaftlichen Fragestellungen.
               </div>
             </div>
           </div>
